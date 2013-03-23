@@ -1,0 +1,225 @@
+@echo off
+set ver=1.0.2.2
+SetLocal EnableExtensions
+SetLocal EnableDelayedExpansion
+set k=taskkill /f /t /im
+pushd %~dp0
+rem Opera参数调用设置
+if '%1'=='opis' goto:opinst
+if '%1'=='opup' goto:opupdate
+if '%1'=='opcl' goto:opclean
+if '%1'=='tv' goto:tv
+if '%1'=='help' goto:help
+if '%1'=='dft' goto:makedefault
+if '%1'=='md5' goto:md5
+
+:updateu
+rem 自动检测升级模块
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/chkver.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
+echo WScript.sleep 50 >>%temp%/chkver.vbs
+echo loop >>%temp%/chkver.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
+cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Opera/ver.txt">%temp%/ver.txt 2>nul
+for /f %%i in (%temp%\ver.txt) do set verNew=%%i
+if %ver%==%verNew% (goto opupdate) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
+cls
+goto:eof
+
+:opupdate
+if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
+Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
+echo 正在下载数据，请稍候... ...
+del files.sig files_old.sig operaprefs_default.ini client-zh-cn.zip readme.html defaults\bookmarks.adr defaults\license.txt defaults\search.ini defaults\standard_speeddial.ini 
+wget http://hostsx.googlecode.com/svn/trunk/Opera/readme.html
+wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/webmailproviders.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
+wget http://hostsx.googlecode.com/svn/trunk/Opera/bookmarks.adr
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_speeddial.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/search.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/urlfilter.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/BBS.css
+wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
+wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
+wget http://Hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
+wget http://Hostsx.googlecode.com/svn/trunk/Opera/getujs.bat
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_keyboard.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
+wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
+wget http://userscripts.org/scripts/source/103552.user.js
+wget http://userscripts.org/scripts/source/123244.user.js
+wget http://userscripts.org/scripts/source/154702.user.js
+wget http://userscripts.org/scripts/source/151249.user.js
+wget http://userscripts.org/scripts/source/152399.user.js
+wget http://userscripts.org/scripts/source/153190.user.js
+wget http://userscripts.org/scripts/source/154473.user.js
+wget http://userscripts.org/scripts/source/154476.user.js
+wget http://userscripts.org/scripts/source/153687.user.js
+ren 103552.user.js doubanimdb.user.js
+ren 123244.user.js doubaniask.user.js
+ren 154702.user.js goglrd.js
+ren 154476.user.js http2https.js
+ren 151249.user.js nolazyload.js
+ren 152399.user.js Search_engineJump.js
+ren 153190.user.js CrackUrlDN.js
+ren 154473.user.js Linkify.js
+ren 153687.user.js TiebaFix.js
+move /y CrackUrlDN.js profile\script
+move /y Search_engineJump.js profile\script
+move /y doubaniask.user.js profile\script
+move /y doubanimdb.user.js profile\script
+move /y getujs.bat profile\script
+move /y goglrd.js profile\script
+move /y Linkify.js profile\script
+move /y http2https.js profile\script
+move /y nolazyload.js profile\script
+move /y TiebaFix.js profile\script
+move /y license.txt locale\en
+move /y bookmarks.adr locale\zh-cn
+move /y standard_speeddial.ini locale\zh-cn
+move /y Super_preloader.db.js profile\script
+move /y override.ini profile
+move /y search.ini profile
+move /y fastforward.ini ui
+move /y feedreaders.ini defaults
+move /y webmailproviders.ini defaults
+move /y urlfilter.ini profile
+move /y standard_keyboard.ini profile\keyboard
+move /y standard_menu.ini profile\menu
+move /y standard_mouse.ini profile\mouse
+move /y standard_toolbar.ini profile\toolbar
+move /y BBS.css profile\styles\user
+move /y Custom.css profile\styles\user
+move /y OperaU.css profile\styles\user
+wget --no-check-certificate -N "https://dragonfly.opera.com/app/stp-1/zips/latest/client-zh-cn.zip"
+ren client-zh-cn.zip dragonfly.zip
+move /y dragonfly.zip profile
+cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & exit
+
+:opclean
+del /f /q autoupdate_response.xml download.dat global_history.dat search_field_history.dat tasks.xml vlink4.dat opuntrust.dat optrust.dat optrb.dat typed_history.xml upgrade.log
+rd /s /q application_cache cache dictionaries icons opcache pstorage temporary_downloads vps webserver
+rd /s /q "%AppData%\Opera"
+echo 使用痕迹清理完毕!
+goto:eof
+
+:opinst
+rem 权限检测模块
+If "%PROCESSOR_ARCHITECTURE%"=="AMD64" (Set a=%SystemRoot%\SysWOW64) Else (Set a=%SystemRoot%\system32)
+Md "%a%\test_permissions" 2>nul||(echo 请使用右键-以管理员身份运行!!! & choice /t 2 /d y /n >nul &Exit)
+Rd "%a%\test_permissions" >nul 2>nul
+rem mshta vbscript:msgbox("请务必在安装使用前详细阅读服务条款中的内容和问题解答！！！",64,"SimpleU Opera")(window.close)
+opera.exe -install /desktopshortcut 1 /quicklaunchshortcut 0 /startmenushortcut 0 /setdefaultbrowser 0 /launchopera 1
+%k% autocopy.exe >nul 2>nul
+if not exist %a%\OperaJR.exe copy program\OperaJR.exe %a% >nul 2>nul
+rem if not exist %a%\autocopy.exe copy program\autocopy.exe %a% >nul 2>nul
+rem start %a%\autocopy.exe >nul 2>nul
+rem reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /f /v "arpbd" /t REG_SZ /d "%a%\autocopy.exe"
+reg add "HKCR\operajr" /v "FriendlyTypeName" /d "opera" /f >nul 2>nul
+reg add "HKCR\operajr" /v "URL Protocol" /d "" /f >nul 2>nul
+reg add "HKCR\operajr\shell\open\command" /ve /d "\"C:\Windows\System32\OperaJR.exe\" \"%%1\"" /f >nul 2>nul
+reg add "HKCR\operajr\shell\open\command" /v "Browser" /d "C:\Program Files\Internet Explorer\iexplore.exe" /f >nul 2>nul
+reg add "HKCU\Software\Classes\operajr" /v "FriendlyTypeName" /d "opera" /f >nul 2>nul
+reg add "HKCU\Software\Classes\operajr" /v "URL Protocol" /d "" /f >nul 2>nul
+reg add "HKCU\Software\Classes\operajr\shell\open\command" /ve /d "\"C:\Windows\System32\OperaJR.exe\" \"%%1\"" /f >nul 2>nul
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\text/vnd.wap.wml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\application/xhtml+xml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
+reg add "HKCU\Software\Classes\MIME\Database\Content Type\application/vnd.wap.xhtml+xml" /v "CLSID" /d "{25336920-03F9-11cf-8FD0-00AA00686F13}" /f >nul 2>nul
+start /min iexplore http://i.youku.com/u/UMzI4MTU2ODQ
+del /f /q %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 > %windir%\system32\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %windir%\syswow64\Macromed\Flash\mms.cfg >nul 2>nul
+echo RTMFPP2PDisable=1 >> %windir%\system32\mms.cfg >nul 2>nul
+ping 127.0.0.1 -n 3 >nul
+%k% iexplore.exe >nul 2>nul
+ping 127.0.0.1 -n 2 >nul
+for /f "delims=" %%i in ('dir /b /ad "%APPDATA%\Macromedia\Flash Player\#SharedObjects\"') do (
+set str=%%i
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.youku.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.pplive.cn"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\irs01.net"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\d1.sina.com.cn"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\www.iqiyi.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.letvcdn.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\player.letvcdn.com"
+rd "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\#SharedObjects\!str!\static.acs86.com")
+rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#static.youku.com"
+rd "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net" /s/q >nul 2>nul
+c:> "%APPDATA%\Macromedia\Flash Player\macromedia.com\support\flashplayer\sys\#irs01.net"
+ipconfig -flushdns >nul 2>nul
+msg %username% /time:2 "视频播放广告已免疫！"
+goto exit
+
+:tv
+rem start opera.exe "file://localhost/%~dp0/optools/HtmlTool/FYTV.html" 
+start opera.exe "file://localhost/%~dp0/optools/HtmlTool/TV.html" & exit
+
+:help
+rem start locale\en\license.txt &
+start opera.exe "file://localhost/%~dp0/readme.html" & exit
+
+:qq
+start opera.exe "tencent://message/?uin=1718084&Menu=yes" & exit
+
+:makedefault
+mshta vbscript:msgbox("请勾选使用绝对路径，以解决通过调用打开链接时的相对路径问题！！！",64,"SimpleU")(window.close)&Pause
+Start GreenPath.exe &echo 设置当前目录的Opera为默认浏览器&pause& set mypwd=%CD:\=\% & for %%L IN (HTTP https htmlfile) DO REG ADD HKLM\SOFTWARE\Classes\%%L\shell\Opera\command /v "" /t REG_SZ /d "\"%mypwd%\opera.exe\" \"%%1\"" /f > nul & for %%L IN (HTTP https htmlfile) DO REG ADD HKLM\SOFTWARE\Classes\%%L\shell /v "" /t REG_SZ /d "Opera" /f > nul & echo 已经完成Opera目录设置 &exit
+
+:md5
+del /q /a "%temp%\downifo" >nul 2>nul
+start "" /wait "%~dp0optools\nircmd.exe" clipboard writefile "%temp%\downifo"
+(for /f "usebackq tokens=1*" %%a in ("%temp%\downifo") do (
+ if exist "%%b" set "p=%%b" & goto md5continue
+)) >nul 2>nul
+echo._____&echo.文件不存在,可能已经被删除!&ping 00 -n 2 -w 888 >nul  & exit
+
+:md5continue
+start "" "%~dp0optools\hash.exe" "%p%" & exit
+
+:deldown
+title 删除文件
+mode con cols=20 lines=2
+del /q /a "%temp%\downifo" >nul 2>nul
+start "" /wait "%~dp0nircmd.exe" clipboard writefile "%temp%\downifo"
+(for /f "usebackq tokens=1*" %%a in ("%temp%\downifo") do (
+ if exist "%%b" set "p=%%b" & goto deldown2
+)) >nul 2>nul
+exit
+
+:deldown2
+del /a /f "%p%" & exit
+
+:Updateit
+msg %username% /time:2 "【新版本升级中,请稍后！】"
+echo @echo off>%temp%\up.bat
+echo copy /y "%temp%\OperaU.bat" "%~dp0\%~n0.bat"^>nul >>%temp%\up.bat
+echo start "" "%~dp0\%~n0.bat">>%temp%\up.bat
+echo Exit>>%temp%\up.bat
+start %temp%\up.bat
+exit
+
+:Updates
+echo Download and Update...
+echo Set oDOM = WScript.GetObject(WScript.Arguments(0)) >%temp%/Upnew.vbs
+echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
+echo WScript.sleep 200 >>%temp%/Upnew.vbs
+echo loop >>%temp%/Upnew.vbs
+echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.txt">%temp%\OperaU.bat
+set size=7000
+for %%1 in (OperaU.bat)do set gsize=%%~z1
+cls
+if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.txt -o %temp% &ren OperaU.Src OperaU.bat&goto Updateit) else (goto Updateit)
+goto:eof

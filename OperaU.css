@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+/*
+Name: /浏览辅助
+Version: 1.0.1.7
+Url: http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
+Description: Opera Default & Plus Style.
+*/
+
+/*当前标签打开该链接，链接显示红色*/
+a:hover{
+color: red !important;/*链接颜色自定义*/
+text-shadow:-5px 3px 18px #F90 !important;/*链接阴影*/
+-o-transition: all 0.2s ease-out;/*链接变色动画显示时长及类型，具体参考相关资料*/
+}
+
+/*显示 迅雷和旋风 带#的下载地址*/
+a[href="#"]{-o-link:attr(thunderHref) !important; -o-link-source:current !important;}
+a[href="###"]{-o-link:attr(qhref) !important; -o-link-source:current !important;}
+
+/*BBS.Code.Fix*/
+.blockcode ol li{list-style-type:none!important;}
+.blockcode > div[id^="code"] + em {display:none!important;}
+
+/*输入框类chrome高亮*/
+input:not([type='submit']):not([type='reset']):not([type='button']):not([type='checkbox']):not([type='radio']):focus, textarea:focus, select:focus{ border:1px solid #0099FF;  box-shadow: 1px 1px 0 #0099FF, 1px -1px 0 #0099FF, -1px 1px 0 #0099FF, -1px -1px 0 #0099FF, 0px 0px 5px 1px #0099FF !important;  border-radius:3px!important; }
+
+/*----------页面背景颜色调整----------
+body,div,textarea,input{background-color: #e5ede0;}*/
+
+/*调整选中文本及其背景的颜色*/
+::selection {background-color:#FFC299;color:#02020F;text-shadow:none!important}  
+
+/* 暴力解决部分卡你妹的问题({box-shadow: none !important;position: inherit !important;}) */
+
+/* 解决固定背景滚屏卡的问题 */
+body{background-attachment:scroll!important}
+
+/* 去除伪链接的下划线 */
+a:not([href]){text-decoration: none !important;}
+
+/* 去除非链接文字下划线，并给这些文字加粗 */
+u,span[style="text-decoration: underline"]{text-decoration: none !important;font-weight: bold !important;}
+
+/* 将白色字体变为暗蓝灰 */
+[style*="color: white"],[style*="color: #FFFFFF"],[color*="White"],[color*="#FFFFFF"]{color: #483D8B !important;}
+
+/* 阻止<blink>标签带来的闪烁 */
+blink, .blink, *[style*="blink"]{text-decoration : inherit !important;}

@@ -1,0 +1,2098 @@
+Version History
+> major changes 
++
+ added 
+^ updated 
+~ improved 
+! bug fixed/removed 
+
+----------------------------------------- 更新历史 -----------------------------------------
+2.6
+小幅完善书签，
+更新至12.14正式版
+完善翻页脚本内容（无错小说网，99漫画等）
+完善广告过滤拦截，css过滤。
+精简压缩打包文件，
+完善盗链控制和其他站点首选项等。
+2.5
+默認配置優化：關閉平滑滾動，dns欲讀等等
+更新至12.14，那些裝擴展崩潰的，哼哼
+常規廣告過濾
+安裝流程和其他完善
+1.30
+更新至12.13final
+一些js完善和调整，[color=Red]修改翻页脚本的为shift加鼠标左键点击[/color]
+其他菜单等的完善
+1.29
+配置数据更新
+广告过滤细节完善
+不断调整优化配置数据和菜单
+将打开移动到下载界面，更多功能，更好用。
+其他数据完善
+1.24
+删除这个[color=Red]权限部分：autocopy自动复制到system32目录，并添加到启动项。[/color]
+用鼠标手势代替吧
+更新了菜单，快捷键，鼠标手势，邮箱配置文件
+把js文件夹切回原始的一个文件夹，多个文件默认不开启的方式
+一些广告过滤的完善
+一些js默认不再开启，比如picviewer，使用图片自动缩放css代替
+一些js默认删除
+完善书签内容
+完善皮肤
+完善一些习惯和打开方式的实现
+很多很多细节方面的优化，调配
+1.22
+修正一些问题
+参照9.xx版抄袭一些vbs，用开源代码来代替并放弃更多使用第三方工具的item等
+完善修复皮肤
+精简完善一些菜单和快捷键
+一些针对12的兼容性修复问题
+部分js和升级流程的处理
+[color=Red]权限部分：autocopy自动复制到system32目录，并添加到启动项。[/color]
+安装过程中更少的提示打扰，更完善的安装过程和视频广告的屏蔽的处理流程。
+等等等
+2012-12-30
+论坛一些反馈问题的修复，
+预读翻页amo和mozest的修复，
+urlfilter和css常规广告过滤升级，
+wmp插件回退.当前最新quicktime播放插件加入，需要安装qt解码器。
+更新一些支付插件，现在默认加入的插件支持的银卡行有:工商银行，青岛银行，江苏银行。
+更新在线银联，阿里旺旺，支付宝相关插件，加入财付通，中国移动支付插件。
+加入simpleu10.63版本优选的一个10.0版本的flash插件，默认没有开启。
+菜单的调整，修复和优化。快捷键调整alt.p为打开菜单。
+加入utorrent.flashget1.73 tango美化版，配置默认的torrent协议以内置的ut打开，
+加入flashget的清理功能。
+站点首选项的完善精简等，调整google.com识别为opera.使得reader的快捷键正常使用。
+替换新版的谷歌搜图，不在需要伪装为ff.
+完善部分书签内容，加入测试支持的众多银行目录。部分js修改完善，使得ie和相关内核打开的网站更好用。
+使用三个文件夹防止scripts：
+ script：默认选择和开启的js文件（其余两个文件夹不启用）
+ scripts：适用于opera的可能用到的标准js文件
+ userjs： userscript下载的一些userjs文件 （包含getujs.bat自动更新脚本的批处理。以前的script文件夹下的js内容更新合并到operau.bat升级批处理中去）
+2012-11-24
+各种js的调整和升级
+css调整和数据升级
+各种菜单的精简完善和优化
+urlfilter等常规广告过滤数据升级
+论坛用户反馈的一些误过滤和导致相应的网站兼容性的修复
+超级页面预读规则数据的升级
+完善升级getujs.bat批处理更新
+升级operau.bat自动升级工具
+加入一些有用的小工具
+更新flash和一些插件
+快捷键和工具栏的一些调整和优化
+书签的精简，完善和更新
+2012-10-31
+js调整
+css调整
+菜单调整
+界面重构
+等
+2012-10-27
+插件调整
+绝大多数常用网上银行，自动调用IE打开
+js和css大规模调整匹配优化选择
+    添加了：ush修改版：关键词搜索高亮JS，支持划词高亮
+            http://bbs.operachina.com/viewtopic.php?f=41&t=109188
+            【CSS】OperaChina 的山猫 Finder 样式
+            http://bbs.operachina.com/viewtopic.php?f=19&t=109220
+    修复了4619的右键无法选择文字的问题
+            
+安装脚本改动
+升级模块大幅改动升级，完善流程等
+升级完善常规广告过滤
+大幅完善站点首选项，调整部分识别
+应该解决了QQ空间萌三国等游戏崩溃问题
+全面改变的右键菜单
+全新改动的鼠标手势
+全新改动的快捷键功能
+仿照猎豹浏览器重新排列一些图标组合和位置
+仿照360浏览器超速版，猎豹浏览器和Maxthon浏览器，
+将一些常用配置（多在config里面的）进行具体分类分项，作出排列优化组合的配置
+代理菜单的调整
+默认删除私人数据的选择的优化
+书签的精简和优化
+替换使用了菜鸟论坛 aimfiend 的 Flash10zh ie+firefox插件破解2合一
+ http://www.2y2r.org/forum.php?mod=viewthread&tid=597237
+ 针对原flash插件进行如下修改：
+ 1 firefox kmeleon seamonkey opera　缓存锁定破解
+ 2 全屏显示ESC移除
+ 3 opera浏览器mimetype类型支持修改application/x-shockwe-flash 和 audio/x-pn-realaudio-plugin
+ 具体请看： http://bbs.kafan.cn/thread-1104758-1-1.html
+ 4 双屏置顶锁定破解
+
+2012-10-06
+因此版调整比较大，建议删除旧版重新安装新版！
+广告过滤更新
+js调整和更新，
+菜单更新
+加入gdi++组件等
+2012-10-02
+更新urlfilter
+完善css广告过滤
+精简书签
+精简完善菜单
+更新operau.bat，数据更新更加全面
+2012-09-29
+更新urlfilter
+完善css广告过滤
+更新快拨和书签
+更新站点首选项（凤凰网，新浪网首页不会弹窗了）
+2012-09-28
+更新urlfilter
+完善css广告过滤
+浏览辅助功能加入lyttmonkey的迅雷和旋风真实地址
+完善菜单，加入伪装为word菜单，win7用户需要解锁任务栏，反正操作好麻烦，TAT
+同步js数据和翻页js等，以前的解析迅雷地址的js默认不启用
+更新其他所有数据等
+2012-09-24
+css过滤完善
+urlfilter完善
+站点首选项修改（重要！google的已改为默认识别为opera，reader和访问分析页面都正常了）
+删除部分用不到的站点css（部分已经合并到广告过滤css）
+flash降级到10.2不再更新了，此版flash不会卡cpu，运行也较快
+其他的一些修补
+2012-09-24
+css过滤完善
+urlfilter完善
+站点首选项修改（重要！google的已改为默认识别为opera，reader和访问分析页面都正常了）
+删除部分用不到的站点css（部分已经合并到广告过滤css）
+flash降级到10.2不再更新了，此版flash不会卡cpu，运行也较快
+其他的一些修补
+2012-09-23
+菜单完善
+工具栏完善等
+2012-09-22
+urlfilter更新
+css广告过滤完善
+菜单无限精简和完善
+书签无限精简和完善
+搜索引擎无限精简完善
+工具栏删除护眼绿按钮，页面标记按钮可用
+js继续调整
+各种各样的组件升级包括但不限于fscapture，flash等
+本地版dragonfly默认由d盘改为c盘
+2012-09-15
+urlfilter更新
+默认js的调整，取下几个不常用的默认js，需要的自己开启。
+2012-09-14
+广告过滤梳理，删除重复和多余规则，更加简化，完善
+站点首选项梳理，referred控制和站点识别的兼容性更好，更多网购站点豁免拦截
+新的operau.bat便于升级所有的配置文件
+新的urlfilter，应该说是回归上一版，解决一些兼容性问题
+解决几个论坛提到的问题，修复几个误过滤
+2012-09-12
+广告过滤完善
+站点首选现完善
+菜单精简，恢复到以前的模式，请配合快捷键
+快捷键完善
+书签完善
+搜索引擎完善等
+2012-09-03
+常规过滤更新
+部分js调整，为使兼容性更好
+支持招商银行
+2012-08-29
+这两天一直偷跑，写下日志吧：
+各种广告过滤的调整和更新，尤其是css广告过滤，请注意测试
+更新完善翻页脚本
+安装脚本完善
+optools目录加入youku.bat批处理，建立文件目录以帮助屏蔽优酷广告
+完善菜单功能等，比如在下载菜单加入右键解压的功能
+针对cntv等的站点首选项的调整和优化
+其他细节
+那个11.64出现的mop的问题，是mop的兼容性问题，1200的borwser.js自动解决无问题，但是11.64不正常。不予解决。
+borwser.js的问题，我注意到了，各个版本不同，不能通用，谨记，不建议跨版本安装。请卸载旧版安装新版。
+SimpleU定制思路如下：1andMore，至简智用
+1.尽量少的第三方版本的工具如opfinder等等，能够直接命令行调用的，使用相关组件和命令行调用。
+2.测试完善的js兼容性，不存在js兼容性问题，默认不开启的js文件以jsx方式存在，手动更名后，js生效，同事存在js的兼容性问题，导致页面出现各种诡异的bug比如cleanplayer。
+3.更好用，更加精确的urlfilter。依托hostsx，产生强大可靠的urlfilter广告联盟拦截数据，总结定制版两年来积累的sitefix数据。根据hosts屏蔽效果，着重加强部分常用网站的广告屏蔽。所以当你用ulrfilter排除重复时会看到一些重复，但是有效果，请不要自以为是的排除重复行。
+4.不费心的站点首选项。各种兼容性bug修复。各种盗链图片如今在opera里面正常显示。各种伪装。修复了阿里旺旺等的一系列问题。
+5.近乎完美的广告过滤custom.css，经过两年多，四次大规模重写匹配，兼容性更好。过滤效果更好。
+2012-08-27
+pr0xy组件更新
+菜单修复
+js更新
+过滤更新
+flash插件会退到10.2版本，youku没有广告了吧~传说10.3也没有。TAT
+其他数据的更新
+2012-08-16
+站点首选项完善
+部分数据和配置优化
+2012-08-15
+常规广告过滤升级
+js更新
+urlfilter的完善，完善更完善
+custom广告过滤的几乎很大一部分的网站的通杀修改
+修正一下几个之前论坛和oc上的反馈问题
+更新各种js数据
+各种识别修改
+完善皮肤文件
+完善右键菜单
+完善修复bug
+更新各种可以更新的文件和数据
+默认配置的修复和更新
+各种完善和优化处理
+收藏夹的更新，精简和完善
+分离proxy组件，在网盘可以下载到
+针对11.64和12.01
+更新各种hostsx数据请配合使用，广告过滤效果更佳
+ps我宁愿看黑屏也不愿看广告
+ps。生日快乐
+[color=Red]由于各种蛋疼的bug自此12.01放弃更新
+2012-08-07
+urlfilter完善
+站点首选项完善
+[color=Red]请使用此版本搭配hostsx数据，大力测试youku广告问题。应该不再需要那个js了～
+菜单修复完善等
+重点测试浏览辅助功能，和搭配快捷键删减的可能性（会持续更新修正此菜单）
+部分js删除
+优化目录逻辑，解决安装过程中及使用中的部分问题以及配置回退的问题。
+2012-08-02
+各种数据插件更新完善
+各种广告过滤修复和完善
+各种跟进
+11.64final，12.01跟进
+2012-07-24
+css,urlfilter菜单，按钮更新完善精简
+皮肤完善
+默认配置完善
+各种数据更新
+更新各种工具
+此次更新只针对11.64
+2012-07-13
+使用比较好的调用方法处理不同版本的菜单失效问题
+更新urlfilter测试163视频问题
+同步和跟进各种兼容性修复和广告过滤
+2012-07-11
+完善各种菜单，工具栏，快捷键调用（alt+d清除，盗链显示改为alt+i）。
+修复更新各种兼容性问题
+css，urlfilter和其他js数据同步
+更新flash插件
+完善站点首选项应对更多的盗链显示
+各种旧的bug的修复，目前比较稳定。
+针对各类网站广告资源的屏蔽。
+修复adblock的问题（替换为旧版，添加相应文件。）
+此更新针对11.64
+2012-07-02
+更新优化各种细节。11.11经典复刻，11.64兼容更新。
+NewStart.
+其实我不想写更新日志：
+更完善的css广告过滤和urlfilter过滤
+优选过的js的更新
+书签更新完善，精简
+默认将快速拨号的捐助删掉
+11.11，通过修改opera.dll“取消点击播放的”提示
+11.11完善大量css
+11.11使用adblock配合css的过滤方式，经典复刻。
+优化和完善11.11的惨淡和工具栏的显示，排错等等
+11.64如果默认d盘的opera目录则默认的蜻蜓本地化
+11.64删减一些文件
+近期反馈，其他兼容性修复和无关痛痒的更新。
+2012-06-10
+urlfiter更新
+广告过滤css兼容性修复，完善
+站点兼容性修复
+各种工具的更新
+精简书签
+完善更新说明文件
+完善工具栏
+完善js规则
+解决论坛反馈的gmail的问题以及其他问题
+2012-06-05
+自动更新配置数据模块
+urlfilter完善
+完善几个早已发现一直未修补的旧bug
+工具栏配置顺延。使12正常显示。
+其他
+2012-06-03
+部分插件更新
+部分首选项完善
+部分站点兼容性完善
+默认配置更好用
+完善js的默认选择
+测试全新的优酷广告过滤，不依赖js
+其他的完善
+2012-05-31
+修复这个淘宝网，商城，凡客诚品屎一样的兼容性
+过滤淘宝更多的广告，推广
+完善个部分广告过滤
+完善urlfiler
+js升级完善
+js升级
+菜单完善
+工具栏显示的完善
+一个12的版本
+2012-05-19
+广告过滤完善
+站点首选项完善，尤其是针对淘宝调整了方法
+完善urlfilter
+完善科学上网菜单
+其他调整
+部分组件加入
+调整js文件组成，更新了一些脚本的内容，比如source的无法正常显示，天涯阅读使用了更好的js，默认开启了opengg的优酷广告js，默认删除了youku30s等等
+更新一些小细节
+2012-05-10
+重新配置皮肤
+广告过滤完善
+urlfilter完善与修复
+搜索引擎更新完善
+重新配置fastforward
+重新配置快捷键
+精简和完善书签内容以及快捷键
+安装包的更新
+其他优化
+2012-05-09
+配置说明文件完善
+广告过滤完善
+Urlfilter完善
+2012-05-07
+基于官方的mod皮肤
+广告过滤完善
+站点兼容性修复
+按钮完善
+细节完善
+2012-05-03
+全新Mod的精简皮肤(修改了刷新效果，按钮大小，右侧的滚动条等)
+全新的左上角o菜单
+更细致的快捷键
+更精简更高效的adfilter广告隐藏css
+兼容性更好的urlfilter
+兼容性更好的js选择和更加完善的js更新器.bat
+完善和精简部分菜单
+opera!定制版的放大菜单抄袭
+青蛙版主的新浪财经修复css加入
+yucf1995更新的搜索跳转js
+其他的最近未发布版本的完善和更新。
+2012-04-27
+完善urlfilter
+重写和大幅精简adfilter重复规则
+完善快捷键，将Ctrl+alt+U复制页面标题和链接，便于分享改为alt+L
+完善图标显示
+此版adfilter过滤改动较大，有问题请提供相应页面反馈。
+2012-04-26
+更新urlfilter，精简部分重复规则
+完善修复adfilter的部分错误过滤
+精简右键菜单
+大批量完善快捷键和快捷操作（试试alt键+其他字母的效果）
+完善js，更新js内容，添加js更新批处理工具，快捷键为alt+U
+更新fscapture并精简旧版的无用文件
+更新其它组件，更新hoststools
+完善优化左上角o菜单，添加重启选项。
+添加Opera！版本的额dragonfly本地补丁
+更新了快速拨号的网站以及其他
+2012-04-18
+默认js开启的调整
+修复腾讯微博等
+完善urlfilter和css广告过滤
+建立userjs文件夹，需要的请自取。
+完善
+2012-04-15
+18:00修复urlfilter，修复163视频，完善css
+因为工作原因，没有太大改动，基本上都是细微的调整和更新和完善。
+完善反馈问题，如mumayi图片，完善urlfilter，css，调整默认开启的js文件
+回加8000端口的科学上网。
+好像上个版本就抄袭的白菜的很多快捷键，上次更新日志没写。TAT
+快捷键修改详见：standard_keyboard.ini
+2012-04-04
+更新一个12新版，但是12版的地址栏那个有点问题哈，正式版会跟进的，额
+话说12的alipay显示正常，11.62的现实就不正常啊！
+ps之ps我在menu里面不小心看到了这个，opera的工作人员还真是会吐槽啊！
+;Import&exportshouldbeawizard,notasubmenu
+更新修复http2https.js在xp下无法使用
+修复urlfilter，使凤凰网视频可以连续播放
+更新左上角的O菜单所有内容
+收藏菜单回调，省的用户说找不到添加神马的，TAT
+完善广告过滤
+完善operau
+分离雅黑css
+调整默认皮肤，分离单独的皮肤文件，所以以后的新版直接覆盖也不用担心了
+一些菜单按钮的调整，目录项内容转移
+解决一些网站兼容性问题：比如新浪视频和东方财富网，默认识别为ff
+更新js文件，添加dbank.js
+完善urlfilter等等的更新
+插件的精简和淘宝登陆插件更新，115插件更新
+2012-03-28
+更新到11.62
+2012-03-20
+广告过滤完善
+安装脚本完善
+部分插件更新
+添加淘宝阿里的证书修复工具和安全组件安装工具在program文件夹下
+菜单的完善
+更新pac文件
+2012-02-14
+修正urlfilter
+更新一下兼容性问题
+完善ua信息
+修复菜单的ua伪装错误
+精简完善优化菜单显示
+修正百事高音乐论坛的问题
+等等
+2012-02-11
+更新证书
+修复一些兼容性问题
+完善各种过滤，排错
+完善优化菜单排序等
+各种细节的问题
+2012-01-30
+修正yahoo的无法正常显示的问题
+完善pac列表
+完善广告过滤
+更多国际化元素的加入
+2012-01-29
+修正新浪爱问资料网盘分类无法显示的问题
+2012-01-28
+完善了鼠标手势
+修正了几处错误过滤
+精简了dialog.ini
+大幅精简菜单的pxy部分
+修复了几处因升级到11.61产生的错误
+删除几个文件:13:
+2012-01-24
+感谢jianwinking，andwww-xyz的捐助。
+---------------------------------------------
+PSV已入手，两个月的工资TAT~买了三国和卡普空，临沂地区的朋友可以游戏换玩~
+好吧，我承认越改越回归~看来真的是一开始就参透了~（这句话好不要脸~汗！）:14:
+这可能使你用过的最好用的定制版~:15:
+-----------------------------------------------
+调整了鼠标手势
+调整了右键菜单
+调整了默认皮肤
+完善了广告过滤
+完善了urlfilter
+完善了js内容
+完善了默认配置文件
+完善了站点首选项
+完善了快速拨号
+精简调整了皮肤文件
+精简了部分无效插件
+更新至11.61正式版
+皮肤默认参数的修改
+调整了状态栏的诸多图标
+默认的安装细节调整
+恢复之前的配置内容等
+2012-01-17
+完善书签
+完善cnnic证书不信任及相关（TAT,像我这样摇摆不定的人真纠结~）
+完善工具栏,状态栏~右键菜单,特别完善快速参数菜单的修改(!!!)
+完善各种按钮的内容
+修复缩减鼠标手势~TAT
+删减皮肤
+将马克之的分享更改为发现啦.
+完善部分站点css修复,如taobao字体那个
+修复之前安装脚本中站点css丢失的问题
+部分的dialog.ini的修改
+翻页脚本完善百度,抄袭自oc论坛
+删除priovxy...
+删除安装脚本cmd改为放在hoststool里面直接调用~
+其他各式各样的囧状
+以上更新只针对1160!
+2012-01-04（累积更新）
+回归simpleu的最初感觉,希望各位喜欢.最近比较忙，祝各位新年快乐~
+---------------------------------------
+完善站点首选项
+右键菜单完善
+完善css广告过滤
+完善Urlfilter
+完善书签内容
+完善安装包
+完善安装界面
+完善安装脚本
+完善广告过滤(dz论坛和da,淘宝购物后送货地址被误过滤等)
+完善皮肤
+完善部分文件丢失
+将simpleu的配置详解加入服务条款,用户可以根据,自行配置适合自己的版本
+将工具栏上右键由书签改为修改工具栏等
+工具栏调整：刷新按钮恢复为单击刷新，长按全部刷新,回加高亮书签按钮，后台打开标签按钮回加到右下角（同世界之窗的习惯）
+快速参数这个杂项里面添加禁止自动导入书签的快捷选项
+恢复旧有的安装脚本模式（会向系统目录复制两个文件wget和consext）
+恢复添加一些js文件
+更新hoststool
+添加白菜版的greenpath工具,方便设置为默认浏览器的绿化
+精简更新书签
+细节优化
+调整readability的显示
+修改配置文件编码(现在用greenpath工具绿化不会乱码了!)
+全部版本更新(包含之前的所有更新内容!)
+加入privoxy
+加入支付宝的相关插件,方便使用
+完善对话框
+完善证书选项
+完善鼠标手势
+2011-11-05
+各种菜单和细节的调整和优化:11:
+2011-11-04
+更新urlfilter，测试完美屏蔽优酷？！
+完善adfilter
+更新hoststool
+菜单更新
+快拨更新
+书签更新
+语言文件修改
+皮肤修改
+2011-10-29
+再一次全面测试过滤规则，删除掉书签中备份的弹窗网址收集
+删除operaup.bat，将其合并到hoststool.bat中，并在o菜单-帮助，添加在线更新模式（却确保gc可以连接，确保退出opera）
+全面完善书签，添加众多昵称
+比如在地址栏输入：
+kx打开康熙来了在线播放（奇艺）
+lyq打开路由器设置界面（192.168.1.1）
+sinam新浪乐库
+bdm百度听
+dbfm豆瓣fm
+ocoperachina官方中文论坛
+等等
+菜单细节的小调整
+完善urlfilter的网站细节和弹窗等
+完善adfilter的众多细节数据
+删减toolbar文件
+2011-10-24
+删除这两行说明
+Opera\profile\widgets：
+[url=http://baidumiyu.googlecode.com/svn/trunk/baidumiyu.oex]百度密语[/url]
+[url=https://addons.opera.com/addons/extensions/details/lastpass/]lastpass[/url]
+解决adblock过滤元素失效的问题
+完善adfilter
+完善urlfilter
+更新手动升级批处理
+更新hoststool
+打包信息更新
+全面完善书签内容
+2011-10-21
+删除http://*/i.js以解决部分漫画站无法浏览的问题
+删除以下js：
+a-lib-stacktrace.jsa-lib-xmlhttp-cd.js[url=http://xiaonei-reformer.googlecode.com/files/opera_crossdomain.zip]Opera用户脚本跨域支持[/url]
+noclicktoactivate.js[url=http://bbs.operachina.com/viewtopic.php?f=19&t=105082]完美去除~opera~"点击激活并使用此控件"（ByNLF）[/url]
+picViewer.js[url=http://bbs.operachina.com/viewtopic.php?f=19&t=104027]picView看图js（ByNLF）[/url]
+皮肤删减，完善，美化部分ico和png
+完善urlfilter
+完善adfilter.css
+解决优酷广告问题，可配合最新的hosts使用
+重写规划调整pac目录，调整藕粉用语菜单
+完善菜单功能
+调整右键的搜图菜单
+完善默认的右键菜单
+按钮的调整替换和完善
+更新各种pac文件
+更新各种exe文件
+更新各种附带文件
+开始栏按钮删减，美化
+其他各种细节更新完善
+2011-09-27
+载入动画修改
+[del]调整了打开时默认的窗口位置[/del]
+完善urlfilter
+完善adfilter
+完善右键菜单
+完善按钮
+调整按钮位置和部分的按钮的命令
+调整默认主页和默认新建的主页
+plugin插件精简
+安装脚本完善，解决115等的问题
+其他
+2011-09-12
+抄袭了睿智版的风火轮样式的皮肤载入图标
+完善了针对dz论坛的过滤，把之前的一个通杀还原为精确查杀，以减少误杀，如翻页脚本自动翻页时看不到dz论坛帖子内容的情况！
+2011-09-09
+祝各位中秋节快乐
+收藏夹大更新，大换血啊~
+添加goagent的切换端口图标和相关菜单
+皮肤稍微改动
+[url=http://bbs.operachina.com/viewtopic.php?f=30&t=105491#p664574]添加搜狗搜图代码（Byvindy）[/url]
+优化右键菜单
+完善adfilter和simpleu中的广告过滤，完善淘宝搜索界面的右侧和底部的推广栏广告隐藏
+[url=http://www.a-shun.com/archives/21483.html]添加hosts编辑按钮，长按。编辑完之后点击应用更改（Ctrl+R）即可生效。（Bya-shun）[/url]
+添加新的在线更新工具，请在关闭opera后，切换到profile手动运行！
+其他还有什么？:10:
+2011-09-06
+电台修改为豆瓣和新浪乐库
+hostsx更新
+css和urlfilter更新
+[url=http://bbs.operachina.com/viewtopic.php?f=30&t=105459]解决上AREA11论坛会卡的问题（Byziye）[/url]
+[url=http://bbs.crsky.com/read.php?tid=2196307&page=e&fpage=1#a]添加adblock.pac文件（By小絮）[/url]
+右键菜单调整和优化
+2011-09-03
+皮肤细节修改
+更新书签
+更新快速拨号
+安装界面美化，安装脚本完善
+删除以下失效和未在使用的旧版说明内容
+[del]stylish需要手动重命名以开启
+单击插件以激活：[url]https://bitbucket.org/xaxa/nocta/get/tip.zip[/url]
+[url=https://bitbucket.org/scope/dragonfly-stp-1/get/tip.zip]DragonFly下载[/url]：
+[url]https://dragonfly.opera.com/app/zips/[/url]
+[url=https://addons.opera.com/addons/extensions/details/fastesttube-youtube-video-downloader/]fastesttube[/url]
+[url=https://addons.opera.com/addons/extensions/details/swiss-knife/]SwissKnife[/url]
+其他皮肤推荐：[url=http://my.cn.opera.com/community/customize/skins/info/?id=10662]SimpleMonochromeTransparentSlim[/url]
+默认设置在当前标签后面打开新标签
+q-readability.js[url=http://files.myopera.com/QuHno/downloads/q-readability.js]本地版readability（ByQuHno）[/url]
+[url=http://my.opera.com/XAntares/blog/xanocta]取消“单击以激活并使用此控件”的提示[/url]
+逛逛蜻的默认地址：[cfg]DeveloperTools|DeveloperToolsURL[/cfg]改为：https://dragonfly.opera.com/app/cutting-edge/
+默认取消了对CNNIC相关证书的信任:opcacrt6.dat(证书颁发机构)[/del]
+调整了css目录和相关
+完善站点首选项
+完善adfiltre.css
+完善urlfilter
+各种文件更新
+右键菜单，状态栏等的图标和功能调整和优化
+其他
+2011-08-31
+更新至11.51
+urlfilter更新
+css更新
+sitefixandsoon
+2011-08-15
+HappYBirthdAy!
+urlfilter更新
+simpleu.css大面积更新重写
+菜单调整完善
+其他各种文件的更新
+其他完善～
+2011-08-05
+urlfilter更新
+adfilter和user.css合并为simpleu.css
+修正css的过滤错误，大幅精简opera不需要的广告过滤内容
+站点首选项完善
+内容的精简调整
+其他各种文件的更新
+界面调整
+右键菜单调整
+菜单精简完善
+完善鼠标手势
+2011-07-15
+使用轻量版无依赖的HostsX.bat替换HostsTool
+更新完善菜单
+完善urlfilter
+完善css过滤
+2011-07-13
+更新完善菜单
+更新js和css广告过滤
+完善ulrfilter
+修正一个百度图片的问题
+更新一些小工具
+安装包细节更新
+2011-07-11
+o菜单和排序修改，快速拨号锁定不再关闭网页。
+快捷键更新，藕粉用语，查看源代码功能回加。
+2011-07-08
+站点配置首选项，修正淘宝帮派
+界面修改和完善。
+2011-07-06
+打包相关细节修改和修正
+站点首选项的完善
+皮肤显示的完善
+2011-07-01
+删减了文件和目录
+打包相关细节修改和修正
+更新搜索跳转js
+2011-07-01
+完善了urlfiler
+完善了css过滤
+2011-06-29
+完善了urlfiler
+更新了flash插件
+2011-06-28
+广告过滤css更新
+内核更新
+urlfilter更新
+按钮调整
+菜单微调
+细节调整和优化
+2011-05-29
+广告过滤完善
+插件修复
+2011-05-27
+更新fscapture到6.9
+目录和工具调整
+开始栏（网址输入下拉那个地方）的按钮调整与合并
+细节调整以及一些很厚颜无耻的调整~
+2011-05-26
+更新并调整皮肤，更新js，更新css，更新urlfilter
+完善中文下的收藏夹
+更新按钮，更新其他细节。删减所有配置文件中的无用内容。
+解决论坛反馈的一些问题，更新更新工具和HostsTools
+调整部分文件目录，调整对一些工具的依赖
+对阿里旺旺有限用wangwang.exe调用。
+2011-05-24
+解决js的设置数据不同的问题，解决crsky论坛的翻页问题。
+更新在新更新小工具。
+2011-05-2323:30
+目录调整，截图快捷键调整，菜单相应调整。
+广告过滤完善，urlfilter完善，其他css完善，在线小工具除错更新，
+修改js解决dz6.1论坛翻页问题如：家电论坛，百事高音乐论坛
+css目录调整，默认配置相应调整。and其他细节。
+至此SimpleU版本毕业啦~
+2011-05-23
+在profile文件夹下加入检查更新的小工具。现在可以手动在线检查更新。修改快捷键，菜单，鼠标手势，搜索列表，广告过滤，解决论坛反馈的一些问题。
+2011-05-19
+界面按钮调整
+几个错误修正
+2011-05-18
+界面调整
+菜单调整
+过滤修正
+2011-05-17
+更新内核至11.11
+修正过滤错误，完善部分细节
+默认配置的部分修正完善
+搜索栏回调为原版样式
+搜索列表完善和更新
+删除世界之窗2，默认条用ie
+默认只保留百度蜜语扩展。删除lastspass扩展和knife扩展
+其他相关细节完善和更正
+2011-05-16
+完善css相关
+完善url过滤
+刷新按钮回调
+主界面去处搜索栏
+搜索栏合并到搜索界面（ctrl+f）
+完善和精简菜单内容
+2011-05-13
+完善css相关
+完善url过滤
+完善按钮相关菜单功能
+完善和精简菜单内容
+添加theworld2作为辅助浏览
+2011-05-08
+完善css相关
+精简文件压缩体积
+完善各种过滤
+2011-05-07
+完善部分弹出窗口登陆页面的误过滤
+调整toolbar，css以及其他
+2011-05-04
+完善css以及文件的调整
+添加页面护眼灰和护眼绿
+完善urlfilter
+完善各种页面弹窗和广告过滤
+toolbar精简和调整
+menu调整，细化各种分类等，更多的精简优化
+更新皮肤
+更新flash以及其他插件
+更新lastpass等扩展
+主界面按钮功能回调
+2011-05-01
+完善adfilter通用过滤
+首选项配置部分选项调整
+更细autoxbc的css
+标签右键菜单的调整
+右键菜单的其他修正
+安装脚本调整
+更新皮肤
+2011-04-30
+完善adfilter通用过滤
+解决user.css误杀淘宝订机票时弹不出页面的问题
+完善urlfilter
+更新lastpass扩展
+更新fscapture
+2011-04-25
+集成gdi+，菜单在皮肤里面
+菜单更新
+迅雷看看的兼容性调整，默认使用opera以伪装为ie的方式打开，可以直接播放看看视频了现在
+ulrfilter更新
+adfilter广告过滤更新，解决了几个问题如扩展页面被过滤，部分登陆页面被过滤，完善了迅雷和天涯的过滤
+lastpass等扩展更新
+蜻蜓启动慢的请用代理启动。。。。
+2011-04-22
+根据皮肤调整右键菜单
+按钮完善
+部分菜单完善
+添加nlf的优酷增强js
+更换快捷键为osmart版本
+2011-04-21
+调整右键菜单
+更新语言文件
+完善细节配置
+优化广告过滤
+默认配置微调
+删除theworld2，notepad2，删除11_clean皮肤
+adblock.js加入，并默认开启
+关闭默认开启的标记已访问css
+部分菜单抄袭osamrt版本调整和升级
+更新精简皮肤
+皮肤菜单调整
+网页分析和站长工具的功能增强
+按钮调整更新精简
+其他各种细小的调整
+2011-04-20
+css分类等的调整
+广告过滤的弱化，增强和完善（很矛盾额~）
+urlfilter更新
+部分按钮调整
+如：兼容模式按钮长按会用ie打开，关闭列表改为长按和短按，nightcss按钮改为本地式js以及其他
+修正了一些菜单由于路径问题失效的问题
+插件调整到profile文件夹下
+stylish需要到scripts文件夹手动改名开启
+其他细节调整
+2011-04-17
+更新配置文件包括menutoolbar
+按钮的部分调整
+左上角菜单栏调整
+兼容模式按钮增强
+抄袭并加入了继续，继续低碳版的备份和恢复功能的批处理
+回加stylish。如果是部分页面冲突，请使用兼容模式，或者右下角的绿色对号按钮，或者删除stylish或者删除超级预读。
+回加世界之窗2
+全面调整广告过滤规则的css和浏览辅助css
+部分文件调整
+optools目录调整
+各种文件更新
+刷新菜单微调
+右键菜单微调
+论坛朋友反馈的一些问题的调整
+2011-04-13
+菜单顺序微调
+部分按钮调整
+皮肤更新
+自定义皮肤删除，安装后为默认皮肤
+优酷音乐焦点的问题解决
+fscapture的按钮优化
+右上角图片的按钮功能优化
+广告过滤，浏览辅助的css调整
+艾泽拉斯论坛请先关闭广告过滤规则，个人认为被过滤的纯属广告
+扩展的更新，解决lastpass无法登录的问题
+dialog.ini的排错更新
+search.ini的更新
+其他细节的优化调整
+2011-04-12
+更新内核，皮肤，语言文件
+单击此处激活插件的patch默认不再使用！！！
+更新并调整过滤规则
+回归老板的状态栏
+添加fscapture
+部分细节微调
+2011-04-09
+更新到2085
+调整过滤规则，减少误杀！！！
+SimpleU版本默认皮肤更新
+opera自带默认皮肤更新
+2011-04-08
+解决深度论坛图片的问题，感谢yansyrs
+用加数字减小范围的方法来替换部分过滤规则，以兼容更多网页
+过滤更多falsh广告
+urlfilter更新
+补上nircmd近几个版本被删的问题
+右键菜单下载类的调整，话说前几个版本更新了，打包的时候弄错了。。。额
+广告过滤部分内容的删减
+论坛反馈的一些问题的调整
+2011-04-06
+更新至2081
+单击激活的patch更新
+继续完善广告过滤
+右键菜单完善
+urlfilter数据更新
+dialog.ini更新
+2011-04-06
+css样式持续调整中
+urlfilter更新
+回滚添加site.css
+添加ie内核打开到地址栏右侧
+添加查看栏显隐按钮到搜索栏右侧
+回滚并更新dialog.ini
+右键菜单等的简化
+状态栏css样式持续调整中
+继续更新皮肤
+2011-04-03
+全新的css过滤样式（稳定性待测试）
+css各项功能的合并和更新
+右键菜单部分调整（未完成）
+删除stylish和相关组件，通过article.js重写部分页面
+adblock纯js版
+目录相关调整
+2011-04-02
+升级到2076
+adfilter更换？稳定性待测试。
+语言文件更新
+2011-03-30
+升级到2067
+刷新菜单还原，调整，合并
+右下角图标的下拉菜单列表的相关调整
+右键菜单添加站长工具
+右键菜单和翻译菜单调整
+地址栏ie打开此地址功能还原
+右上角图像按钮的菜单还原
+（截图工具在里面，直接按就是自带的截图工具，之前的盗链退散并入刷新菜单）
+个菜单的调整和完善
+系统工具菜单适量的隐藏
+adfilter广告过滤更新，过滤更多弹出和常见广告
+论坛看贴整理css更新，过滤更多签名和引用，脱水看贴更方便
+ulrfilter更新
+分享到替换为使用jiathis的工具，更加方便选择
+加入imitate116.js
+删减部分css文件
+更换notepad为notepad2汉化版
+安装脚本更新，默认不设置默认浏览器等
+其他相关细节调整
+2011-03-26
+升级到2064
+广告过滤更新
+右键菜单和工具栏以及按钮调整
+更改默认的Ua信息！！！
+balabala的一大堆细节修改。
+2011-03-22
+修正cnbeta误过滤
+添加几处广告联盟数据更新
+更新G+Hosts
+更新单击激活此插件的修改
+添加两个css文件
+更新flash插件
+打包的时候附带lastpass。
+2011-03-21
+pac完善
+过滤相关调整完善
+菜单完善
+加入md5查询工具
+加入G+hosts
+论坛反馈问题的相关调整。
+2011-03-18
+pac过滤完善
+adfilter调整为稳定版
+浏览辅助css的更新
+添加几个之前版本有的后来删掉的按钮
+皮肤更新
+右键菜单搜索和翻译方面的调整
+单击此处以激活插件提示的取消
+flash插件的更新R154
+凤凰视频和直播使用opera播放，解决无法播放的相关过滤问题
+其他调整
+2011-03-17
+完善pac的正则广告过滤
+全新配置的皮肤
+升级中文文件
+搜索引擎和快速拨号的调整
+部分文件的目录修改
+删除hoststool
+安装脚本更新
+升级到11.10b1
+2011-03-15
+右键菜单的调整和完善
+各种工具分类的完善
+部分按钮功能的合并删减和调整
+删除fscapture代替以screener
+全面完善广告过滤
+全面完善urlfilter
+全面完善stylish
+站点过滤和修复完善，如ft中文网等
+部分文件的删减以及目录的调整
+部分文件utf8格式修复
+全面改进图标相关，有图标的基本全部替换为opera自带。以后更新时可不再更新皮肤，方便o粉的绿色升级
+更新安装脚本
+主页修改为：http://portal.opera.com/
+蜻蜓地址更新为：https://dragonfly.opera.com/app/cutting-edge/
+其他各种细节的调整和完善
+2011-03-09
+完善右键菜单
+autoproxy.pac完善
+完善凤凰网，开心网，google等的广告过滤
+完善urlfilter
+完善个按钮下拉菜单功能列表
+删除gdi，请需要的朋友手动添加
+整合readablity本地js版
+删减掉adbcok
+其他文件的修改与更新
+2011-03-02
+代理菜单抄袭了采购和ashun的新版
+添加了fasttube
+完善了广告过滤
+添加了百度和gmail的页面过滤
+删除了世界之窗2，fgx等文件
+添加一个pac，可以配合G+hosts更新数据使用，以实现反跳。
+（山东联通部分网站测试通过，不作任何相关解释和解答，请自行解决。）
+添加一个noads的扩展，（已汉化）
+sitefix完善，使picasaweb探测无效，正常上传。
+其他各种细节的修改和完善
+2011-02-25
+添加y大的oskjs，鼠标点击三下打开osk
+替换link-alter为show-link-info
+完善url过滤，完善stylish过滤
+搜索跳转js把百度的header改成head
+添加回世界之窗2
+图像菜单和地址栏菜单的完善，删除不常用以及部分功能选项的合并
+添加分享按钮
+flash插件更新，因为有些网站一直提示必须更新插件才能播放=。=
+左上角的o菜单，除了添加皮肤的菜单和部分链接的添加外，恢复为opera默认的样式
+证书文件的更新
+ms鼠标手势更新了，调整以我的习惯为主，呃，原谅我~
+拖拖拉拉的弄了整整一天，ps那个饭否的按钮昨晚还正常的，今晚测试，怎么着都不正常，真囧
+各种细节完善，各种文件更新。
+2011-02-16
+完善部分网站和网址的兼容性
+菜单完善，皮肤完善，按钮完善
+ulr过滤完善，stylish完善
+2011-02-08
+完善蜂鸟广告过滤
+添加cleanpages扩展
+补充上个版本疏漏的ieopera.js文件（因Viewinie插件出现问题的请删除viewinie.dll和此文件）
+各种文件的更新
+各种细节的调整
+2011-02-07
+修正新浪的误过滤，天涯板块增加莲蓬鬼话等的支持网址
+optools下的文件更新和替换以压缩体积
+右键菜单调整
+底部工具栏调整
+顶部工具菜单调整
+左上角opera菜单还原为opera默认
+广告过滤全面调整
+stylish部分网站过滤完善
+部分菜单的图标调整
+添加并完善天涯只看楼主的js
+修改完善了下载框添加c:\;d:\;opera;UserJS;等快捷目录按钮
+其他文件等的更新
+细节调整
+2011-02-03
+删除世界之窗相关
+调整fscapture选项
+选项细节修改
+js更新
+urlfilter版本替换为自用轻量版，以过滤广告联盟和门户网站为主
+G+Hosts更新
+默认首选项调整
+安装脚本排错和更新
+js删减，可以使用扩展实现更丰富的功能
+调整部分js脚本为扩展
+加入扩展：
+（默认启用）redirect-to-https扩展:https://addons.opera.com/addons/extensions/details/redirect-to-https/
+（默认启用）百度密语扩展：http://baidumiyu.googlecode.com/files/baidumiyu.oex
+（默认不启用）download-helper扩展：https://addons.labs.opera.com/addons/extensions/details/download-helper/
+（默认不启用）fastesttube-youtube-video-downloader扩展：https://addons.opera.com/addons/extensions/details/fastesttube-youtube-video-downloader/
+2011-02-01
+添加GDI相关组件
+调整选项细节
+更新菜单选项命令
+更新底部工具栏命令
+安装脚本修善
+快速参数选项恢复到opera默认
+广告过滤完善
+2011-01-31
+排错，奇怪的bug修正
+根据Opera11调整了相关文件，如dialog.ini等
+更新了皮肤
+调整了右键菜单
+调整了底部工具栏
+删减了快速参数合并到各自工具栏内
+调整了viewinie插件
+安装脚本修改，安装细节完善，防止设置失败和不生效的问题
+其他各种完善和细节的修改
+2011-01-29
+替换使用了kenan的dialog.ini，并作了相关调整
+http://bbs.operachina.com/viewtopic.php?f=30&t=88629
+广告过滤完善
+urlfilter.ini完善
+右键菜单细节调整
+npviewinie插件降级
+跟随osmart版本更新文件
+2011-01-28
+更新至11.01正式版
+更新fastforward.ini
+替换鼠标手势为Osmart版本
+广告过滤完善
+urlfilter.ini完善
+解决某些情况下的js特定问题
+取消“单击以激活并使用此控件”
+更新插件npviewinie_1.6.4
+更新安装脚本
+替换为opera默认的安装图标
+细节改善
+2011-01-26
+更新内核至1189
+广告过滤完善
+2011-01-25
+广告过滤完善
+2011-01-23
+更新至.1179
+广告过滤完善
+2011-01-22
+flash，viewinie，插件更新
+fscapture添加引导器
+菜单调整，工具栏状态栏调整，下载相关调整
+默认设置调整，默认不显示托盘图标，默认设置缓存为50m
+全面重写过滤规则
+js和css更新
+阿里旺旺调用插件更新
+thewolrd选项设置搜索串更新
+论坛反馈一些建议的更新
+更新一切可更新的文件
+跟随wuyunxian的Osmart部分内容更新：
+在Google菜单中添加google短网址服务
+继续微调高亮文本框边框的css，配色改成这个扩展中采用的#0099FF
+2011-01-20
+部分网站的兼容性完善：http://www.2651.cn/使用ie内核打开
+优酷视频和搜索的过滤完善
+人人网过滤完善
+G+Hosts更新，wget组件目录调整
+内核更新至1169
+其他细节调整
+2011-01-18
+完善Stylish并修改为默认不显示（ctrl+单击可显示）
+删除qvod的相关，不再过问，请自行调用ie内核打开
+完善override.ini部分站点列表
+完善standard_menu.ini的相关功能
+修正几处operaprefs_default.ini内的内容
+修正Stylish保存失败的问题
+更新fastforward.ini文件
+修正纵横中文网的验证码显示问题
+调整使用tang04022125的opera淘宝旺旺调用
+http://bbs.operachina.com/viewtopic.php?f=41&t=73372#p430206
+页面辅助css调整
+重新调整了了网易163的页面规则和主站点规则
+调整了新浪的页面规则
+部分js调整以及其他细节更新
+2011-01-17
+完善urlfilter:修正土豆网，完善wo318，修正qq网，修正新浪视频,完善cntv
+完善stlylish内的腾讯，u115部分，凤凰网部分
+内核等文件等更新至1164
+参照http://my.opera.com/XAntares/blog/xanocta进行修改，去除“单击激活控件”的提示
+安装脚本更新
+G+Hosts文件更新
+2011-01-07
+完善urlfilter:修正265的首页显示问题
+快速拨号的最后一格调整为民间Google集成页面
+删除downloadhelper.js和fix-google-cache.js文件
+添加白菜版的SiteFix.js，添加Csineneo修复起点不能复制的js
+更新添加stlylish内的起点部分
+调整站点用的css目录：.\profile\styles\Site
+删除Optools\Utorrent，menu内的utorrent相关内容隐藏
+2011-01-02
+参照wuyunxian的OSmart版本做了诸多的抄袭和修改
+(包括：标记已访问的颜色调整，过滤的完善，对话框的修改，站点项的完善)
+css,js和插件更新
+安装脚本改动
+皮肤的改动
+右键菜单改动
+状态栏和工具栏的改动
+快速拨号的改动
+左上角Opera菜单项的改动
+路径的调整，加入E大的GreenPath绿化工具
+G+hosts识别路径调整
+TheWorld相关选项调整
+2010-12-30
+urlfilter完善，建议用户使用G+Hosts辅助，以获取更好的过滤效果
+调整标记已访问的内置颜色
+ie内核列表完善
+qvod的播放支持
+更新了stylish文件的站点过滤内容
+更新了键盘配置文件
+修正并更新了安装脚本
+重写了安装说明介绍和服务条款的内容
+部分文件或目录调整
+2010-12-29
+调整世界之窗3为世界之窗2(更新设置和广告过滤)
+调整截图软件为FsCapture
+调整代理软件目录为Proxy
+更新utorrent
+更新js文件
+调用极速版的文件，支持阿里旺旺
+完善ie内核打开的网站列表
+更新皮肤文件(替换为10.63默认的快速拨号背景，其他图标文件的修改)
+主界面微调
+参照a-shunblog调整代理切换按钮
+(http://www.a-shun.com/archives/21366.html)
+把部分浏览辅助的常用软件合并到代理按钮分类下
+合并部分选项参数到快速设置目录下
+其他参数的调整
+2010-12-27
+换了种打包执行的方式，支持直接升级了~
+菜单和状态栏的细节调整
+默认使用edown调用下载工具
+广告过滤文件更新(分离浏览辅助的过滤部分)
+ie列表更新
+其他各种细微的更新
+精简工具文件和安装时的多余文件，压缩体积
+2010-12-26
+调整安装后使用起点网的问题，让用户自己选择css样式
+添加一个自动替换google快照网址为https的js
+添加下载辅助的js
+修正163和优酷js冲突的问题
+修正和精简去广告的stylish文件内容
+更新opera的几个文件
+添加viewinie的插件，完善用ie打开的相关网址
+界面微调，地址栏右侧添加viewinie的按钮
+其他细节问题修正与更新
+2010-12-24（基于Opera11正式版定制的新版出炉）
+调整为opera的安装方式
+修正百度搜索的乱码问题
+更新广告过滤
+其他细节修正
+2010-12-07
+修的修，补得补~
+应该没的问题了~
+2010-12-03
+网站过滤规则调整和更新
+js更新
+右键菜单微调
+2010-11-29
+众多网站过滤规则调整和更新
+js更新
+对于发布版的optools下的工具精简处理
+快速拨号等的更新
+菜单右键和底部工具图标的大幅调整
+其他细节的优化调整
+2010-11-19
+许多网站的兼容性更新(迅雷看看，易车网等)
+js更新~
+urlfilter更新~
+右键菜单更新
+stylelish部分站点的更新完善
+其他的细节优化
+2010-11-06
+最近一直在忙学校和工作的事情，才上论坛，看到回复，致歉
+下午花了些时间把一些js更新了，把这段时间遇到的一些广告过滤的问题解决了。
+添加了一个简易的HOSTS修改工具。
+2010-10-13
+many change thank severyone
+2010-09-21（基于Opera10.63正式版定制的版本出炉）
+----------------------------------------- 删减备份 -----------------------------------------
+
+Urlfilter受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+*js/swfobject.js uusee无法播放
+http://*.union*.com/* 银联在线支付
+*/tj/* 一些活动地址，如：http://act.kankan.com/tj/?id=tj03
+*/statics/js/* http://photo.huanqiu.com/globalview/2012-12/2677638_4.html 不能一下张图片
+*/js/qq*.js http://shop.qq.com/search/index.html?PTAG=20094.2.2&q=U%E7%9B%98&st=0 qq商城搜索结果无法正常显示
+*/popup.js To-Read sites这个扩展无法正常使用
+*/hao123/* http://*/cpro/* 百度贴吧兼容性问题修复（比如回复的时候跳转到页面顶部的问题）
+*/ads*  *&ads/ 风云直播 http://www.fengyunzhibo.com/ 在59%卡住
+*pop_*.j*  12306无法弹出提交火车票的订单的窗口
+http://stat.* youku不能记录播放历史
+*/tg/*  http://s2.lashouimg.com/tg/zhuhai/201205/14/th025.jpg   http://www.lashou.com/travel/deal/7266429.html
+*/game_right_side_*.js http://games.ifeng.com/picture/gaoqing/detail_2012_09/29/18003509_0.shtml#p=16 点击图片无反应
+*/tg.*         http://tg.3cgogo.com/
+*/tracking*  http://www.iegallery.com/zh-cn/trackingprotectionlists
+*sms.*   http://m.mail.10086.cn:7000/w3/sendsms.html?&mo=ui7bJS0bHRFSDkYUGQslel3F_GACv8P9&vn=274&cmd=40
+http://pub.mop.com/widget.jsp* http://tt.mop.com/read_12801350_1_0.html 11.64版本无法显示图片，12以后版本正常。
+*/baidu*.htm* http://player.uusee.com/apps/baidu/index.html
+*/baidu*.js http://topic.pptv.com/partner/baiduapp/live/main/
+*banner*.js http://douban.fm/    播放器内容无法显示
+*/google_*  http://dsa.zenlane.com/forumdisplay.php?fid=5 帖子列表无法加载
+*_tj.*   http://book.zhulang.com/139696/index.html css显示不正常
+*gg_*.j*  http://www.onlinedown.net/softdown/1424_2.htm 下载地址部分
+*/track/*   http://www.utorrent.com/downloads/complete/os/win/track/stable
+http://temp.163.com/special/* 页面显示不完整 http://news.163.com/special/dydzd2012/
+*/ggc*  *_gg*.j* http://stockhtm.finance.qq.com/astock/ggcx/BIDU.OQ.htm
+*union*js*   *union*.js* http://www.kaixin001.com/!house/ranch/index.php
+*tracker.*  http://www.diandian.com/login http://s.libdd.com/js/lib/tracker/inc/trackerbase.js
+http://st3.dbank.com/*                  http://www.dbank.com/ 显示有问题
+http://img0*.taobaocdn.com/imgextra/*   Some Tmall的图片无法正常显示
+*ad_pic* *_ad3* *ad_*static*          百度贴吧背景样式内容无法显示
+*/i.js           http://mh.99770.cc/manhua/168/108625.htm?v=2*s=9 无法显示内容图片
+
+
+del：
+ */gg/* *gg/*.*f http://www.52zy.com/down/61709.html  下载地址被过滤掉
+*/ads/*          yahoo 新闻页面显示
+http://*/adm/*   新浪爱问资料网盘
+*/js/ad*.js 可能为admin.js,而非广告 所以直接改为了 */js/ad.js
+http://*.tianjimedia.com/* 天极网css显示
+http://count.pcpop.com/GoogleAnalytics.js 泡泡网的图片墙没法点击翻页 http://tu.pcpop.com/pic-823469.htm#1
+*l*.youku.com/crossdomain.xml  http://zy.youku.com/voiceonlive 影响直播
+*/ad*.asp?*       http://www.nd56.com/Network.aspx
+*pconline*/soft/*    http://pcedu.pconline.com.cn/soft/gj/ot ... 29247.html
+http://c.pingba.qidian.com/BookComment.aspx?* 起点书评区
+
+删减备份：
+*/adclick?sid=*
+http://js.*.com/i.js
+*/cpm_static/*
+*/stat.php?id=*
+http://*/js/ads/*
+http://*/Public/ads/*.js
+http://*.com/gg/*
+http://www.*/gg/*
+http://*/piaofuad.js
+http://*/www/delivery/ajs.php*
+http://pfpip.*/ip.js
+http://*/ad-images/*
+http://*/adfile/*
+http://*/forwebad/ad/*
+http://*/images/ad/*
+http://*.com/ad/*
+http://*.com.cn/ad/*
+http://ads.*
+http://adv.*
+*/js/baidu_ads/*
+*/ad_click.js
+*/tongji.js
+*/2012/www/2012/gg/*
+http://*.com/ads/
+*/RealMedia/ads/*
+*/images/ads/*
+*/js/ads/*
+https://www.google.com/uds/api/ads/*
+http://i.uwants.com/ads/*
+http://www.xiazaiba.com/data/ads/*
+http://www.hotgoo.com/ads/*
+*/ad_img/*
+*/ad_images/*
+*/fudong/ad_*
+*/img/ad_*.js
+*/double_ad_*.html
+*/iframe_ad_*.html
+*/stat.php?id=*
+*/tanchuang*.js
+*/sponsoredlink/*
+*/inc/qqnews.js
+http://www.cnbeta.com/js/google.js
+http://*.cnzz.com/stat.php?*
+http://pstatic.xunlei.com/js/webThunderDetect.js
+http://*/gg.htm
+*/ggao/js/*
+http://www.xdowns.com/new/ggdown.html
+*/newhuagg/*.gif
+*/newhuagg/*.swf
+*/js/gg*.js
+*/js/topgg.js
+*/guangg/*
+*/upload/guanggao*
+*/union/.*f
+*.com/union/*
+*/union/.j*
+*/js/float.js
+*/tuiguang/*
+http://www.sohu.com/upload/js/tuiguang_sohu_full.js
+*/js/tan.js
+*/guanggao/*
+http://www.tt1069.com/banners/*
+*/inc/*_banner_dis.js
+http://cn.ziddu.com/banners/*
+http://*/google_analytics.js
+*/code/popjs.asp?uid=*
+http://m.ifengimg.com/2012/olympic/pop_mini.js*
+*/winpop*.js
+http://user.kdnet.net/pop_content/push_window_max.asp*
+http://www.17173.com/if/focus.html
+http://images.17173.com/2011/www/if/video/*
+*/money/webgame/*
+*/static/delivery/*
+http://erebor.douban.com/count/?ad=*
+*/www/delivery/*.php*
+http://*.cnzz.cn/zanzhu/*
+http://www.bitauto.com/hezuo/*AD.shtml
+http://*/js/count.js
+http://www.dbank.com/app/stat/stat.php?*
+http:///*/stat.aspx?*
+http://*/track.php?*
+http://*/stat.php?id=*
+http://tracking.*
+*/baiduiframe.html*
+http://*/extern_js/*.js
+adsdata.js
+adscomm.js
+
+论坛过滤备份，重复：
+/* 网页隐藏文字和链接过滤 [style*="font-size:0p"],[style*="font-size: 0p"]{display: none;} */ 
+div[class$="-ad ad"],div[class^="ad ad-"],
+div[id^="adv0"],div[id^="adv1"],div[id^="adv2"],div[id^="adv3"],div[id^="adv4"],
+div[id^="adv5"],div[id^="adv6"],div[id^="adv7"],div[id^="adv8"]{
+display: none !important;
+	}
+div[id*="_flash_click_"],<div id="div_flash_
+div[id^="adv_"],
+div[id^="sig"][class="signature"],div[class="signature_wrap"],
+div[class^="ad-"],
+div[class^="ads-"],
+div[class^="ads_"],
+div[class^="adver"],
+div[class^="adarea"],
+div[id^="Advert"],
+div[id*="ad-ads-"],div[class^="txtads"],
+ul[class*="textad"],div[class*="textad"],
+div[id^="footer-ad"],div[id^="footer_ad"],
+div[class="boxad"],div[class="yourad"],div[class="showad"]
+span[class*="ad"],span[id*="ad"],
+ul[class="ad_doc_text"],
+div[class^="topad"],div[class$="_topad"],
+div[class="ecomlit"],div[class^="ecomblk"],div[class="ecominv"],
+div[id^="google_ad"],div[id="google_flash_div"],div[id="google_image_div"],div[id="homepage-sidebar-ads"],
+div[id^="ad_head"],div[class^="ad_head"],div[class^="ad_text"],div[class^="ad_foot"],div[class^="ad_b"],div[class^="ads_"],div[class="ad_top"],
+div[class="ad-bar"],div[class="ad-button"],div[class^="ad-block"],div[class^="ad-box"],div[class^="ad-b"],div[class^="ad-img"],div[class="ad-widget"],div[class^="ad-text"],div[class^="ad-txt"],
+div[class^="adposter"],div[class^="adArea"],div[id^="top_ad"]
+div[class="banner-top"],div[class="banner-box"],
+/* Discuz! 版头规则中的图片 */
+div#tab_c_2.rule img {display: none !important;}
+div#tab_c_2.rule a img {display: inline !important;}
+div[id^="forum_rules"] img {display: none !important;}
+div[id^="forum_rules"] a img {display: inline !important;}
+div[class^="aa_"],
+div[class="side-Rad"],
+div[class="rightfloat"],
+div[class="foot"],
+div[class="*960"], 
+div[class="adj960"],
+<div class="area adpart"
+div[class="focus_ad"],
+div[class="tit_ad"],
+<div class="pro-clent-ad" id="pro-clent-ad"
+div[class^="ad"][style="z-index: 0"]
+<div class="ad950" style="width:980px;">
+<div style="width:640px;height:90px;overflow:hidden;" id="gg200763">
+
+
+CSS受影响的过滤元素整理排除：（前面为排除，后面为详细页面元素）
+div[class$="Ad"],无法显示搜索后的内容，<div class="webstore-Bc-Cc-Nd webstore-Bc-Cc webstore-test-wall-tile webstore-Bc-Cc-eh webstore-Ad" index="1" type="W">，https://chrome.google.com/webstore/search-extensions/youku?hl=zh-CN
+div[class^="adp"],<div class="adphoto01" id="dsy_B02_41"> http://jn.soufun.com/
+div[id*="_flash_"], 视频页面播放 http://www.ssports.com/html/video/Video.html
+div[class$="_ad"],http://sports.cntv.cn/20101031/100637.shtml,视频播放被过滤
+div[id$="Ad"], 花旗银行登录页面
+<div class="sign">  http://www.qiushibaike.com/login 登录框
+td[class="plc plm"], 某些论坛（小米论坛、比思）帖子下方的收藏按钮都给屏蔽了
+table[width="960"][border="0"][cellspacing="0"][cellpadding="0"],游民星空 <div id="clickbg" onclick="openlink()"/>
+div[class$="ad"],开心网<div id="head" class="newhead">
+div[class$="-gg"],http://joowii.com/ 右侧边栏
+div[class^="ad0"],http://www.dm5.com/manhua-updated/底部栏翻页行;<div id="search_fy" class="ad02">
+div[class="topbanner"],新蛋，今日炸蛋页面
+div[class="textMes"],猴岛论坛短消息内容。div[class="textMes"],
+div[class^="topA"],环球军事头栏<div class="topAll">
+div[class$="_adv"],http://club.tgfcer.com/forum-10-1.html论坛帖子内容 <div id="content_adv" class="content_adv">，
+td[id="banner"],http://www.cntuw.com/ 右上角登录框，td id="banner" align="right" style="line-height:25px;valign:middle;color:#666666">
+div[class*="adWrapper"], ddvip <div class="HeadWrapper">
+div[id^="ad-"],黑光网相册，http://www.heiguang.com/photo/sm/20120621/91999.html，<div class="ad-image" style="float:none; overflow:hidden; text-align:center;" id="ad-image">
+div[class*="_ads"],meidfire 网盘下载
+div[class^="AD"],gmail 左侧talk无法弹出。<div class="AD" style="position: absolute">
+div[id$="AD"]，东方热线新闻页面主要内容被过滤。<div class="newstxt newsboxw" id="taojifenAD">
+div[class="tabcontent"],http://www.zjw.cn/ 这个网页中间栏目部分
+div[id^="ad_"],div[class$="anner"][id^="ad"], dbank资源页面误伤严重
+div[class*="Ad"],tmall 商城  <div class="actAdvice">
+,div[id^="portal_block"],http://bbs.kukupig.com/forum.php,首页顶部热帖等内容,<div id="portal_block_150" class="block move-span">
+ul[class^="ad"],淘宝购物收货地址 <ul id="address-list" class="address-list">
+div[class^="ad-"], 178.com ,首页显示 <div class="ad-bg">
+body>div[class^="ad"], 刷机网 shuaji.net <div class="advancedsearch">
+#已失效div[class^="wp a_"],http://bbs.laoqianzhuang.com/, <div class="wp a_t">
+td[id="banner"],softjie.cn,<td id="banner" class="vt tar">
+div[class*="_ad"], 新浪微博取消关注框，<div class="W_addbtn_even" title="互相关注">
+div[id$="_banner"],虎扑http://bbs.hoopchina.com/cba
+div[class*=" ads"],div[class$="ads"] gmail
+#ckepop,jiathis分享
+div[id^="ads"],div[id^="ad"],天涯回复框 <div class="respond" id="adsp_content_replybox_frame_1">
+.box ,影响dbank首页显示（未登录情况下）
+div[class^="a_p"],http://www.anzhuo.cn/thread-134443-1-1.html 帖子内容在加载翻页js时无法正常显示
+.postbit_adcode,#adbottom,#GoogleAd,#footerStuff 
+div[id="online"][class="bm oll"],div[id="category_lk"][class="bm_c ptm"]
+div[class$="AD"], http://www.macmillandictionary.com/dictionary/british/tree 发音部分
+a[href*="/adclick.php?"], googleplus网页显示不全
+[id*="-popup"],http://mb.qq.com/s60v2v3 弹出下载框
+[class$="_ad"],cctv视频播放已改版
+table[width="100%"][cellspacing="0"][cellpadding="0"];
+table[border="0"][cellpadding="0"][cellspacing="0"][width="100%"][align="center"],部分页面的主要内容和主要广告
+div[id$="TopAD"],div[class$="TopAD"]
+div[class="text"][id^="text"],环球网网页面内容
+div[class="links"],网易邮箱右上角链接
+iframe[id*="ad"],网易邮箱邮件页面
+[class*="-popup"],淘宝网聚划算登录
+[id*="_popup"],百度空间登陆迟缓
+IFRAME[src="about:blank"],淘宝机票弹出页面显示层
+div[class^="ad"],凤凰网部分视频
+IMG[src^="http://img.ifeng.com/tres/"],凤凰网logo
+[class*="popup"],人人网分享预览
+div[id*="float"],div[class*="float"],论坛登录页面层
+#focus,youku音乐焦点
+div[class^="ad"],#hiddenlpsubmitdiv, bbs.ngacn.cc
+div[class$="-banner"],www.ipc.me
+[id^="ad"],div[class^="banner_"],[id^="banner"],verycd
+[id$="ads"],hk.yahoo.com https://i.doit.im/download 下载页面显示问题
+div[id^="AD"],cnbeta
+div[id$="ad"],[id$="ad"], 深度论坛
+div[class*="adarea"]把新浪博客的banner部分误过滤
+[id*="-popup"] 会把http://msoft.qq.com/ 有些软件的下载提示框搞掉
+
+
+
+/* BackUp */
+div[class$="_ad"],cntv播放页面播放器被过滤
+div[class^="ad_box"],
+div[class^="adbanner"],div[class^="adbox"],
+div[class^="advert"],div[class="advarticle"],div[class="advp"],
+div[class$="adclass"],div[class^="adclass"],
+div[class^="adBlock "],div[class^="adBlk ad"],
+div[align="center"][id^="ad"],center>div[id^="AD"],div[id^="AD"][style*="w"]
+
+Item, "平滑滚动"=Set preference, "user prefs|Smooth Scrolling=1" > Set preference, "user prefs|Smooth Scrolling=0"
+
+Item,"高亮关键字(&H)"=Go to page, "javascript:(function(){var count=0,text,dv;text=document.getSelection();if(!text)text=prompt('关键字:','');if(text==null || text.length==0)return;dv=document.defaultView;function searchWithinNode(node,te,len){var pos,skip,spannode,middlebit,endbit,middleclone;skip=0;if(node.nodeType==3){pos=node.data.toUpperCase().indexOf(te);if(pos>=0){spannode=document.createElement('SPAN');spannode.style.backgroundColor='yellow';spannode.style.color='black';middlebit=node.splitText(pos);endbit=middlebit.splitText(len);middleclone=middlebit.cloneNode(true);spannode.appendChild(middleclone);middlebit.parentNode.replaceChild(spannode,middlebit);++count;skip=1;}}else if(node.nodeType==1&& node.childNodes && node.tagName.toUpperCase()!='SCRIPT' && node.tagName.toUpperCase!='STYLE'){for (var child=0;child<node.childNodes.length;++child){child=child+searchWithinNode(node.childNodes[child],te,len);}}return skip;};searchWithinNode(document.body,text.toUpperCase(),text.length);})();", , , "none"
+
+[Simple ImageLike Menu]
+Item, "搜索相似图片(&F)" = External action,,,,"none" | Copy image address,-2 & delay,1 & Go to page, "http://www.tineye.com/parse?url=%c",,"tineye" & Switch to previous page & delay,1 & Go to page, "http://stu.baidu.com/i?rt=0&rn=10&ct=1&tn=baiduimage&objurl=%c",,"百度识图" & Switch to previous page & delay,1 & Go to page, "http://pic.sogou.com/ris?query=%c",,"搜狗识图" & Switch to previous page & delay,1 & Go to page, "http://iqdb.org/?url=%c",,"iqdb" & Switch to previous page
+;Item, "Tineye搜索" = Copy image address,-2,,,"tineye" & New page & Go to page, "http://www.tineye.com/parse?url=%c" & Switch to previous page
+;Item, "搜狗搜图"=Copy image address,-2,,,"sogou" & New page & Go to page, "http://pic.sogou.com/ris?query=%c" & Switch to previous page
+;Item, "Google此图片"=Copy image address,-2,,,"google" & New page & Go to page, "http://images.google.com/searchbyimage?image_url=%c&hl=zh-CN&sourceid=opera&client=opera" & Switch to previous page
+;Item, "百度识图" = Copy image address,-2,,,"baidu" & New page & Go to page, "http://stu.baidu.com/i?rt=0&rn=10&ct=1&tn=baiduimage&objurl=%c" & Switch to previous page
+;Item, "Yande搜索" = Copy image address,-2,,,"imouto" & Delay,1 & Go to page, "javascript: var url = encodeURI('%c'); window.open('http://yande.re/post/similar?services=all&url=' + url).blur();"
+;Item, "IDQB搜索" = Copy image address,-2,,,"Search" & New page & Go to page, "http://iqdb.org/?url=%c" & Switch to previous page
+Button, "NightCss"="Go to page, "javascript:(function(){var night=function(w){(function(d){var css='html{background:#333 !important}html *{background:none !important;color:#bbb !important;border-color:#333 !important;border-width:0 !important}html a,html a *{color:#5c8599 !important;text-decoration:underline !important}html a:visited,html a:visited *,html a:active,html a:active *{color:#525f66 !important}html a:hover,html a:hover *{color:#cef !important;background:#023 !important}html input,html select,html button,html textarea{background:#4d4c40 !important;border:1px solid #5c5a46 !important;border-top-color:#474531 !important;border-bottom-color:#7a7967 !important}html input[type=button],html input[type=submit],html input[type=reset],html input[type=image],html button{border-top-color:#7a7967 !important;border-bottom-color:#474531 !important}html input:focus,html select:focus,html option:focus,html button:focus,html textarea:focus{background:#5c5b3e !important;color:#fff !important;border-color:#474100 #665d00 #7a7849 !important;outline:2px solid #041d29 !important}html input[type=button]:focus,html input[type=submit]:focus,html input[type=reset]:focus,html input[type=image]:focus,html button:focus{border-color:#7a7849 #665d00 #474100 !important}html input[type=radio]{background:none !important;border-color:#333 !important;border-width:0 !important}html img[src],html input[type=image]{opacity:.5}html img[src]:hover,html input[type=image]:hover{opacity:1}html,html body{scrollbar-base-color:#4d4c40 !important;scrollbar-face-color:#5c5b3e !important;scrollbar-shadow-color:#5c5b3e !important;scrollbar-darkshadow-color:#474531 !important;scrollbar-track-color:#4d4c40 !important;scrollbar-arrow-color:#000 !important;scrollbar-3dlight-color:#7a7967 !important}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return}};var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node)}})(w.document); for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f)}catch(e){}}};night(window)})();", 1, , "Menu Chat""
+Item, "Whois"="Go to page, "javascript:(function(){location.href = 'http://whois.domaintools.com/' + location.hostname;})()", 1,,"Note Web""
+;item, "本页自动使用IE内核"=Execute program,"OpTools\AutoIE.bat","%u",,"ieopera"
+;Item, "网站自动转简体编辑"="Execute program, "notepad.exe", "profile\script\tw2cn_auto.jsx", , "Window Mail Compose Icon""
+;Item, "用隐身窗口打开"=External action,,,,"New Private Page Menu" | Copy document address & new private browser window & go to page, "%c"
+Button, "夜间模式"=External action,,,,"none" | Select user CSS file, 0 & Set preference, "Colors|Background=#000000" & Show preferences, 3 & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Click button & delay,1 & Click button & delay,1 & Ok
+Button, "普通模式"=External action,,,,"none" | Deselect user CSS file, 0 & Set preference, "Colors|Background=#ffffff" & Show preferences, 3 & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Click button & delay,1 & Click button & delay,1 & Ok
+Button, "宽度适配(全局)"="Set preference, "User Prefs|Rendering mode=-1",,,"Enable Mediumscreen Mode" | Set preference, "User Prefs|Rendering mode=0""
+Spacer2, 2
+Spacer3, 2
+Item, "Get Flash"=Go to page, "javascript:(function(){var createLink=function(l,t){var oLnk=document.createElement('a');oLnk.setAttribute('href',l);oLnk.appendChild(document.createTextNode(t));oLnk.setAttribute('style','display:inline-block;text-decoration:underline;font:14px Times New Roman;');return oLnk};var showLink=function(oEle,oSrc,oFlv){var cName='ujs_downlink';var p=oEle.previousSibling;if(p&&p.className==cName){oEle.parentNode.removeChild(p);return};var oDiv=document.createElement('div');oDiv.className=cName;oDiv.appendChild(createLink(oSrc,'Download'));var r=/%5Cw=(%5B%5Cw %5C/:.-%5D+flv)/i.exec(decodeURIComponent(oFlv));if(r){oDiv.appendChild(document.createTextNode(' ('));oDiv.appendChild(createLink(r%5B1%5D,'flv'));oDiv.appendChild(document.createTextNode(')'))};oEle.parentNode.insertBefore(oDiv,oEle)};var getParam=function(e,n){var re=new RegExp('^('+n+')$','i');var param=e.getElementsByTagName('param');for(var i=0,p;p=param%5Bi%5D;i++){if(p.getAttribute('name').match(re))return p.getAttribute('value')}};var searchEmbed=function(w){if(!w)return;var obj=w.document.getElementsByTagName('object');for(var i=0,oi;oi=obj%5Bi%5D;i++){var src=oi.getAttribute('data')||oi.getAttribute('src');if(!src)src=getParam(oi,'movie|data|src|code|filename|url');showLink(oi,src,getParam(oi,'flashvars'))};var em=w.document.getElementsByTagName('embed');for(var i=0,ei;ei=em%5Bi%5D;i++){if(ei.parentNode.tagName.toLowerCase()!='object')showLink(ei,ei.getAttribute('src'),ei.getAttribute('flashvars'))};for(var j=0,f;f=w.frames%5Bj%5D;j++){try{arguments.callee(f)}catch(e){}}};searchEmbed(window.top)})()", 1, , "none""
+Item, "制作简单按钮"=External action,,,,"none" | Go to Page, "javascript:void(inivar='%t')" & Go to page, "javascript:(function(){var q=document.getSelection()||window.inivar;if(q){q=q+' '};s=prompt('是否确认生成按钮？',q);if(s){s=s.replace(/(^\s*)|(\s*$)/g, '');if(s.match(/(\s\w$)/i)){var Icon;if(s.match(/n$/i)){Icon='new page'}else if(s.match(/b$/i)){Icon='bookmarks'}else if(s.match(/e$/i)){Icon='Window Mail Compose Icon'}else{Icon='window browser icon'};s='External action\,\,\,\,\x22'+Icon+'\x22\ \| '+s;s=s.substring(0,(s.length-2))};if(location.hostname!=''){}else{window.close()};window.open('data:text/html,<html><head><style type=\'text/css\'>body{background-color:black}.icon{background-image:-o-skin(\'window browser icon\');width:30px;display:inline-block;}.button{font-size:30px;font-weight:bold;text-align:center;margin-top:20%;}a:link,a:visited{color:white;font-size:30px;}</style></head><body><div class=\'button\'><p><span class=\'icon\'>&nbsp;</span><a href=\'opera:/button/'+encodeURIComponent(s)+'\'>Your Button</a></p></div></body></html>');}})()", 1,"Make Your Button","none"
+;Item, "新华字典(&X)"=External action,,,,"zdic" | COPY & GO TO PAGE ,"http://xh.5156edu.com/index.php?f_type=zi&f_key=%c",,,"none"
+Item, "海词(&D)"=External action,,,,"dict" | COPY & GO TO PAGE ,"http://dict.cn/%c",,,"none"
+Platform Windows, Button, "兼容模式-View in IE"="Go to page, "javascript:(function(){var h=location.href;if(!h||/^(javascript|about|opera):/i.test(h)){return}window.open().document.write('<html>'+'<head>'+'<title>'+(document.title?document.title:location.href).replace(/</g,'&lt;')+' - view in ie</title>'+'<style type=\x22text/css\x22>body{margin:0;padding:0;}embed{width:100\x25;height:100\x25;}</style>'+'</head>'+'<body>'+'<script type=\x22text/javascript\x22'+'src=\x22data:text/javascript,'+encodeURIComponent('document.write(\'<embed type=\x22application/viewinie\x22 param-location=\x22'+location.href+'\x22></embed>\');')+'\x22>'+'</script>'+'</body>'+'</html>')})();", , "调用IE内核", "iemode" + Copy document address & Close page & New private page & Paste and go,,,"ie""
+Platform Windows, Button, "使用IE打开(长按打开方式菜单)"="Execute program, "iexplore.exe", "%u", , "IE" + Show hidden popup menu, "Open in Menu""
+Item,"生成/显示密码(&W)"=Go to page, "javascript:(function(){var getRandomPass=function(d){var chars='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';var rez='';var len=d>=3?d:3;while(rez.length<len){rez+=chars.charAt(Math.floor(Math.random()*chars.length))}return/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).+$/.test(rez)?rez:arguments.callee(len)};var findPassEle=function(p){var c,s='',r=false,f=document.getElementsByTagName('form');for(var i=0;i<f.length;i++){c=f[i].elements;for(var j=0,e;e=c[j];j++){if(e.type=='password'){r=true;if(p){e.value=p;e.focus()}else if(e.value)s+='\n\n'+e.value}}};return r?s:null};var s=findPassEle();if(s){alert('在这个页面已经有密码:'+s)}else{findPassEle(prompt('密码生成'+(s==null?':':'. 插入?'),getRandomPass(12)))}})()",,,"none"
+Item,"HTTP标头(&H)" = Go to page, "javascript:(function(){var req=new XMLHttpRequest();req.open('HEAD',location.href+'?',true);req.onreadystatechange=function(){if(this.readyState==4){alert('Status: '+this.status+' '+this.statusText+'\n'+this.getAllResponseHeaders())}};req.send(null)})()",,,"Blank"
+Include, Page Elements Menu
+Item, ">> 简体中文"="Go to page, "javascript:location='http://translate.google.com/translate?u=' + encodeURIComponent(location);",,,"translation""
+Item, "页面信息"=Go to page, "javascript:(function(){var meta='',scripts='',embed='',iframes='',cookies='';var corrUrl=function(url){if(!url)return'';var q=url.indexOf('?')+1;return((q&&url.length>50)?url.slice(0,q>50?q:50)+'\u2026':url)+'\n'};var fullUrl=function(url){var a=document.createElement('a');a.href=url;return url?corrUrl(a.href):''};var m=document.getElementsByTagName('meta');for(var i=0,mi;mi=m[i];i++){meta+=(mi.name?mi.name+': ':(mi.httpEquiv?mi.httpEquiv+': ':''))+mi.content+'\n'};var s=document.getElementsByTagName('script');for(var i=0,si;si=s[i];i++){if(si.src)scripts+=corrUrl(si.src)};var e=document.getElementsByTagName('embed');var o=document.getElementsByTagName('object');for(var i=0,ei;ei=e[i];i++){embed+=fullUrl(ei.getAttribute('src'))};for(var i=0,oi;oi=o[i];i++){var src=oi.getAttribute('data')||oi.getAttribute('src')||oi.getAttribute('source');if(!src){var params=oi.getElementsByTagName('param');for(var j=0,p;p=params[j];j++){if(p.hasAttribute('name')&&p.getAttribute('name').match(/^(movie|data|src|code|filename|url|source)$/i)){src=p.getAttribute('value');break}}};var lnk=fullUrl(src);if(embed.indexOf(lnk)==-1)embed+=lnk};var f=document.getElementsByTagName('iframe');for(var i=0,fi;fi=f[i];i++){if(fi.src)iframes+=corrUrl(fi.src)};var c=document.cookie.split(';');for(var i=0,ci;ci=c[i];i++){while(ci.charAt(0)==' ')ci=ci.slice(1);if(ci.length>40)ci=ci.slice(0,40)+'\u2026';cookies+=ci+'\n'};var lastmod=(Date.parse(document.lastModified)==0)?'':document.lastModified;var mode=document.getElementsByTagName('HTmL').length==0?'Really strict':(document.compatMode=='CSS1Compat'?'Normal strict':'Quirks');var title=document.title||(document.getElementsByTagName('title')[0]&&document.getElementsByTagName('title')[0].text)||'';if(meta)meta='\nMeta-data:\n'+meta;if(scripts)scripts='\nScripts:\n'+scripts;if(embed)embed='\nEmbed objects:\n'+embed;if(iframes)iframes='\nIframes:\n'+iframes;if(cookies)cookies='\nCookies:\n'+cookies;alert('User-Agent: '+navigator.userAgent+'\n\nTitle: '+title+'\n\nAddress: '+location.href+'\n\nReferrer: '+document.referrer+'\n\nLast Modified: '+lastmod+'\n\nView Mode: '+mode+' mode\n'+meta+scripts+embed+iframes+cookies)})()",,,"News Read"
+Item, "选区突出"=Go to page, "javascript:/* Auto-Highlight Bookmarklet by Avi Halachmi- avihpit(at)yahoo(dot)com 2004-01-12 */(function(){  var d=false;  var id='_bookmarklet_highlight_with_mouse_';  d=document.getElementById(id);  if (d){    document.body.removeChild(d);  }else{    mydiv = document.createElement('div');    mydiv.id=id;    mydiv.zOrder=10000;    mydiv.style.position='fixed';    mydiv.style.height=100;    mydiv.style.left=0;    mydiv.style.right=0;    mydiv.style.borderWidth=2;    mydiv.style.borderRightWidth=10;    mydiv.style.borderLeftWidth=10;    mydiv.style.borderStyle='solid';    mydiv.style.borderColor='rgba(153, 234, 117, 0.6)';    mydiv.style.Opacity=0.1;    mydiv.style.backgroundColor='rgba(153, 134, 217, 0.2)';    range = document.createRange();    range.setStartAfter(document.body.lastChild,0);    range.insertNode(mydiv);    document.body.onmousemove=      function(e){        var x=false;        x=document.getElementById(id);        if (!x) return;        x.style.visibility='hidden';        x.style.top= e.clientY-50;        x.style.visibility='visible';      };  };})();", 1, , "none""
+Item, "页面变暗"=Go to page, "javascript:(function () {var dark_layer = null; if(!(dark_layer = document.getElementById('dark_layer'))) {var oDiv = document.createElement('div'); oDiv.id = 'dark_layer'; var pageHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, window.innerHeight); oDiv.style = 'position: absolute; top: 0; left: 0; width: 1px; height: ' + pageHeight + 'px; outline:rgba(0,0,0,0.2) solid 3000px;';document.body.appendChild(oDiv);} else {document.body.removeChild(dark_layer);} })();", 1, , "none""
+Item, "滚动屏幕"=Go to page, "javascript:function AutoScroll() {window.scrollBy(0,1); NextScroll = setTimeout('AutoScroll()', 120);window.onkeydown = StopScroll;};function StopScroll(e) {if(e.keyCode == 27){clearTimeout(NextScroll);};};AutoScroll();", 1, , "none""
+Item, "-----Adblock+-----"=Show popup menu
+Include,AdBlock Menu
+Item, "-----Page Info-----"=Show popup menu
+Item, "---PageElements---"=Show popup menu
+Item,"分割页面(&N)"=Go to page, "javascript:(function(f){if(f)if(f.rows){f.cols=f.rows;f.removeAttribute('rows')}else{ f.rows=f.cols;f.removeAttribute('cols')}else{var w=window,d=document,html=d.documentElement.outerHTML;d.write('<title>'+d.title+'</title><frameset rows=\'50%,50%'+'\' id=\'fset__\'><frame id=\'f1\'><frame id=\'f2\'></frameset>');w.f1.document.write(html);w.f2.document.write(html)}})(window.fset__)", 1, , "none"
+Item,"删除元素(&K)"="Go to page, "javascript:var b=new Array();var c=1;var o=((document.onkeydown==null)||(o==2))?0:1;document.onkeydown=ck;z=document.getElementsByTagName('*');for(i=0;i<z.length;i++){if(z[i].tagName.search(/(HTML|BODY)/i)==-1){z[i].onclick=function(e){t=this;if(window.event) e=window.event;if((t==e.target)||(window.event)) t.parentNode.removeChild(t);if(window.opera) e.stopPropagation();return false;};z[i].onmouseover=function(){if(!c)return;c=0;t=this;b[t]=t.style.backgroundColor;t.style.background='#FF9999';};void(z[i].onmouseout=function(){t=this;t.style.backgroundColor=b[t];c=1;});}}function ck(e){k=window.event?window.event.keyCode:e.keyCode;if((k==27)||o){o=2;document.onkeydown=null;for(i=0;i<z.length;i++){if(z[i].tagName.search(/(HTML|BODY)/i)==-1){z[i].onclick=null;z[i].onmouseover=null;z[i].onmouseout=null;z[i].style.backgroundColor=b[t];}}}}if(o==1) ck(1);", 1, "Kill Element", "none""
+Item,"简易IP查询(&W)"=External action,,,,"none" | Go to Page, "javascript:void(inivar='%c')" & Go to page, "javascript:(function(){var url=window.inivar;if(!url){url=''};if(url.search(/(^(https?:\/\/)?[^\/]+\/[^\.\?&\/]+$)/i)==-1){url=''};var x=location.host;var y=location.hostname.replace(/^(www|bbs)\./i,'');document.body.innerHTML += '<div style=\x22box-shadow: 0 0 6px #666;background-color:#5398ee;background-color:#5398ee\;color:white\;opacity:0.9\;border-radius:4px\;border:3px solid #5398ee\;width:504px\;position:fixed\;Z-index:999\;top:20px\;right:20px\;\x22 onClick=\x22this.style.display=\'none\'\;\x22><center>\u60A8\u7684<a href=\x22http:\/\/www.whoer.net\/ext\x22 target=\x22_blank\x22><font color=#fffffe>\u0049\u0050<\/font><\/a>\u5730\u5740\u662f\u3000\u002d\u3000\u5355\u51fb\u6b64\u5904\u5173\u95ed\u6b64\u7a97\u53e3<\/center><iframe width=\x22500\x22 height=\x2240\x22 style=\x22background-color:white\;border-radius:2px\;border:1px solid #b6bac0\;\x22src=\x22http:\/\/www.ip.cn\/getip.php?action=getip\x22><\/iframe><center>'+x+'\u3000\u002d\u3000<a href=\x22http:\/\/whois.domaintools.com\/'+y+'\x22 target=\x22_blank\x22><font color=#fffffe>Whois<\/font><\/a>\u3000\u002d\u3000<a href=\x22http:\/\/cn.alexa.com\/siteinfo\/'+y+'\x22 target=\x22_blank\x22><font color=#fffffe>Alexa<\/font><\/a>\u3000\u002d\u3000<a href=\x22http:\/\/uptime.netcraft.com\/up\/graph?site='+x+'\x22 target=\x22_blank\x22><font color=#fffffe>netcraft<\/font><\/a><\/center><iframe width=\x22500\x22 height=\x2240\x22 style=\x22background-color:white\;border-radius:2px\;border:1px solid #b6bac0\;\x22src=\x22http:\/\/www.ip.cn\/getip.php?action=queryip&ip_url='+x+'\x22><\/iframe><center>\u672C\u9875<a href=\x22http:\/\/leeiio.me\/realurl\/?url='+url+'\x22 target=\x22_blank\x22><font color=#fffffe>\u77ED<\/font><\/a>\u7F51\u5740<\/center><iframe width=\x22500\x22 height=\x2240\x22 style=\x22background-color:white\;border-radius:2px\;border:1px solid #b6bac0\;\x22src=\x22http:\/\/is.gd\/api.php?longurl='+encodeURIComponent(location.href)+'\x22><\/iframe><center><a href=\x22http:\/\/service.weather.com.cn\/plugin\/index.shtml\x22 target=\x22_blank\x22><font color=#fffffe>\u5929\u6C14<\/font><\/a>\u9884\u62A5<\/center><iframe width=\x22500\x22 height=\x2260\x22 style=\x22background-color:white\;border-radius:2px\;border:1px solid #b6bac0\;\x22src=\x22http:\/\/m.weather.com.cn\/m\/pn11\/weather.htm\x22><\/iframe><\/div>'; void(0);})()",,,"none"
+;Item, MI_IDM_POPUP_ADDRESS="Copy document address,,,,"New note""
+;Platform Windows, Item,"批量保存图片"=Execute program,"optools\QuickPic.exe","qiuckpic%u",,"Enable display images" & Save document
+Item, "网站历史查询"="Go to page, "http://www.infomall.cn/cgi-bin/arcv/*/%u",,,"Mail Searches""
+
+;Item, "自动检测 > 中文..."="Go to Page,"javascript:(function(){var s=encodeURIComponent('%u');if(s.length>0){s='http://translate.google.com/translate?u='+s+'&langpair=auto'+encodeURIComponent('|')+'zh-CN&hl=zh-CN&ie=UTF8';void open(s,'');}})()",,,"translation""
+Item, ">> 英语"="Go to Page,"javascript:(function(){var s=encodeURIComponent('%u');if(s.length>0){s='http://translate.google.com/translate?u='+s+'&langpair=auto'+encodeURIComponent('|')+'en&hl=en&ie=UTF8';void open(s,'');}})()",,,"translation""
+;Item,启用全局代理=Disable proxy servers,,,,proxy_all & Open url in new page,"opera:config" & Delay,10 & Enable proxy servers & Go to page,"javascript:var allExc=opera.getPreference('Proxy','No Proxy Servers'),usePAC='proxy_type.pac',useALL='proxy_type.all';if(allExc.indexOf(usePAC)==-1 && allExc.indexOf(useALL)==-1){allExc+=','+useALL}else if(allExc.indexOf(usePAC)!=-1){allExc=allExc.replace(usePAC,useALL)}opera.setPreference('Proxy','No Proxy Servers',allExc);opera.setPreference('Proxy','Use Automatic Proxy Configuration',0);window.close()"& delay,50 & close page
+Item, -455450218=Work offline | Work online
+ & close page
+[Fast menu]
+Item, "自动"="Set preference, "User Prefs|Enable Hardware Acceleration=1""
+Item, "禁用"="Set preference, "User Prefs|Enable Hardware Acceleration=0""
+Item, "强制开启"="Set preference, "User Prefs|Enable Hardware Acceleration=2""
+[WebGL menu]
+Item, "自动"="Set preference, "User Prefs|Enable WebGL=1""
+Item, "禁用"="Set preference, "User Prefs|Enable WebGL=0""
+Item, "强制开启"="Set preference, "User Prefs|Enable WebGL=2""
+Submenu,硬件加速(显卡支持), Fast menu
+Submenu,WebGL(HTML5标准), WebGL menu
+-------------------1
+[QR Menu]
+Item, "嗯，你是对的"= Go to page, "javascript:{ta = window.document.getElementsByTagName('textarea'); ta[ta.length-1].value += '[quote]'+document.getSelection()+'[/quote]\n'; ta[ta.length-1].focus();}", 1,,"noexist", & Delay, 100 & Insert,"嗯，你是对的！" & focus next widget & click button
+Item, "同问"= Go to page, "javascript:{ta = window.document.getElementsByTagName('textarea'); ta[ta.length-1].value += '[quote]'+document.getSelection()+'[/quote]\n'; ta[ta.length-1].focus();}", 1,,"noexist", & Delay, 100 & Insert,"同问！" & focus next widget & click button
+Item, "感谢"= Go to page, "javascript:{ta = window.document.getElementsByTagName('textarea'); ta[ta.length-1].value += '[quote]'+document.getSelection()+'[/quote]\n'; ta[ta.length-1].focus();}", 1,,"noexist", & Delay, 100 & Insert,"嗯，非常感谢！" & focus next widget & click button
+Item, "请问链接"= Go to page, "javascript:{ta = window.document.getElementsByTagName('textarea'); ta[ta.length-1].value += '[quote]'+document.getSelection()+'[/quote]\n'; ta[ta.length-1].focus();}", 1,,"noexist", & Delay, 100 & Insert,"请问具体链接是什么！" & focus next widget & click button
+Item, "抱歉，不能重现该问题"= Go to page, "javascript:{ta = window.document.getElementsByTagName('textarea'); ta[ta.length-1].value += '[quote]'+document.getSelection()+'[/quote]\n'; ta[ta.length-1].focus();}", 1,,"noexist", & Delay, 100 & Insert,"抱歉，不能重现该问题！" & focus next widget & click button
+Submenu, "引用并回复", QR Menu , , "Mail Thread"
+Item, M_MENU_SHOW_MENU_BAR = Enable menu bar,,,, | Disable Menu Bar, , , M_MENU_HIDE_MENU_BAR, 
+
+[Simple Skin Menu]
+Item, 464549255=Disable skin coloring
+Item, -66645201=Use system skin coloring
+--------------------1
+Item, -1616373152=Set skin coloring, #803C00
+Item, -1615957088=Set skin coloring, #BD9431
+Item, 830828255=Set skin coloring, #2FB35E
+Item, -1480624045=Set skin coloring, #2F83B3
+Item, -1616555806=Set skin coloring, #001E80
+Item, 783034068=Set skin coloring, #606090
+Item, 1065794162=Set skin coloring, #4B0082
+Item, 1074075317=Set skin coloring, #DC143C
+Item, -1480625131=Set skin coloring, #900000
+Item, "雪落银城(&W)"=Set skin coloring, #C0C0C0
+--------------------2
+Item, 获取更多主题=Open URL in new page, "https://addons.opera.com/themes/",,,"Blank"
+Item, 获取更多皮肤=Open URL in new page, "http://my.cn.opera.com/community/customize/skins/embedded/",,,"Blank"
+Item,"皮肤元素扩展(&L)"=go to page,"https://addons.opera.com/addons/extensions/details/icon-list/",,,"none"
+BreakItem
+Include,Internal skin list
+;Item, "伪装为Word"="Set preference, "User Prefs|Application Icon=profile/Word.ico" > Set preference, "User Prefs|Application Icon="
+;Include, 12 Menu HWA
+Item, "固定标题"= Set Preference, "User Prefs|title=Opera丨%t"> Set preference, "User Prefs|title="
+;Item, "Http开关"=Show preferences,22,,,"Unite Failed"& Delay,1& Show proxy servers& Delay,1& Focus next widget& Click button& OK& Delay,1& OK&Delay,1&Stop&Delay,1&Reload
+Item, MI_IDM_CONTROL_MENU_ENABLE_PROXY		= Enable proxy servers | Disable proxy servers
+Item, M_ENABLE_OPERA_TURBO			= Enable Web Turbo | Disable Web Turbo
+--------------------4
+;1160版本之前
+Item, "----当前站点识别----"=Show popup menu
+Item,"使用迅雷下载"=Execute Program, "Optools\XLNonIESvr.exe", "@%l %u",,"Thunder""
+Item,"使用迅雷下载全部链接"=Execute Program, "Optools\XLNonIESvr.exe", "#%s %u",,"Thunder""
+;Item,"关闭全局代理=Disable proxy servers
+;Item, "释放Opera内存"="Execute program, "optools\empty.exe", "opera.exe", , "empty""
+;右键点击托盘图标的弹出菜单：[Tray Popup Menu]
+;右键点击标签栏空白处的弹出菜单：[Pagebar Popup Menu]
+;右键点击当前激活标签栏的弹出菜单：[Pagebar Item Popup Menu]
+;右键点击其他未激活标签栏的弹出菜单：[Pagebar Inactive Item Popup Menu]
+;item, "控制面板"="Execute program, "control.exe", , , "control""
+;Platform Windows, Item, "系统回收站(&Q)"="Execute program, "explorer.exe", "::{645FF040-5081-101B-9F08-00AA002F954E}", , "none""
+;Item, "Print Friendly"=Go to page, "javascript:(function(){pfstyle='bk';_pnicer_script=document.createElement('SCRIPT');_pnicer_script.type='text/javascript';_pnicer_script.src='http://cdn.printfriendly.com/printfriendly.js?x='+(Math.random());document.getElementsByTagName('head')[0].appendChild(_pnicer_script);_pnicer_css=document.createElement('LINK');_pnicer_css.rel='stylesheet';_pnicer_css.href='http://cdn.printfriendly.com/printfriendly.css';_pnicer_css.type='text/css';_pnicer_css.media='screen';document.getElementsByTagName('head')[0].appendChild(_pnicer_css);})();", 1
+Item, "炮炮兵" = Go to page, "javascript: max=28; totalNum=86; begin=1; bit=3; url='http://comic.qq.com/images/comic/2007/12/28/april/ppb/'; format='.gif'; footPos='bottom'; bdColor='#FFFEE4'; bdBorder='1px solid black'; bodyWidth='285px'; bodyRight='5px'; bodyBottom='5px'; imgWidth='50px'; imgHeight='50px'; imgBorder='1px solid darkgray'; imgHoverBd='1px solid red'; imgOpacity = '1'; btnColor='#FFFEE4'; clBtnColor='#FFFEE4'; btnHover='#ffff99'; clsBtnHover='#ffff99'; btnSelected='#ffff00'; btnBorder='1px solid black'; clBtnBorder='1px solid black'; btnWidth='48px'; btnPadding='1px'; fontSize='12px'; fontColor='black'; clfontColor='black'; idx=0; pages=0; imageList = ''; imgLinks = new Array(); footPages = new Array(); temp = document.getElementById('faceDialog'); if(temp) temp.parentNode.removeChild(temp); faceDialog = document.createElement('div'); faceDialog.id = 'faceDialog'; faceDialog.setAttribute('style', 'position:fixed;right:'+bodyRight+';top:'+bodyBottom+';width:'+bodyWidth+';background:'+bdColor+';border:'+bdBorder+';z-index:999;'); for(i=0;i<totalNum;i++){ imgLinks[idx++]=url+getPageNumWitchZero((begin+i), bit)+format; } pages = imgLinks.length/max|0; if(imgLinks.length%max != 0) pages++; if(imgLinks.length >= max) first = max; else first = imgLinks.length; for(j=0;j<first;j++){ imageList += '<div style=\x22border:'+imgBorder+';opacity:'+imgOpacity+';margin:2px;cursor:pointer;width:'+imgWidth+';height:'+imgHeight+';float:left\x22 onmouseover=\x22imgOver(this);\x22 onmouseout=\x22imgOut(this)\x22><table style=\x22width:100%;height:100%\x22><tr><td valign=\x22center\x22 align=\x22center\x22><img style=\x22width:100%\x22 src=\x22' + imgLinks[j] + '\x22 onclick=\x22addFace(this);\x22/></td></tr></table></div>'; } faceBody = document.createElement('div'); faceBody.id = 'faceBody'; faceBody.setAttribute('style','clear:both;margin-left:1px;margin-top:1px;'); faceBody.innerHTML = imageList; footDiv = document.createElement('div'); footDiv.setAttribute('style','clear:both;margin-left:3px;'); for(i=1;i<=pages;i++){ footPages[i] = document.createElement('div'); footPages[i].name = 'foot'; footPages[i].setAttribute('style','background:'+btnColor+';border:'+btnBorder+';cursor:pointer;float:left;margin-right:6px;margin-top:3px;margin-bottom:3px;width:'+btnWidth+';font-size:'+fontSize+';color:'+fontColor+';padding-top:'+btnPadding+';padding-bottom:'+btnPadding+';text-align:center;'); footPages[i].innerHTML = '第' + i + '页'; footPages[i].addEventListener('click',function(){changePage(this);},false); footPages[i].addEventListener('mouseover',function(){btnMouseOver(this);},false); footPages[i].addEventListener('mouseout',function(){btnMouseOut(this);},false); footDiv.appendChild(footPages[i]); } footPages[1].style.background=btnSelected; closeBtn = document.createElement('div'); closeBtn.setAttribute('style','background:'+clBtnColor+';border:'+clBtnBorder+';cursor:pointer;float:left;margin-right:6px;margin-top:3px;margin-bottom:3px;width:'+btnWidth+';font-size:'+fontSize+';color:'+clfontColor+';padding-top:'+btnPadding+';padding-bottom:'+btnPadding+';text-align:center;'); closeBtn.innerHTML = '关闭'; closeBtn.onclick = 'this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode)'; closeBtn.addEventListener('mouseover',function(){btnMouseOver(this);},false); closeBtn.addEventListener('mouseout',function(){btnMouseOut(this);},false); footDiv.appendChild(closeBtn); if(footPos == 'bottom'){ faceDialog.appendChild(faceBody); faceDialog.appendChild(footDiv); } else if(footPos == 'top'){ faceDialog.appendChild(footDiv); faceDialog.appendChild(faceBody); } document.body.appendChild(faceDialog); dialogX = faceDialog.offsetLeft; dialogY = faceDialog.offsetTop; if(footPos == 'top'){ faceDialog.setAttribute('style','position:fixed;width:428px;background:'+bdColor+';border:'+bdBorder+';z-index:999;left:'+dialogX+'px;top:'+dialogY+'px;'); } function imgOver(obj){ obj.style.border = imgHoverBd; obj.style.opacity = 1; } function imgOut(obj){ obj.style.border = imgBorder; obj.style.opacity = imgOpacity; } function btnMouseOver(obj){ if(obj.style.background == btnSelected.toLowerCase()) return true; else{ oldColor = obj.style.background; obj.style.background = btnHover; } } function btnMouseOut(obj){ if(obj.style.background == btnSelected.toLowerCase()) return true; obj.style.background = oldColor; } function changePage(obj){ for(i=1;i<footPages.length;i++) footPages[i].style.background = btnColor; obj.style.background = btnSelected; imageList = ''; pageNum = obj.innerHTML.match(/\d+/); if(pageNum != pages){ begin = (pageNum-1)*max; end = pageNum*max - 1; } else{ begin = (pageNum-1)*max; end = imgLinks.length-1; } for(i=begin;i<=end;i++){ imageList += '<div style=\x22border:'+imgBorder+';opacity:'+imgOpacity+';margin:2px;cursor:pointer;width:'+imgWidth+';height:'+imgHeight+';float:left\x22 onmouseover=\x22imgOver(this);\x22 onmouseout=\x22imgOut(this)\x22><table style=\x22width:100%;height:100%\x22><tr><td valign=\x22center\x22 align=\x22center\x22><img style=\x22width:100%\x22 src=\x22' + imgLinks[i] + '\x22 onclick=\x22addFace(this);\x22/></td></tr></table></div>'; } oldDiv = document.getElementById('faceBody'); newDiv = document.createElement('div'); newDiv.id = 'faceBody'; newDiv.setAttribute('style','clear:both;margin-left:1px;margin-top:1px;'); newDiv.innerHTML = imageList; oldDiv.parentNode.replaceChild(newDiv,oldDiv); } function addFace(imgObj){ imgLink = imgObj.src; imgTag = '[img]' + imgLink + '[/img]'; textArea = document.getElementById('message');/*phpbb*/ if(textArea == null || textArea.tagName.toLowerCase() != 'textarea')/*dz7.0.0*/ textArea = document.getElementById('e_textarea'); if(textArea == null || textArea.tagName.toLowerCase() != 'textarea'){/*others*/ textArea = document.getElementsByTagName('textarea'); textArea = textArea[textArea.length-1]; } cursorStart = textArea.selectionStart; cursorEnd = textArea.selectionEnd; textArea.value = textArea.value.slice(0,cursorStart) + imgTag + textArea.value.slice(cursorEnd); textArea.focus(); textArea.selectionStart = cursorStart + imgTag.length; textArea.selectionEnd = cursorEnd + imgTag.length; } function getPageNumWitchZero(num, bit){ var num = '' + num; var zero = '', i = 0; if(num.length >= bit) return num; for(i = 0; i < (bit - num.length); i++){ zero += '0'; } return (zero + num); } window.addEventListener( 'click', function(e){ obj = e.target; while(obj){ if(obj.id && obj.id == 'faceDialog' || obj.nodeName.toLowerCase() == 'textarea') return false; else obj = obj.parentNode; } temp = document.getElementById('faceDialog'); if(temp) temp.parentNode.removeChild(temp); },false ); void(0);",1,,"Smiley Wink"
+Item, "-----Source-----"=Show popup menu
+Button, "页面变暗"="Go to page, "javascript:(function () {var dark_layer = null; if(!(dark_layer = document.getElementById('dark_layer'))) {var oDiv = document.createElement('div'); oDiv.id = 'dark_layer'; var pageHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, window.innerHeight); oDiv.style = 'position: absolute; top: 0; left: 0; width: 1px; height: ' + pageHeight + 'px; outline:rgba(0,0,0,0.2) solid 3000px;';document.body.appendChild(oDiv);} else {document.body.removeChild(dark_layer);} })();",,"页面变暗","News Read""
+Button, "编辑模式"="Go to page, "javascript:(function(){document.designMode=(document.designMode=='on')?'off':'on'})()", , "Edit mode", "News Read""
+Button, "汉典"="Go to page, "javascript:void((function()%20{var%20element=document.createElement('script');%20element.setAttribute('src',%20'http://www.zdic.net/tools/zih.asp');%20document.body.appendChild(element);})())", 1, "汉典查词", "zdic""
+Button, "显示/隐藏面板+面板项目"="Set alignment, "hotlist", 6, "面板", "Panels" > Set alignment, "hotlist", , "面板", "Panels" + Show popup menu, "Internal panels""
+Button, M_IMAGE_MENU_SHOW="Enable display images > Disable display images,,,M_IMAGE_MENU_NO > Display cached images only,,,M_IMAGE_MENU_CACHED + Show popup menu, "Images And Style Menu""
+[Zoom Toolbar.content]
+Button, "宽度适配(本页)"=Enable mediumscreen mode | Disable mediumscreen mode
+Button, "平滑滚动"="Set preference, "user prefs|Smooth Scrolling=1", , "平滑滚动已启用", "Expand Enabled" > Set preference, "user prefs|Smooth Scrolling=0", , "平滑滚动已关闭", "Expand Disabled""
+NamedButton, tbb_ShowImages, M_IMAGE_MENU_SHOW=Enable display images > Disable display images,,,M_IMAGE_MENU_NO > Display cached images only,,,M_IMAGE_MENU_CACHED
+Spacer4, 2
+Label, S_ZOOM_SLIDER_CAPTION
+;Button, "放大"="Zoom in, 10, , , "Zoomd""
+;Button, "缩小"="Zoom out, 10, , , "Zoomx""
+Button, "全局缩放"="Set preference, "User Prefs|Scale=100",,"全局缩放(100%)", > Set preference, "User Prefs|Scale=130",,"全局缩放(130%)","Widget No Filesystem Access" > Set preference, "User Prefs|Scale=150",,"全局缩放(150%)","Widget No Filesystem Access 24""
+ZoomSlider, 1
+;W
+;A
+;Y
+;H
+;U
+;J
+;K
+;O
+;P
+;Item, "自动检测 > 中文..."="Go to Page,"javascript:(function(){var s=encodeURIComponent('%u');if(s.length>0){s='http://translate.google.com/translate?u='+s+'&langpair=auto'+encodeURIComponent('|')+'zh-CN&hl=zh-CN&ie=UTF8';void open(s,'');}})()",,,"translation""
+;Item, ">> 英语"="Go to Page,"javascript:(function(){var s=encodeURIComponent('%u');if(s.length>0){s='http://translate.google.com/translate?u='+s+'&langpair=auto'+encodeURIComponent('|')+'en&hl=en&ie=UTF8';void open(s,'');}})()",,,"translation""
+
+;Item, M_OPEN_BACKGROUND_WINDOW		        = Open link in background window, -2, "urlinfo"
+;Item, M_BOOKM_ITEM_POPUP_MENU_OPEN		= Open link, -2, "urlinfo"
+;Item, MI_IDM_MENU_PAGEBAR_LINK_IN_NEW_PAGE	= Open link in new page, -2, "urlinfo"
+;Item, 在隐身窗口中打开=new private browser window,,,,"Window Private Icon" & go to page, "%l"
+;Submenu, M_INTERNAL_SPELLCHECK_LANGUAGE, Spellcheck Language
+;Submenu, M_INTERNAL_SPELLCHECK_LANGUAGE, Spellcheck Language
+;Submenu, M_INTERNAL_SPELLCHECK_LANGUAGE, Spellcheck Language
+;Item, M_INTERNAL_SPELLCHECK_ENABLE=Spell check | Spell check
+;Item, "查看当前IP"="Go to page, "http://www.ip138.com/" & New page & Go to page, "http://get.youripfast.com/",,"Contact0""
+;Item, "编辑本地HOST"=External action, , , "编辑HOST", "Mail Compose HTML" | Go to page, "C:/WINDOWS/system32/drivers/etc/hosts" & Delay, 1 & View document source & Switch to previous page & Close page, 1
+
+;Item, M_ENABLE_OPERA_TURBO = Enable Web Turbo | Disable Web Turbo
+;Submenu, D_CUSTOMIZE_TOOLBAR_DIALOG_HEADER, Pagebar Customize Menu
+;Platform Win2000-Unix-Mac, Feature Voice, Item, M_HOTCLICK_MENU_ITEM_SPEAK = Speak selection
+;Item, "带格式复制"="Go to Page, "javascript:(function(){var encodeBase64=function(a){var b='';var c=0;var i=0;var d='';var e=a.length;var f=[];var g='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';while(c=a.charCodeAt(i++)){if(c<0x80){f[f.length]=c}else if(c<0x800){f[f.length]=0xc0|(c>>6);f[f.length]=0x80|(c&0x3f)}else if(c<0x10000){f[f.length]=0xe0|(c>>12);f[f.length]=0x80|((c>>6)&0x3f);f[f.length]=0x80|(c&0x3f)}else{f[f.length]=0xf0|(c>>18);f[f.length]=0x80|((c>>12)&0x3f);f[f.length]=0x80|((c>>6)&0x3f);f[f.length]=0x80|(c&0x3f)}if(i==e){while(f.length%%3){f[f.length]=0;d+='='}}if(f.length>2){b+=g[f[0]>>2];b+=g[((f.shift()&3)<<4)|(f[0]>>4)];b+=g[((f.shift()&0xf)<<2)|(f[0]>>6)];b+=g[f.shift()&0x3f]}}return(b+d)};var selWin=function(w){if(w.getSelection()!='')return w;for(var i=0,f,r;f=w.frames[i];i++){try{if(r=arguments.callee(f))return r}catch(e){}}};var win=selWin(window);if(win){var doc=win.document;var link=win.location.href;if(win.location.protocol=='file:')link=link.replace('localhost','');var sel=doc.createDocumentFragment();var range=win.getSelection().getRangeAt(0);sel.appendChild(doc.createComment('StartFragment'));sel.appendChild(range.cloneContents());sel.appendChild(doc.createComment('EndFragment'));var ele=range.commonAncestorContainer;while(ele){if(ele.nodeType==1){var clone=ele.cloneNode(false);clone.appendChild(sel);sel=clone};ele=ele.parentNode};var h=sel.insertBefore(doc.createElement('head'),sel.firstChild);var title=doc.getElementsByTagName('title')[0];if(title)h.appendChild(title.cloneNode(true));var meta=doc.createElement('meta');meta.httpEquiv='content-type';meta.content='text/html; charset=utf-8';h.appendChild(meta);var base=doc.getElementsByTagName('base')[0];var b=base?base.cloneNode(false):doc.createElement('base');if(!b.href)b.href=link;h.appendChild(b);var styles=doc.styleSheets;for(var i=0,si;si=styles[i];i++){var style=doc.createElement('style');style.type='text/css';if(si.media.mediaText)style.media=si.media.mediaText;try{for(var j=0,rule;rule=si.cssRules[j];j++){style.appendChild(doc.createTextNode(rule.cssText+'\n'))}}catch(e){if(si.ownerNode)style=si.ownerNode.cloneNode(false)};h.appendChild(style)};var all=sel.getElementsByTagName('*');for(var i=all.length;i--;){var el=all[i];switch(el.nodeName.toLowerCase()){case'frame':case'iframe':case'embed':case'img':el.src=el.src;break;case'link':case'area':case'a':el.href=el.href;break;case'script':el.parentNode.removeChild(el);break}};var doctype='';var dt=doc.doctype;if(dt&&dt.name){doctype+='<!DOCTYPE '+dt.name;if(dt.publicId)doctype+=' PUBLIC \x22'+dt.publicId+'\x22';if(dt.systemId)doctype+=' \x22'+dt.systemId+'\x22';doctype+='>\n'};var f=doc.createElement('iframe');f.width=0;f.height=0;f.frameBorder='no';f.scrolling='no';f.src='data:text/cwf;charset=UTF-8;base64,'+encodeBase64('SourceURL:'+link+'\r\n\r\n'+doctype+sel.outerHTML);doc.documentElement.appendChild(f);f.parentNode.removeChild(f)}})();",,,"Copy" "
+;Item,"高亮关键字"=go to page,"javascript:var N_hi_s;if(!N_hi_s){N_hi_s=document.createElement('style');N_hi_s.setAttribute('type','text/css');N_hi_s.innerHTML='span.N_hw{background-color:yellow;}span.N_hw2{background-color:cyan;}';document.getElementsByTagName('head')[0].appendChild(N_hi_s);};N_selection=document.getSelection();N_HW(document.body,N_selection);function N_HW(node,word){if(node.hasChildNodes){var hi_cn;for(hi_cn=0;hi_cn<node.childNodes.length;hi_cn++){N_HW(node.childNodes[hi_cn],word);}};if (node.nodeType == 3){var tempNodeVal = node.nodeValue.toLowerCase();var tempWordVal = word.toLowerCase();if(tempNodeVal.indexOf(tempWordVal) != -1) {var pn = node.parentNode;if(pn.className != 'N_hw') {var nv = node.nodeValue;var ni = tempNodeVal.indexOf(tempWordVal); var before = document.createTextNode(nv.substring(0,ni)); var docWordVal = nv.substring(ni,word.length+ni); var after = document.createTextNode(nv.substring(ni+word.length)); var hiwordtext = document.createTextNode(docWordVal); var hiword = document.createElement('span'); hiword.className = 'N_hw';hiword.appendChild(hiwordtext); pn.insertBefore(before,node); pn.insertBefore(hiword,node); pn.insertBefore(after,node); pn.removeChild(node);}}}}",,,"Menu Info"
+Item, "解除右键限制"="Go to page, "javascript:alert(document.onselectstart = document.oncontextmenu = document.onmousedown = document.onkeydown = function(){return true;});", , , "search""
+
+Item, "突破盗链限制"=External action,,,"盗链退散", "Expand Disabled" > Stop,,,, "Enable display images" & Delay, 50 & Disable referrer logging & Delay, 1000 & Reload & Delay, 24000 & Enable referrer logging
+Button, "护眼绿"="Select user CSS file, 6, , "护眼绿", "Window Speed Dial Icon" > Deselect user CSS file, 6, , "护眼绿", "Mail Compose Text Color""
+Button, "开启/关闭代理"="Enable proxy servers, , , "开启/关闭代理", "Checkbox Skin" | Disable proxy servers, , , , "Checkbox Skin.Selected" + Show popup menu, "Simple Proxy Menu""
+Button, "代理"="Enable proxy servers, , , "代理已打开!", "Who Is.mini" > Disable proxy servers, , , "代理已关闭!", "No Security" & execute program,"cmd.exe","/c taskkill /im fgx.exe  /f /t || taskkill /im fg.exe || taskkill /im freeg.exe || taskkill /im freeu.exe || taskkill /im puff.exe || taskkill /im proxy.exe || taskkill /im u.exe /f" + Show popup menu, "Simple Proxy Menu""
+Button, "插件按需加载"="New page, , , "插件按需加载模式已关闭", "Media Play" & Restore page & Go to page, "opera:config" & Delay, 1 & Go to page, "javascript:(function(){var oh=opera.getPreference('User Prefs','Enable On Demand Plugin'),yeah=1-oh;opera.setPreference('User Prefs','Enable On Demand Plugin',yeah);window.close()})();" & Delay, 300 & Refresh display > Set preference, "User Prefs|Enable On Demand Plugin=1", , "插件按需加载模式已开启", "Media Pause""
+Button, "皮肤及色调"="Show popup menu, "Internal skin list", , "皮肤及色调", "Change Nickname" + Show popup menu, "Color Scheme Menu""
+Button, "TidyRead"=Go to page, "javascript:location.href=%22http://www.tidyread.com/td/index.php?r=site/read&url=%22+encodeURIComponent(document.location.href)+%22&title=%22+encodeURIComponent(document.title)", 1
+Button, "添加书签"="External action, , , "添加书签", "Add To Bookmarks" | Add to bookmarks & Delay, 1 & Switch groups, "advanced_group""
+Button, "手动播放Flash"="New page, , , "手动播放Flash", "swfon" & Go to page, "opera:config" & Delay, 1 & Go to page, "javascript:(function(){var oh=opera.getPreference('User Prefs','Enable On Demand Plugin'),yeah=(oh==1)?0:1;opera.setPreference('User Prefs','Enable On Demand Plugin',yeah);window.close()})();" > Set preference, "User Prefs|Enable On Demand Plugin=0", , "自动播放Flash", "swfoff" + Show popup menu, "Simple AdbDetails Menu""
+Button, "Enhanced Wand"=Set preference, "User Prefs|Wand Autosubmit=1", , "Enhanced Wand", "Wand" & Wand + Show hidden popup menu & Set preference, "User Prefs|Wand Autosubmit=0", , , "Wand" & Wand
+Button, "海词，短按开启，长按关闭"="Go to page, "javascript:(function (){_zdicShow = function(){return false};scriptObj = document.createElement('script');scriptObj.setAttribute('type','text/javascript');scriptObj.setAttribute('src','http://dict.cn/hc/');document.body.appendChild(scriptObj);})()", , "Dict", "Dict" + Show hidden popup menu & Go to page, "javascript:_dictShow = function () {return false;};void(0);""
+Button, "汉典，短按开启，长按关闭"="Go to page, "javascript:(function (){_dictShow = function(){return false};scriptObj = document.createElement('script');scriptObj.setAttribute('type','text/javascript');scriptObj.setAttribute('src','http://www.zdic.net/js/services.js');document.body.appendChild(scriptObj);})()", , "Zdic", "Zdic" + Show hidden popup menu & Go to page, "javascript:_zdicShow = function () {return false;};void(0);""
+Button, "录入代理名单"=Copy document address, , , "录入代理名单", "Mail Attachments" & Delay, 100 & Show preferences, 22, , , "No Security" & Delay, 800 & Focus next widget & Click button & Delay, 100 & Focus next widget & Focus next widget & Focus next widget & Focus next widget & Focus next widget & Focus next widget & Click button & Delay, 100 & Focus next widget & Focus next widget & Click button & Delay, 100 & Paste & Delay, 100 & Ok & Delay, 100 & Ok & Delay, 100 & Ok & Delay, 80 & Reload
+Button, "设为代理规则应用站点"=Edit site preferences, , , "设为代理规则应用站点", "Panel Links Inverted" & Delay, 100 & Cycle to previous page & Cycle to previous page & Delay, 100 & Focus next widget & Focus next widget & Focus next widget & Focus next widget & Delay, 100 & Click button & Delay, 100 & Next item & Delay, 100 & Previous item & Delay, 100 & Click button & Delay, 100 & Click default button & Delay, 80 & Reload
+Platform Windows, Button, "兼容模式-View in IE"="Go to page, "javascript:(function(){var h=location.href;if(!h||/^(javascript|about|opera):/i.test(h)){return}window.open().document.write('<html>'+'<head>'+'<title>'+(document.title?document.title:location.href).replace(/</g,'&lt;')+' - view in ie</title>'+'<style type=\x22text/css\x22>body{margin:0;padding:0;}embed{width:100\x25;height:100\x25;}</style>'+'</head>'+'<body>'+'<script type=\x22text/javascript\x22'+'src=\x22data:text/javascript,'+encodeURIComponent('document.write(\'<embed type=\x22application/viewinie\x22 param-location=\x22'+location.href+'\x22></embed>\');')+'\x22>'+'</script>'+'</body>'+'</html>')})();", , "调用IE内核", "iemode" + Show hidden popup menu, "Open in Menu""
+Button, "后台打开新窗口"="Set preference, "User Prefs|Target Destination=2", , , "Cascade" | Set preference, "User Prefs|Target Destination=0", , , "Search Folder" + Show popup menu, "Quick Preferences Menu""
+Button, "多级变暗"=Go to page, "javascript:(function () {var oDiv = document.createElement('div');oDiv.style = 'position: absolute; top: 0; left: 0; width: 1px; height: 99999px; outline:rgba(0,0,0,0.2) solid 3000px;';document.body.appendChild(oDiv);})();", 1, , "Chat Operator" + Reload
+Button, "上一张"="Go to page, "javascript:(function(){var adr=location.href;re=adr.match(/\d+/g);if(re){re=re[re.length-1];re2=(parseInt(re,10)-1)+'';while(re2.length<re.length){re2='0'+re2;};j=adr.lastIndexOf(re);adr2=adr.substring(0,j)+adr.substring(j,adr.length).replace(re,re2);location.href=adr2;}else{return;}})()", , "上一张", "Back""
+Button, "下一张"="Go to page, "javascript:(function(){var adr=location.href;re=adr.match(/\d+/g);if(re){re=re[re.length-1];re2=(parseInt(re,10)+1)+'';while(re2.length<re.length){re2='0'+re2;};j=adr.lastIndexOf(re);adr2=adr.substring(0,j)+adr.substring(j,adr.length).replace(re,re2);location.href=adr2;}else{return;}})()", , "下一张", "Forward""
+Button, "skydrive永久链"="Go to page, "javascript:void(function(z,a){(a=z('.sd_link_display'))&&(a=(a.value.match(/resid=.*?&/)||'0')[0].slice(6,-1))?prompt('SkyDrive外链获取成功, 请手动复制:','http://storage.live.com/items/'+a+'?filename='+encodeURI((z('.sd_header').innerHTML.match(/".*"/)||'0')[0].slice(1,-1))):alert('SkyDrive外链获取失败.')}(function(z){return document.querySelector(z)}))", , "skydrive永久链", "Save""
+Button, "优酷土豆"="External action, , , "优酷土豆", "search" | Go to page, "javascript:void(inivar='%c')" & Go to page, "javascript:void(inivar2='%t')" & Go to page, "javascript:(function(){var d=window.inivar;if(!d){d=''};var getText=function(w){var u=w.document,v=u.getSelection(),t=u.querySelectorAll('textarea,input');if(!v)for(var i=0,e;e=t[i];i++){if(v=e.value.substring(e.selectionStart,e.selectionEnd))break}return v};var getSel=function(w){var rez=w?getText(w):'';if(rez==''){for(var i=0,f;f=w.frames[i];i++){try{if(rez=arguments.callee(f))break}catch(e){}}};return rez};var w=window;var q=getSel(w)||window.inivar2;if(!q){q=prompt('y:youku & t:tudou',' ')};if(q){if(location.hostname!=''){}else{window.close()};if(q.match(/\s(y|t)$/i)){x=q.substring(0,(q.length-2));}else if(q.match(/^(y|t|\s+)$/i)){x=d}else{x=q};if(x.match(/^(\s+)?$/i)){x=d};x=x.replace(/^\s+|\s+$/g,'');if(!x){return};var yk='http://www.soku.com/search_video/q_'+x.replace(/ /g,'+');var td='http://so.tudou.com/isearch/'+encodeURIComponent(x).replace(/ /g,'+');if(q.match(/(\s|^)y$/i)){window.open(yk);}else if(q.match(/(\s|^)t$/i)){window.open(td)}else{setTimeout(function(){window.open(td).blur();}, 10);setTimeout(function(){window.open(yk);}, 10);}}})()", , , "none" + Go to page, "javascript:void(window.open('opera:cache?domain='+(function(d){if(/^(?:\d{1,3}\.){3}\d{1,3}$/.test(d))return d;var a=d.split('.');var l=a.length;return(l<3)?d:(a[l-2]+'.'+a[l-1])})(location.hostname)+'&list=preview'));",,,"find""
+Platform Windows, Item,"更新SimpleU" = Execute program,"OperaU","opup","", "Window Browser Icon"
+Item, "Bugmenot"=Go to page, "javascript:window.open('http://www.bugmenot.com/view.php?mode=bookmarklet&url=%u','getA','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=yes, width=600, height=600');void(0);",,,"bugmenot"
+NamedTrashBinButton, tbb_ClosedTabs, M_CLOSED="Reopen page, , , , "closedtabs" + Show popup menu, "Closed Pages Menu""
+[Link Popup Menu]
+Item,"使用迅雷下载"=Execute Program, "D:\DManager\Thunder\Components\ExplorerHelper\XLNonIESvr.exe", "@%l %u"
+[Image Link Popup Menu]
+Item,"使用迅雷下载"=Execute Program, "D:\DManager\Thunder\Components\ExplorerHelper\XLNonIESvr.exe", "@%l %u"
+[Image Popup Menu]
+Item,"使用迅雷下载"=Copy image address & Execute Program, "D:\DManager\Thunder\Components\ExplorerHelper\XLNonIESvr.exe", "@%c %u"
+[Document Popup Menu]
+Item,"使用迅雷下载全部链接"=Execute Program, "D:\DManager\Thunder\Components\ExplorerHelper\XLNonIESvr.exe", "#%s %u"
+
+
+		{siteName:'天涯论坛帖子',
+			url:/http:\/\/www\.tianya\.cn\/.+\/content\/.+/i,
+			siteExample:'http://www.tianya.cn/publicforum/content/2010expo/4eddfdeea800b3957fd4781ff6004bc3/1/0/1.shtml',
+			nextLink:'//*[@id="pageDivTop" or @class="pages"]/descendant::a[text()="下一页"][@href]',
+			autopager:{
+				pageElement:'//div[@id="pContentDiv"]'
+			}
+		},
+		
+		
+[System Menu]
+Item, "注册表编辑"="Execute program, "regedit.exe", , , "regedit""
+Item,  "屏幕键盘"="Execute program, "osk.exe", , , "osk""
+Item, "CMD命令"="Execute program, "cmd.exe", , , "cmd""
+Item,  "任务管理器"="Execute program, "taskmgr.exe", , , "taskmgr""
+--------------------1
+Item,  "计算器"="Execute program, "calc.exe", , , "calc""
+Item,  "记事本"="Execute program, "notepad.exe", , , "notepad""
+Item,  "画图"="Execute program, "mspaint.exe", , , "mspaint""
+Item,  "截图"="Execute program, "snippingtool.exe", , , "snippingtool""
+--------------------2
+Item,  "控制面板"="Execute program, "control.exe", , , "control""
+Item,  "管理工具"="Execute program, "compmgmt.msc", , , "compmgmt""
+Item,  "添加删除"="Execute program, "appwiz.cpl", , , "appwiz""
+Item,  "系统配置"="Execute program, "msconfig.exe", , , "msconfig""
+--------------------3
+Item,  "音量控制"="Execute program, "sndvol32.EXE", , , "sndvol32""
+Item,  "网络连接"="Execute program, "ncpa.cpl", , , "ncpa""
+Item,  "防火墙"="Execute program, "firewall.cpl", , , "firewall""
+Item,  "显示属性"="Execute program, "desk.cpl", , , "desk""
+
+Item, "皮肤图标查看"="Execute program, "皮肤图标查看.bat""
+Item, Whoiz"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://whois.domaintools.com/'+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')))", , , "domaintools""
+Item, "Traceroute"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://dns-tools.domaintools.com/ip-tools/?query='+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')+'&method=traceroute'))", , , "domaintools""
+Item, "Website analysis"="Go to page, "javascript:var sel=document.getSelection()||ujs_bbcode_tag();void(window.open('http://'+(window.navigator.language=='ru'?'pr-cy.ru/analysis/':'examineurl.com/Create-website-analysis.aspx?')+(/^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$/.test(sel)?sel:location.hostname).replace(/^www\./i,'')))",,, "ExchServer"
+Button, "百度文库"="Execute program,"optools\wenku.bat", "%u" ,, "baidu""
+Item, "华为Dbank"="Go to page, "javascript:globallinkdata.data['profile.productid']=30;adsShow=0;alert('已解除下载限制!');", , , "dbank""
+Item, "华军软件"="Go to page, "javascript:showDownlist(type,'checkok');",,,"huajun""
+Item, "华军软件园"="Go to page, "javascript:CustomDefinedAjaxOnkeyup(1);", , , "huajun""
+Item, "威盘下载"="Go to page, "javascript:(function(){$('#loadingbox').hide();yanzheng_ok();})();",,,"vdisk""
+Item, "千军万马网盘"="Go to page, "javascript:(function(){document.getElementById('downtc').innerHTML= downurl;})();",,,"vdisk""
+Item, "YunFile"="Go to page, "javascript:var downpage_link = document.getElementById('downpage_link');window.location=downpage_link.href;void(0)", , , "yunfile""
+Item, "VerCD破解"="Go to page, "javascript: location.href=location.href.replace("www.verycd.com","verycdfetch.duapp.com");",,,"verycd""
+Item, "VeryCD2"= "Go to page, "javascript: location.href=location.href.replace('www.verycd.com','www.verycd.gdajie.com');",,,"verycd""
+Item, "云点播本连接"=Go to page, "javascript:void(window.open('http://61.147.76.6/iplay.html?from=vlist&url=%l'))",,,"Resume transfer""
+Item,"在线电视" = Execute program,"OperaU.bat","tv","", "Attachment Video"
+Item, "页面信息"=Go to page, "javascript:(function(){var meta='',scripts='',embed='',iframes='',cookies='';var corrUrl=function(url){if(!url)return'';var q=url.indexOf('?')+1;return((q&&url.length>50)?url.slice(0,q>50?q:50)+'\u2026':url)+'\n'};var fullUrl=function(url){var a=document.createElement('a');a.href=url;return url?corrUrl(a.href):''};var m=document.getElementsByTagName('meta');for(var i=0,mi;mi=m[i];i++){meta+=(mi.name?mi.name+': ':(mi.httpEquiv?mi.httpEquiv+': ':''))+mi.content+'\n'};var s=document.getElementsByTagName('script');for(var i=0,si;si=s[i];i++){if(si.src)scripts+=corrUrl(si.src)};var e=document.getElementsByTagName('embed');var o=document.getElementsByTagName('object');for(var i=0,ei;ei=e[i];i++){embed+=fullUrl(ei.getAttribute('src'))};for(var i=0,oi;oi=o[i];i++){var src=oi.getAttribute('data')||oi.getAttribute('src')||oi.getAttribute('source');if(!src){var params=oi.getElementsByTagName('param');for(var j=0,p;p=params[j];j++){if(p.hasAttribute('name')&&p.getAttribute('name').match(/^(movie|data|src|code|filename|url|source)$/i)){src=p.getAttribute('value');break}}};var lnk=fullUrl(src);if(embed.indexOf(lnk)==-1)embed+=lnk};var f=document.getElementsByTagName('iframe');for(var i=0,fi;fi=f[i];i++){if(fi.src)iframes+=corrUrl(fi.src)};var c=document.cookie.split(';');for(var i=0,ci;ci=c[i];i++){while(ci.charAt(0)==' ')ci=ci.slice(1);if(ci.length>40)ci=ci.slice(0,40)+'\u2026';cookies+=ci+'\n'};var lastmod=(Date.parse(document.lastModified)==0)?'':document.lastModified;var mode=document.getElementsByTagName('HTmL').length==0?'Really strict':(document.compatMode=='CSS1Compat'?'Normal strict':'Quirks');var title=document.title||(document.getElementsByTagName('title')[0]&&document.getElementsByTagName('title')[0].text)||'';if(meta)meta='\nMeta-data:\n'+meta;if(scripts)scripts='\nScripts:\n'+scripts;if(embed)embed='\nEmbed objects:\n'+embed;if(iframes)iframes='\nIframes:\n'+iframes;if(cookies)cookies='\nCookies:\n'+cookies;alert('User-Agent: '+navigator.userAgent+'\n\nTitle: '+title+'\n\nAddress: '+location.href+'\n\nReferrer: '+document.referrer+'\n\nLast Modified: '+lastmod+'\n\nView Mode: '+mode+' mode\n'+meta+scripts+embed+iframes+cookies)})()",,,"News Read"
+Item, "MODI DOM"="Go to Page,"javascript:prefFile='';void(z=document.body.appendChild(document.createElement('script')));void(z.language='javascript');void(z.type='text/javascript');void(z.src='http://slayeroffice.com/tools/modi/v2.0/modi_v2.0.js');void(z.id='modi');",,,"Menu Info""
+Item, "编辑模式"="Go to page, "javascript: (function(){document.designMode=(document.designMode=='on')?'off':'on';window.addEventListener('keypress', function(ev){if(ev.keyCode == '27'){ document.designMode = 'off'; window.removeEventListener('keypress', arguments.callee, false);} }, false);})();",,Design Mode,"Mail Compose HTML""
+;item, "Save as PDF"="External action, , , "download as pdf", "Mail Attachment" | Go to page, "javascript:(function(){location.href='http://jude.im/tl/html2pdf.php?api=true&format=pdf&url='+encodeURIComponent('%u');})();", , "download as pdf", "Mail Attachment""
+;item, Save PNG=go to page,"javascript:(function(){location.href='http://jude.im/tl/html2pdf.php?api=true&qlt=50&format=png&url='+encodeURIComponent('%u');})();",,download as png,Right Arrow
+Button22, "All-In-One Video Bookmarklet"="Go to page, "javascript:function in2html(txt){if(!txt){return ''}var txthtml=txt.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');return(txthtml);}var backlink=in2html(loc),embmedia=new Array(),filetype='',fileURL=new Array(),found=false,home='http://1024k.de/bookmarklets/video-bookmarklets.html',hometitle='title=", , "urlstrc='" > External action, "Download link</a" > External action, " ',urlstrd='</div" > External action, "Right-click -" & External action, "gt; "Save Target As"',videoid,xmlhttp=false,xmlhttp_url=false,xmlobject;function rev(str){if(!str){return ''}var revstr='';for(i=str.length-1;i" > External action, "=0;i--){revstr" + External action, "=str.charAt(i)}return revstr;}function xmlhttp_request(){if(window.XMLHttpRequest){try{xmlhttp=new XMLHttpRequest();}catch(e){xmlhttp=false;}}return xmlhttp;}function outputxhtml(){if(fileURL.length!==0){if(logotopimgsrc!==false){logotop='<a href="'" " + External action, "backlink" + External action, "'" + External action, "mediahost" + External action, "')" > External action, "<img alt="" class="logoimgtop" src="'" " + External action, "logotopimgsrc" + External action, "'" > External action, "</a" > External action, "';}else{logotop='';}if(logobottomimgsrc!==false){logobottom='<a href="'" " + External action, "home" + External action, "'" + External action, "hometitle" + External action, "'" > External action, "<img alt="" class="logoimgbottom" src="'" " + External action, "logobottomimgsrc" + External action, "'" > External action, "</a" > External action, "';}else{logobottom='';}link=fileURL.join('</li" > External action, "<li" > External action, "');document.write('<?xml version="1.0" encoding="ISO-8859-15"?" > External action, "<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"" > External action, "<html xmlns="http://www.w3.org/1999/xhtml"" > External action, "<head" > External action, "<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"" > External action, "</meta" > External action, "<title" > External action, "Video Download, '" + External action, "host" + External action, "'</title" > External action, "<style type="text/css"" > External action, "<!--body { margin:0;padding:0 11px;background-color:#818181;font:normal 12px arial,helvetica,sans-serif; }.pagebox { background-color:#FFFFFF;position:relative;min-width:458px;max-width:505px;margin:34px auto;padding:34px;border:1px solid #696969;-moz-border-radius:10px; }h1, h2 { border-bottom:1px solid #C8C8C8; }h1 { margin:0 15px 10px 75px;font-size:18px; }h2 { margin:0 15px 0 75px;padding:2px 15px 15px 0;font-weight:normal;font-size:15px; }ul { margin:12px 15px 5px 93px;padding:0;list-style:square; }.filelink { width:175px;float:left; }.backlink { margin:15px 15px 0 75px;padding:15px 15px 2px 0;border-top:1px solid #C8C8C8; }.link { position:absolute;right:10px;bottom:-22px;}a.linktext { font-weight:normal;font-size:11px;color:#4B4B4B;text-decoration:none; }.logotop { position:absolute;left:11px;top:28px;}.logoimgtop { width:86px;height78px;border:none; }.logobottom { position:absolute;right:10px;bottom:8px;}.logoimgbottom { width:91px;height31px;border:none; }.donation { width:69px;height38px;border:none;position:absolute;left:21px;top:118px; }--" > External action, "</style" > External action, "</head" > External action, "<body id="all-in-one-video-bookmarklet"" > External action, "<div class="pagebox"" > External action, "<div class="logotop"" > External action, "'" + External action, "logotop" + External action, "'</div" > External action, "<h1" > External action, "Video Download, '" + External action, "host" + External action, "'</h1" > External action, "<h2" > External action, "The following media has been found on the <span class="em"" > External action, "'" + External action, "mediahost" + External action, "'</span" > External action, " website.</h2" > External action, "<ul" > External action, "<li" > External action, "'" + External action, "link" + External action, "'</li" > External action, "</ul" > External action, "<p class="backlink"" > External action, "Return to <a href="'" " + External action, "backlink" + External action, "'" + External action, "mediahost" + External action, "')" > External action, "'" + External action, "mediahost" + External action, "'</a" > External action, " website</p" > External action, "<div class="link"" > External action, "<a class="linktext" href="'" " + External action, "home" + External action, "'" + External action, "hometitle" + External action, "'" > External action, "(script by 1024k.de)</a" > External action, "</div" > External action, "<div class="donation"" > External action, "<form action="https://www.paypal.com/cgi-bin/webscr" method="post"" > External action, "<div" > External action, "<input type="hidden" name="cmd" value="_s-xclick" /" > External action, "<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHbwYJKoZIhvcNAQcEoIIHYDCCB1wCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCekZyYz9kXtChhfaegGoEby/tmMHl6b9yhg5s5iNBbnDWO8jCryDyS7JtIuHOr75xomvSSrXCbkjGbpN8R1ZL1GL3rZeLMryDDoID3fMwdqMYjpci/K5MeWF31jFFRu/7vAeMGQBPsQyrzIFjID0Uur" " + External action, "G2pv1jsITlO/IlKNR5QzELMAkGBSsOAwIaBQAwgewGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIF83h8MS89LmAgchENkJBb9GxkI1ss65w4gfknhhUk3" + External action, "x5q1y0GcHR676eF6ikgFv" + External action, "KMLyLeNzVGwxn5C2xUr1JjaEMI4Tw3WvHtPjGdp//oBPWXfdxR5voeybNjpk1ncODeeSWODpslwrVpcybjxVgDzuMjuAW/Ml" + External action, "4bAfjuwzeeS6zGp1qMIjiaGqOZhevCsoMzN1WVrQJtB4QBbGE8HkNllUAxj2IxkKHiKis6LYWlstkna/E8qgsi" + External action, "5CazF707CQf4QpzRVrw7TvD0iTItYriIqCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW" + External action, "R017" + External action, "EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za" + External action, "GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL" + External action, "IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI" + External action, "HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ" + External action, "YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTA2MDUwNzAyMDIwN1owIwYJKoZIhvcNAQkEMRYEFKjnbaP3QsS11LPmbMBzo6tXSEbaMA0GCSqGSIb3DQEBAQUABIGAA0YNnXb7IIWevF6vqVHXZ0HuPESp2us85qqQpNIFw8FNaCpXtyIloRBKhKyz08zt8XI7UyMc1QicUir1r" + External action, "6/Ds1dS92xRw60jlbw" + External action, "wnYyXtD/hhU0B3APlcVTcGC9VeR9aPYAjeiTpRMokw79BugM2xPMMhosp12eBDmzv3BrK4=-----END PKCS7-----" > External action, "<input type="image" src="data:image/gif;base64,R0lGODlhRQAmAMQfANXV2NRNKmFgYlBojens8QAEO/6fE/Xy8qGwwv/63OO6t9ng5vutNa7B14eVrtiYk/bk0P7GUPnSlT5ARZaWl8rKzerp6YOAgMYEA6WkpP6NAfr6" " + External action, "gMWThEQEP///////yH5BAEAAB8ALAAAAABFACYAAAX/4CeOZGmeaKquplVlcCzPdG3fuIxYZSVQuaBweBN0MiOLYOFpOp/QqHRKrUYBnYUoQ7F6v2Dv4SeidD2ctHrNbrs504Pi8VBAoAeIRAJJQC0AAhdlZxwNBwSJiouMjYkHCHB4DwEYlhgBDwceGxIMBhqhDBIbToCChE0cFQMFb69rBQMAkk4QlZe5ARARob6" + External action, "Bncep4MfZqqsBcrLzM3OyrO1w7nUlgEBv9kad8SpaA0IEwPj5OXm5xMIDbUbuNXW16DaoQYb3caFCJwbBBYb/xYOCOQX8B" + External action, "/AwY9RHKi4N27APLmSbh3DI2" + External action, "JpEceHDAYcEEBwvUVNjIYUApjLXc/z28dk2DAQbzIlDM5" + External action, "RASQIFHDQosK6jg35pJmxC2eQAhjkPLFzDFEABS0xJFUSI8JJBBAUTAxWryOEip48DOBwIO7bAhSYDPk4g4GShh4YAKgBQQGEBAAgXFjywm2FBAwYB6iqosKACAQYzVXndEDYnmgGcHJi1wMFBJCZE32IA0GDuAwAXMgBo2mBJUwMGKjTQewsAYq3euj5pxWFDBZ4OHNAacMFVGgBtJR2gMEdBAwV6EdglHqACBgcWOhN" + External action, "kMEChNeo8Cl" + External action, "wnEkx7FpBlT4CGlVcCcXdAUQUKlSBsDYLmi4QF9DgAsBZMLWbnHfv03/NUHAAqWwVVRCbmnmEP882IASkUuhZJUdVw30gtpLF35SFWoaYghKBOs40c6C8MzjCwP27EdhLya2mA2I0lhAoiUQzmPAJol9w6KLPML4h0rUSGUiYpzkyAEAGySg5JJMNumkkhuEOIlKmQDoiTwvkWKKioXA4qUbU9ijgB0niZgHBAj9wWUYbLb5RY5uxilnE3BS0cGddzqBZwdN5OmBn3/yGeiegwIqRZ1T" + External action, "JnnoozyqSieegoa6JtrWvHopJNCqmifkXbqBaJSXCrqnoIS2qekpFYBahSjnprpo4DGKqmqlVbR6quDYnqpq5/WaqephfLKqLCoAnuor3MmC8Y99BVpwbPQRivttNRWa" + External action, "1HtdBWEE4xFXQAQGEVhCvuuOSWa" + External action, "656KYrLhcdVFCGEfTFK" + External action + External action, "89NZr77340mtEdltM4O" + External action, "/AAcs8MAEF2ywwEiwoPDCDDf8QQgAOw==" > External action, "</div" > External action, "</form" > External action, "</div" > External action, "<div class="logobottom"" > External action, "'" + External action, "logobottom" + External action, "'</div" > External action, "</div" > External action, "</body" > External action, "</html" > External action, "');document.close();}else{alert('No video file has been found.');}}function extracturls(){if(host.match(/break./i)!=null){mediahost='Break.com'}else if(host.match(/clipfish.de/i)!=null){mediahost='Clipfish'}else if(host.match(/dailymotion./i)!=null){mediahost='Dailymotion'}else if(host.match(/google./i)!=null){mediahost='Google'}else if(host.match(/metacafe./i)!=null){mediahost='Metacafe'}else if(host.match(/myspace./i)!=null){mediahost='Myspace'}else if(host.match(/myvideo./i)!=null){mediahost='MyVideo'}else if(host.match(/putfile./i)!=null){mediahost='Putfile'}else if(host.match(/sevenload./i)!=null){mediahost='Sevenload'}else if(host.match(/youtube./i)!=null){mediahost='YouTube'}switch(mediahost){case'Break.com':embmedia=document.getElementById('break_player');if(embmedia!=null){source=unescape(embmedia.getAttribute('flashvars'));if(source.match(/videoPath=/i)!==null){urlstart=source.indexOf('videoPath=')" + External action, "10;urlend=source.indexOf('.flv',urlstart)" + External action, "4;source=in2html(source.substring(urlstart,urlend));filetype='(.flv)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;source=source.replace(/.flv/,'.wmv');filetype='(.wmv)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}}outputxhtml();break;case'Clipfish':embmedia=document.getElementsByTagName('embed');if(embmedia.length==0){outputxhtml();}for(i=0;i<embmedia.length;" + External action + External action, "i){if(embmedia[i].getAttribute('src')!==null){videoid=unescape(embmedia[i].getAttribute('src'));if(videoid.indexOf('videoid=')!=-1){found=true;urlstart=videoid.indexOf('videoid=')" + External action, "8;if(videoid.indexOf('" & External action, "',urlstart)!=-1){urlend=videoid.indexOf('" & External action, "',urlstart);}else{urlend=videoid.length;}videoid=videoid.substring(urlstart,urlend);xmlhttp_url='http://'" + External action, "host" + External action, "'/video_n.php?videoid='" + External action, "videoid;xmlhttp_request();if(xmlhttp!==false){function clipfish_xmlhttp_response(){if((xmlhttp.readyState==4)" & External action & External action, "(xmlhttp.status==200)){xmlobject=xmlhttp.responseText;source=in2html(xmlobject.substring(xmlobject.indexOf('" & External action, "url=')" + External action, "5,xmlobject.indexOf('.flv')" + External action, "4));filetype='(.flv)';if(source!=''){fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}outputxhtml();}}xmlhttp.onreadystatechange=clipfish_xmlhttp_response;xmlhttp.open("GET",xmlhttp_url,true);xmlhttp.send(null);}break;}}if((i==(embmedia.length-1))" & External action & External action, "(found!==true)){outputxhtml();}}break;case'Dailymotion':embmedia=document.getElementsByTagName('embed');for(i=0;i<embmedia.length;" + External action + External action, "i){if(embmedia[i].getAttribute('flashvars')!==null){source=unescape(embmedia[i].getAttribute('flashvars'));urlstart=source.indexOf('url=')" + External action, "4;urlend=source.indexOf('" & External action, "',urlstart);source=in2html(source.substring(urlstart,urlend));filetype='(.flv)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;break;}}outputxhtml();break;case'Google':iframe=document.getElementById("3rdPartyFrame");if((iframe!=null)" & External action & External action, "(iframe.src.match(/google./i)!==null)){embmedia=iframe.contentDocument.getElementsByTagName('embed');for(i=0;i<embmedia.length;" + External action + External action, "i){source=unescape(embmedia[i].getAttribute('src'));if(source.indexOf('videoUrl=')!=-1){source=in2html(source.substr(source.indexOf('videoUrl=')" + External action, "9));filetype='(.flv)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;break;}}if(iframe.contentDocument.getElementById('macdownloadlink')!==null){source=in2html(iframe.contentDocument.getElementById('macdownloadlink').href);filetype='(.avi)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}if(iframe.contentDocument.getElementById('ipoddownloadlink')!==null){source=in2html(iframe.contentDocument.getElementById('ipoddownloadlink').href);filetype='(.mp4) (iPod)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}if(iframe.contentDocument.getElementById('pspdownloadlink')!==null){source=in2html(iframe.contentDocument.getElementById('pspdownloadlink').href);filetype='(.mp4) (PSP)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}outputxhtml();}else if((iframe!=null)" & External action & External action, "(iframe.src.match(/.*./i))!==null){alert('Please remove the Google frame to download from external websites.')}else outputxhtml();break;case'Metacafe':scriptmedia=document.getElementsByTagName('script');for(i=0;i<scriptmedia.length;" + External action + External action, "i){if(scriptmedia[i].text.match(/itemID=[0-9]" + External action, "/i)!==null){found=true;xmlhttp_url=scriptmedia[i].text.match(/itemID=[0-9]" + External action, "/i);xmlhttp_url='http://'" + External action, "host" + External action, "'/fplayer.php?itemID='" + External action, "String(xmlhttp_url).match(/[0-9]" + External action, "/i)" + External action, "'" & External action, "t=embedded';xmlhttp_request();if(xmlhttp!==false){function metacafe_xmlhttp_response(){if((xmlhttp.readyState==4)" & External action & External action, "(xmlhttp.status==200)){xmlobject=(new DOMParser()).parseFromString(xmlhttp.responseText,"application/xml");source=in2html(xmlobject.getElementsByTagName('playlist')[0].childNodes[1].getAttribute('url'));filetype='(.flv)';if(source!=''){fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}outputxhtml();}}xmlhttp.onreadystatechange=metacafe_xmlhttp_response;xmlhttp.open("GET",xmlhttp_url,true);xmlhttp.send(null);}break;}if((i==(scriptmedia.length-1))" & External action & External action, "(found!==true)){embmedia=document.getElementsByTagName('embed');for(j=0;j<embmedia.length;" + External action + External action, "j){if(embmedia[j].getAttribute('src')!==false){source=unescape(embmedia[j].getAttribute('src'));source=in2html(source.substring(73,source.indexOf('" & External action, "')));fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;break;}}outputxhtml();}}break;case'Myspace':if(loc.match(/videoID=/i)!==null){videoid=loc.match(/videoID=[0-9]" + External action, "/i)[0].substr(8);source=in2html('http://content.movies.myspace.com/'" + External action, "Math.pow(10,7-(videoid.length-5)).toString().substr(1)" + External action, "videoid.substr(0,videoid.length-5)" + External action, "'/'" + External action, "rev(videoid.substring(videoid.length-2))" + External action, "'/'" + External action, "rev(videoid.substring(videoid.length-4,videoid.length-2))" + External action, "'/'" + External action, "videoid" + External action, "'.flv');filetype='(.flv)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}outputxhtml();break;case'MyVideo':embmedia=document.getElementById('MFP_10');if(embmedia!=null){if(embmedia.getAttribute('flashvars')!==null){source=unescape(embmedia.getAttribute('flashvars'));if(source.match(/videoid=/i)!==null){videoid=source.substring(source.indexOf('videoid=')" + External action, "8,source.indexOf('" & External action, "',source.indexOf('videoid=')" + External action, "8));embmedia=document.getElementsByTagName('a');for(i=0;i<embmedia.length;" + External action + External action, "i){if(embmedia[i].getAttribute('onclick')!==null){source=unescape(embmedia[i].getAttribute('onclick'));urlstart=source.indexOf('http');urlend=source.indexOf('/thumbs',urlstart)" + External action, "1;source=in2html(source.substring(urlstart,urlend)" + External action, "videoid" + External action, "'.flv');filetype='(.flv)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;break;}}}}}outputxhtml();break;case'Putfile':embmedia=document.getElementById('flvplayer');if(embmedia!==null){if(embmedia.getAttribute('flashvars')!==null){source=unescape(embmedia.getAttribute('flashvars'));urlstart=source.indexOf('flv=')" + External action, "4;urlend=source.indexOf('.flv',urlstart)" + External action, "4;if((urlstart!==-1)" & External action & External action, "(urlend!==-1)){source=in2html(source.substring(urlstart,urlend));filetype='(.flv)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}}}else{embmedia=document.getElementsByTagName('embed');for(i=0;i<embmedia.length;" + External action + External action, "i){if(embmedia[i].getAttribute('src')!==null){source=unescape(embmedia[i].getAttribute('src'));fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;break;}}}outputxhtml();break;case'Sevenload':scriptmedia=document.getElementsByTagName('script');if(scriptmedia.length==0){outputxhtml();}for(i=0;i<scriptmedia.length;" + External action + External action, "i){videoid=scriptmedia[i].text.match(/var ids*= '(.*)'/gi);if((videoid!==null)" & External action & External action, "(RegExp.$1!=='')){found=true;xmlhttp_url='http://'" + External action, "host" + External action, "'/api/player/id/'" + External action, "RegExp.$1;xmlhttp_request();if(xmlhttp!==false){function sevenload_xmlhttp_response(){if((xmlhttp.readyState==4)" & External action & External action, "(xmlhttp.status==200)){xmlobject=xmlhttp.responseXML;source=in2html(xmlobject.getElementsByTagName('video')[0].getAttribute('url'));filetype='(.flv)';if(source!=''){fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;}outputxhtml();}}xmlhttp.onreadystatechange=sevenload_xmlhttp_response;xmlhttp.open("GET",xmlhttp_url,true);xmlhttp.send(null);}break;}if((i==(scriptmedia.length-1))" & External action & External action, "(found!==true)){outputxhtml();}}break;case'YouTube':scriptmedia=document.getElementsByTagName('script');for(i=0;i<scriptmedia.length;" + External action + External action, "i){if(scriptmedia[i].text.match(/(x22video_idx22: x22S" + External action, "x22." + External action, "x22tx22: x22S" + External action, "x22)" | External action, "(x22tx22: x22S" + External action, "x22." + External action, "x22video_idx22: x22S" + External action, "x22)/i)!==null){source=scriptmedia[i].text.match(/(x22video_idx22: x22S" + External action, "x22." + External action, "x22tx22: x22S" + External action, "x22)" | External action, "(x22tx22: x22S" + External action, "x22." + External action, "x22video_idx22: x22S" + External action, "x22)/i);source=in2html(String(source).replace(/(?:(?:x22video_idx22: x22(S" + External action, ")x22." + External action, "x22tx22: x22(S" + External action, ")x22)" | External action, "(?:x22tx22: x22(S" + External action, ")x22." + External action, "x22video_idx22: x22(S" + External action, ")x22))/i,'http://www.youtube.com/get_video?video_id=$1" + External action, "$4" & External action, "t=$2" + External action, "$3'));filetype='(.flv)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;filetype='(.mp4)';fileURL[fileURL.length]=urlstra" + External action, "source" + External action, "'" & External action, "amp;fmt=18'" + External action, "urlstrb" + External action, "mediahost" + External action, "urlstrc" + External action, "filetype" + External action, "urlstrd;break;}}outputxhtml();break;default:alert('This site is not supported.');break;}}extracturls();", 1"""
+Item, "元素边框"="Go to Page,"javascript:(function(){var css='table { border: 1px solid blue ! important; } \n table td { border: 1px solid lightblue ! important; } \n table table { border: 1px solid green ! important; } \n table table td { border: 1px solid lightgreen ! important; } \n table table table { border: 1px solid red ! important; } \n table table table td { border: 1px solid orange ! important; } \n div { border: 1px solid ! important; } \n p { border: 1px dotted ! important; } \n body { background: white ! important; color: black ! important; } \n * { padding: 2px; }\n dl, ol, ul {outline: 1px solid #3366CC !important;} \n dt, dd, li {outline: 1px dashed #7295DC !important;} \n address {outline: 1px dashed #010101 !important;} \n span {outline: 1px dotted #CC0000 !important;} \n thead, tfoot, tbody {outline: 1px dashed #99CC00 !important;} \n tr, th, td {outline: 1px dotted #99CC00 !important;} \n img, object, area {outline: 1px dashed #9966FF !important;} \n form {outline: 1px dotted green !important;}';var heads = document.getElementsByTagName('head');	if (heads.length > 0) {var node = document.createElement('style');node.type = 'text/css';	node.appendChild(document.createTextNode(css));heads[0].appendChild(node); }})();",,,"Mail Attachments""
+Button24, "null"=Go to page, "javascript:location.href=\'http://www.google.com/search?q=site:\'+location.host", 1
+Button25, "null"=Go to page, "javascript:location.href=\'http://www.google.com.hk/search?q=site:\'+location.host", 1
+Button26, "null"=Go to page, "javascript:location.href=\'http://www.similarsites.com/site/\'+location.host", 1
+Button30, "Shorten URL"=Go to page, "javascript:var%20d=document,w=window,enc=encodeURIComponent,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)),s2=((s.toString()=='')?s:('%22'+enc(s)+'%22')),f='http://bit.ly/',l=d.location,p='?v=3&u='+enc(l.href)%20+'&s='+enc(d.title)+'%20'+s2,u=f+p;try{if(!/^(.*.)?tumblrzzz[^.]*$/.test(l.host))throw(0);tstbklt();}catch(z){a%20=function(){if(!w.open(u))l.href=u;};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();}void(0)", 1
+Button31, "Kwout"=Go to page, "javascript:(function(){var%20b=document.body,e=document.documentElement,h=100,s=self,y=0,w=window;if(s.pageYOffset)y=s.pageYOffset;else%20if(e%20&&%20e.scrollTop)y=e.scrollTop;else%20if(b)y=b.scrollTop;if(w.innerHeight%20&&%20w.scrollMaxY)h=w.innerHeight+w.scrollMaxY;else%20if(b.scrollHeight%20>%20b.offsetHeight)h=b.scrollHeight;else%20h=b.offsetHeight;w.open(‘http://kwout.com/grab?address=’+encodeURIComponent(location.href)+’&scroll=’+(y/h));})();”><strong>Print Screen</strong></a> – Make a screen shot of any website you are in with <a href=", 1
+Button33, "Layout Grid"=Go to page, "javascript:void(myDiv=document.createElement('div'));void(myBody=document.getElementsByTagName('body')%5B0%5D);void(myDiv.style.background='url(http://www.andybudd.com/images/layoutgrid.png)');void(myDiv.style.position='absolute');void(myDiv.style.width='100%');void(myDiv.style.height='100%');void(myDiv.style.top='0');void(myDiv.style.left='0');void(myBody.appendChild(myDiv));", 1
+Button35, "Remove Image"=Go to page, "javascript:void(d=document);if(frames.length){alert('Script%20doesn/'t%20work%20in%20frames');}else{while((el=d.getElementsByTagName('img')).length){el[0].parentNode.removeChild(el[0])}}d.close()", 1
+Button36, "Disable Image"=Go to page, "javascript:function%20C(v)%7breturn%20'%3ctd%3e'+v+'%3c/td%3e%3ctd%3e'+((v%3e%3e4).toString(16)+(v&15).toString(16)).toUpperCase()+'%3c/td%3e%3ctd%20bgcolor=DDDDDD%3e&'+'#'+v+';</td><p>‘;}var%20c=4,b=Math.ceil(224/c),a=’<br /><table%20border=0><tr>‘;for(j=0;j<c;j++){a+='<td>DEC</td><td>HEX</td><td>ASC</td><p>‘;}a+=’</tr><p>‘;for(i=33;i<33+b;i++){a+='<br /><tr>‘;for(j=0;j<c;j++){t=i+(j*b);if(t<=255)a+=C(t);}a+='</tr><p>‘;}a+=’</table><p>‘;var%20W=open(”,”,’width=500,height=600,left=0,top=0,resizable,scrollbars’);void(W.document.write(a));”><strong>ASCII Table</strong></a> – Brings up a ASCII table for your reference.</p><p><a class=", 1
+Button37, "Remove Image"=Go to page, "javascript:void(d=document);if(frames.length){alert('Script%20doesn/'t%20work%20in%20frames');}else{while((el=d.getElementsByTagName('img')).length){el[0].parentNode.removeChild(el[0])}}d.close()", 1
+Button41, "Domain owner"=Go to page, "javascript:(function(){var%20h,p;%20h%20=%20location.host.split('.');%20p%20=%20h.length;%20if%20(h[p-1].match(/com$|net$|org$|edu$/i))%20{%20location%20=%20'http://www.netsol.com/cgi-bin/whois/whois?SearchType=do&STRING='%20+%20h[p-2]%20+%20'.'%20+%20h[p-1];%20}%20else%20{%20alert('This%20bookmarklet%20can%20only%20look%20up%20owners%20for%20.com,%20.net,%20.org,%20and%20.edu%20domains.');%20}%20void(0);%20})();", 1
+--------------------1
+Item, "解除右键限制"="Go to page, "javascript:(function(){eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return%20r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new%20RegExp('\\b'+e(c)+'\\b','g'),k[c]);return%20p}('5%202=8;5%203=2.K;3.7=3.k=3.e=3.9=3.6=3.y=3.7=3.z=2.7=2.k=2.e=2.9=2.6=4;2.7=2.6=2.c=2.9=p(){r%20t};g(8.n||8){d=4;c=4;6=4}5%20a=8.15(\'*\');o(5%20i=a.q-1;i>=0;i--){5%20b=a[i];g(b.n||b){d=4;c=4}}s(h(\'%u%v%w%x%j%17%A%B%C%j%D\')+\'\\E\');3.m.13=\'14!f\';3.m.16=\'12!f\';',62,70,'||doc|bd|null|var|oncontextmenu|onselectstart|document|onkeydown|arAllElements|elmOne|onmousedown|onmouseup|onpaste|important|with|unescape||u5236|oncopy||style|wrappedJSObject|for|function|length|return|alert|true|u5DF2|u89E3|u9664|u590D|onmousemove|ondragstart|u53F3|u952E|u9650|uFF01|u000d||||||body||||||||||||||||||text|webkitUserSelect|auto|getElementsByTagName|MozUserSelect|u4E0E'.split('|'),0,{}))})()", 1 , , "search""
+Item, "解除右键限制2"="Go to page, "javascript:alert(document.onselectstart = document.oncontextmenu = document.onmousedown = document.onkeydown = function(){return true;});", , , "search""
+Item, "解除插件限制"="Go to page, "javascript:(function(){function newType(e,t){e.type=t;e.parentElement.replaceChild(e,e);}var es=document.embeds;for(var l=es.length-1;l>=0;l--){var e=es[l];var a=e.attributes;for(var i=a.length-1;i>=0;i--){a[i].value=a[i].value.replace(/^[\'\s]+/,'').replace(/[\'\s]+$/,'');}if(/\.(wmv|avi|mp4|mp3|mid|wav|m4a|wma)$/.test(e.src)){if(typeof e.controls=='undefined'){newType(e,'video/x-ms-wm');}}else if(/\.(swf)$/.test(e.src)||e.type=='application/x-shockwe-flash'){try{e.PercentLoaded();}catch(evt){newType(e,'application/x-shockwave-flash');}}}})();", , , "search""
+Item, "解除WebKit前缀"="Go to page, "javascript:(function(){var s=document.createElement('style');s.innerHTML='div.black_eye{animation-name:cate;animation-duration:2s;animation-timing-function:linear;animation-iteration-count:200;}@keyframes cate{0%{margin:0;}40%{margin:0px 0 0 0;}55%{margin:-20px 0 0 0;}70%{margin:0;}80%{margin:0 0 0 7px;}90%{margin:0;}100%{margin:0;}}';document.body.appendChild(s);})();", , , "search""
+Item, "编辑模式"="Go to page, "javascript: (function(){document.designMode=(document.designMode=='on')?'off':'on';window.addEventListener('keypress', function(ev){if(ev.keyCode == '27'){ document.designMode = 'off'; window.removeEventListener('keypress', arguments.callee, false);} }, false);})();",,Design Mode,"Mail Compose HTML""
+Button, "Archive&Cache"="Go to page, "http://wayback.archive.org/web/*/%u",,,"Mail Compose Increase Size" + Go to page,"https://webcache.googleusercontent.com/search?client=opera&rls=zh-cn&sourceid=opera&q=cache:%u",,,"google""
+Button, "优酷土豆"="External action, , , "优酷土豆", "search" | Go to page, "javascript:void(inivar='%c')" & Go to page, "javascript:void(inivar2='%t')" & Go to page, "javascript:(function(){var d=window.inivar;if(!d){d=''};var getText=function(w){var u=w.document,v=u.getSelection(),t=u.querySelectorAll('textarea,input');if(!v)for(var i=0,e;e=t[i];i++){if(v=e.value.substring(e.selectionStart,e.selectionEnd))break}return v};var getSel=function(w){var rez=w?getText(w):'';if(rez==''){for(var i=0,f;f=w.frames[i];i++){try{if(rez=arguments.callee(f))break}catch(e){}}};return rez};var w=window;var q=getSel(w)||window.inivar2;if(!q){q=prompt('y:youku & t:tudou',' ')};if(q){if(location.hostname!=''){}else{window.close()};if(q.match(/\s(y|t)$/i)){x=q.substring(0,(q.length-2));}else if(q.match(/^(y|t|\s+)$/i)){x=d}else{x=q};if(x.match(/^(\s+)?$/i)){x=d};x=x.replace(/^\s+|\s+$/g,'');if(!x){return};var yk='http://www.soku.com/search_video/q_'+x.replace(/ /g,'+');var td='http://so.tudou.com/isearch/'+encodeURIComponent(x).replace(/ /g,'+');if(q.match(/(\s|^)y$/i)){window.open(yk);}else if(q.match(/(\s|^)t$/i)){window.open(td)}else{setTimeout(function(){window.open(td).blur();}, 10);setTimeout(function(){window.open(yk);}, 10);}}})()", , , "none" + Go to page, "javascript:void(window.open('opera:cache?domain='+(function(d){if(/^(?:\d{1,3}\.){3}\d{1,3}$/.test(d))return d;var a=d.split('.');var l=a.length;return(l<3)?d:(a[l-2]+'.'+a[l-1])})(location.hostname)+'&list=preview'));",,,"find""
+--------------------------------------------------------------------------------
+新收藏夹网站广告整理：17:33 2012/12/16
+<div class="advert">
+<div class="adtxt">
+<div id="header_ads" class="clearfix">
+<div class="ad" style="height:600px;width:160px;">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" id="flashad2" width="120" height="270">
+images/ad/hedinben3.gif
+<div class="navad">
+<script type="text/javascript" src="http://sg-cdn.effectivemeasure.net/em.js"/>
+<script src="http://b.scorecardresearch.com/beacon.js"/>
+<script type="text/javascript" src="http://adtag.asiaone.com/tag/zaobao/js/zbcn_home_banner_01.js"/>
+<script type="text/javascript" src="http://lhzpimedia.allyes.com/main/s?user=zaobao|zaobao_Homepage|zaobao_Homepage_01&db=lhzpimedia&border=0&local=yes&js=ie" charset="gbk"/>
+<a href="http://lhzpimedia.allyes.com/main/adfclick?d=lhzpimedia&i=z157,11974,272,585&k=&p=0&v=1355636776.331&wl=&rf=http%3A%2F%2Fwww%2Ezaobao%2Ecom%2F&u=http://www.spba.com.sg/winners.html" target="_blank">
+<img src="http://creative.allyes.com.cn/zaobao/20121211/10_32_53_9C9D2E4A.gif" width="650" height="90" border="0" alt=""/>
+<script type="text/javascript" src="//secure-sg.imrworldwide.com/v53.js"/>
+<script type="text/javascript" src="http://adtag.asiaone.com/tag/zaobao/js/zbcn_home_banner_02a.js"/>
+<script type="text/javascript" src="http://lhzpimedia.allyes.com/main/s?user=zaobao|zaobao_Homepage|zaobao_Homepage_02a&db=lhzpimedia&border=0&local=yes&js=ie" charset="gbk"/>
+<a href="http://lhzpimedia.allyes.com/main/adfclick?d=lhzpimedia&i=z160,8660,238,521&k=&p=0&v=1355636785.351&wl=&rf=http%3A%2F%2Fwww%2Ezaobao%2Ecom%2F&u=http://www.zaobao.com/wencui/2012/08/zaobao120825ma.shtml" target="_blank">
+<img src="http://creative.allyes.com.cn/zaobao/20120827/11_50_54_6C1C6C5F.gif" width="30
+<div id="right300x250normal"><div id="right300x250">
+<div class="rightad">
+<div id="topad" style="position:absolute;top:-110px;left:15px;width:969px;margin:0;">
+<script language="javascript" src="http://33.pcpop.com/pv/pv.js"/>
+<script type="text/javascript" src="http://168.it168.com/js/65.js?uid=234345666ss"/>
+<div class="ads1"><div class="ads2">
+<script src="/data/ads/ads_i2.js"/>
+<script src="/data/ads/ads_i3.js"/>
+<div class="gg">
+<div class="advdiv">
+<a href="/police/index.html">
+<div class="l_ads">
+<div class="r_ads">
+<div id="random-ads" class="xy" style="display: block">
+<script src="/js/click.js"/>
+<script src="/skin/js/fmtyx.js"/>
+<div class="adll">
+<div class="adrr">
+<script language="javascript" src="http://u034024.778669.com/mediaController.php?pid=32091"/>
+document.writeln("<script language=\"javascript\" src=\"http:\/\/u034024.778669.com\/mediaController.php?pid=32091\"><\/script>");
+document.write('<script src="http://u.3393.com/r/?pid=94508&show_t=2" type="text/Javascript"><'+'/script>');
+document.writeln("<script language=\"JavaScript\" src=\"http:\/\/code.yy32.com\/r\/?RID=478_0_0\"><\/script>");
+<div id="link">
+<div id="baidu">
+http://www.hltm.cc/gg/1al1.js
+http://s15.cnzz.com/stat.php?id=2311674&web_id=2311674
+http://www.hltm.cc/gg/tan2.js
+http://u.3393.com/f/?pid=148159&show_t=2
+http://rc.qiyou.com/view.php?uid=12076
+http://js.kk7kk.com/i.php?z=2325
+http://js.kk7kk.com/cpm_static/3_200.js
+http://www.hltm.cc/gg/adjs.js
+http://img.feitian001.com/html/click/2173_56.html
+rc="http://res.feiku.com/Skin/FeiKu2010/Js/Ads/Index_1.js"/>
+http://www.37cs.com/html/click/496_29.html
+<img width="960" height="90" src="http://static.acfun.tv/ads/*" alt="广告"/>
+<div id="ad-top" class="ad">
+<script src="http://biz5.sandai.net/portal/uuu9/top.js"/>
+<script src="http://biz5.sandai.net/portal/013/A/cm1338.js"/>
+<script src="http://biz5.sandai.net/portal/013/A/cm1339.js"/>
+<div class="ad_792">
+<div class="adbox" style="height:755px;">
+<div class="ad_text" id="ad_text">
+<table summary="Text Ad" cellpadding="0" cellspacing="1">
+http://sohu.ad-plus.cn/event.ng/Type=click&FlightID=201207&TargetID=sohu&Values=34acd340,2635dfd7,c027e342,416846c1&AdID=6854561
+<div class="topadbod">
+http://gg.5173.com/adpolestar/wayl/;ad=0B3C1538_16BC_8
+http://urchin.5173.com/urchin.js
+http://js.17173.com/ping.js
+http://js.sohu.com/mail/pv/pv.js
+http://pv.sohu.com/pv.gif?t?=1355640342454419_1366_768?r?=
+http://go.wonderad.com/WaDeliver/8576.click?/4494/1132/u
+http://adforward.yeyou.com/n/1647.html
+<div id="adLeaderboard" class="module">
+<div class="top_ad fl_left">
+<div class="ads300">
+<div id="ad_790x100">
+<div id="ADV_19255" style="margin:0 auto;display:none;width:980px"/>
+<div class="banner_wrap" id="ipadpic">
+<div id="AD2894" style="width:760px;height:90px;text-align:center;float:none" class="adSpace">
+http://himg2.huanqiu.com/statics/js/adCode.js
+http://himg2.huanqiu.com/uploadfile/swf/indexDuilianRight.swf
+http://himg2.huanqiu.com/uploadfile/swf/indexDuilianLeft.swf
+<div id="HQleftDiv">
+<div id="HQrightDiv">
+<div class="ad640x90 mt10 h60" id="adBa_2">
+<div id="adPt" class="h250">
+<div class="adDingT" id="adDt">
+<div class="ad960x90" id="adUn_1">
+<div class="ad960x185 marBot10" id="adUn_2">
+<div class="ad640x60 marBot10" id="adUn_3">
+<div class="conAd">
+<div class="qu_ad96090">
+<div class="top_story_ad">
+<div id="1" class="ad1960">
+<div id="lacdiv" class="ad_140_l cl" style="left: 0px; display: block; top: 0px">
+<div id="racdiv" class="ad_140_r" style="display: block; top: 0px; left: 1012px">
+<div class="ad-2-2">
+<div class="ad-2-1">
+<div id="adDt_con" class="adNo"/>
+<div id="adBa_1_con" class="adNo"/>
+<div id="adBa_2_con" class="adNo"/>
+<div id="adBtn_1_con" class="adNo"/>
+<div id="adBtn_2_con" class="adNo"/>
+<div id="adBtn_3_con" class="adNo"/>
+<div id="adTe_con" class="adNo"/>
+<div id="adPt_con" class="adNo"/>
+<div id="adFm_1_con" class="adNo">
+<ul class="adwindow">
+
+
+--------------------0
+item, "NightCss"="Go to page, "javascript:(function(){var night=function(w){(function(d){var css='html{background:#333 !important}html *{background:none !important;color:#bbb !important;border-color:#333 !important;border-width:0 !important}html a,html a *{color:#5c8599 !important;text-decoration:underline !important}html a:visited,html a:visited *,html a:active,html a:active *{color:#525f66 !important}html a:hover,html a:hover *{color:#cef !important;background:#023 !important}html input,html select,html button,html textarea{background:#4d4c40 !important;border:1px solid #5c5a46 !important;border-top-color:#474531 !important;border-bottom-color:#7a7967 !important}html input[type=button],html input[type=submit],html input[type=reset],html input[type=image],html button{border-top-color:#7a7967 !important;border-bottom-color:#474531 !important}html input:focus,html select:focus,html option:focus,html button:focus,html textarea:focus{background:#5c5b3e !important;color:#fff !important;border-color:#474100 #665d00 #7a7849 !important;outline:2px solid #041d29 !important}html input[type=button]:focus,html input[type=submit]:focus,html input[type=reset]:focus,html input[type=image]:focus,html button:focus{border-color:#7a7849 #665d00 #474100 !important}html input[type=radio]{background:none !important;border-color:#333 !important;border-width:0 !important}html img[src],html input[type=image]{opacity:.5}html img[src]:hover,html input[type=image]:hover{opacity:1}html,html body{scrollbar-base-color:#4d4c40 !important;scrollbar-face-color:#5c5b3e !important;scrollbar-shadow-color:#5c5b3e !important;scrollbar-darkshadow-color:#474531 !important;scrollbar-track-color:#4d4c40 !important;scrollbar-arrow-color:#000 !important;scrollbar-3dlight-color:#7a7967 !important}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return}};var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node)}})(w.document); for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f)}catch(e){}}};night(window)})();", 1, , "nightoff""
+item, "Upload"="Go to page, "javascript:(function(){var b=document.getElementById('uploadt00lbar');if(b){b.parentNode.removeChild(b)}else{b=document.createElement('div'); b.setAttribute('style','position:fixed;right:0;bottom:0;background:#DFDFDF;border:1px solid;padding:10px;z-index:9999;');b.id='uploadt00lbar';b.innerHTML='<img src=\'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAAgUlEQVQ4y2P4//8/AyWYYfAZAATMIEy0OBZF/6GYlwEB2JHEOUEC+FzAi6RYBE2zDhArADEbPgMYoBr/o2GQZjWYywgZAAJiSJpNkTUTYwA7FhdIIpuOzwB0PxujhQluA9BiAdnPyGEiQMgFoGhSRvczVKMmsbHABsXoAC4+ePICAD0by9MWlkdnAAAAAElFTkSuQmCC\' title=\'Close\' width=\'18\' height=\'18\' style=\'position:relative; display:block;float:right;left:5px;bottom:5px;margin:1px;);cursor:pointer;\' onclick=\'this.parentNode.parentNode.removeChild(this.parentNode)\'><a href=\'http://www.imageshack.us\' target=\'_blank\' style=\'text-decoration:none;color:#0000cc;font:14px Times New Roman;\'>Imageshack.us</a><form style=\'margin:5px;display:block;background:white;\' action=\'http://www.imageshack.us/index.php\' method=\'post\' target=\'_blank\' enctype=\'multipart/form-data\'><input type=\'hidden\' value=\'1048576\' name=\'MAX_FILE_SIZE\' /><input type=\'hidden\' value=\'blank\' name=\'type\' /><input type=\'file\' name=\'fileupload\' /><input name=\'submit\' type=\'submit\' value=\'Upload \' /></form><a href=\'http://www.rapidshare.com\' target=\'_blank\' style=\'text-decoration:none;color:#0000cc;font:14px Times New Roman;\'>Rapidshare.com</a><form style=\'margin:5px;display:block;background:white\' action=\'http://rs3l3.rapidshare.com/cgi-bin/upload.cgi?rsuploadid=142773989068418119\' method=\'post\' target=\'_blank\' enctype=\'multipart/form-data\' name=\'ul\' id=\'ul\'><input type=\'file\' name=\'filecontent\' /><input type=\'submit\' name=\'u\' value=\'Upload \' /></form>';document.documentElement.appendChild(b);}})()", 1, , "nighton""
+Item, "在线病毒扫描"="Go to page, "javascript:(function(){var d='ujs_av_upload';var b=document.getElementById(d);if(b){b.parentNode.removeChild(b);return};b=document.createElement('div');b.setAttribute('style','display:block;position:fixed;right:0;bottom:0;background:-o-skin(\x22Window Skin\x22);border:1px solid;padding:10px;z-index:9999;');b.id=d;var l=' target=\'_blank\' style=\'text-decoration:none;color:#0000cc;font:14px Times New Roman;\'';var f=' style=\'margin:5px;display:block;\' target=\'_blank\' method=\'post\' enctype=\'multipart/form-data\' ';var s=' style=\'font:13px Arial;\' onchange=\'this.parentNode.submit()\'';b.innerHTML='<img src=\'data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==\' title=\'Close\' style=\'display:block;position:relative;float:right;height:18px;width:18px;left:5px;bottom:5px;margin:1px;background:-o-skin(\x22Caption Close Button Skin\x22);cursor:pointer;\' onclick=\'this.parentNode.parentNode.removeChild(this.parentNode)\'><a href=\'http://www.virustotal.com/ru/\''+l+'>VirusTotal.com</a><form action=\'http://www.virustotal.com/vt/zh-cn/recepcion\''+f+'name=\'consulta\'><input type=\'file\' name=\'archivo\''+s+'><input type=\'hidden\' name=\'distribuir\' value=\'1\'></form><a href=\'http://virusscan.jotti.org/\''+l+'>VirusScan.Jotti.org</a><form action=\'http://virusscan.jotti.org/\''+f+'><input type=\'file\' name=\'scanfile\' value=\'Browse...\''+s+'><input type=\'hidden\' name=\'MAX_FILE_SIZE\' value=\'10240000\'><input type=\'hidden\' name=\'action\' value=\'process\'></form>';document.documentElement.appendChild(b)})();", , "在线病毒扫描", "Mail Labels""
+Item, "天涯楼主脱水" = Go to page,"http://www.tianyatool.com/cgi-bin/action.pl?url=%u",,,"tianya"
+Item, "只看楼主" = Go to page, "http://www.onlylz.com/onlylz.php?u=%u"
+Item, "域名信息" = External action,,,,"Alexa" | Copy document address,-2 & delay,1 & Go to page, "http://webscan.360.cn/index/checkwebsite?url=%c",,, & Switch to previous page & delay,1 & Go to page, "http://whois.domaintools.com/%c",,, & Switch to previous page & delay,1 & Go to page, "http://alexa.chinaz.com/?domain=%c",,, & Switch to previous page
+Item, "Google此图片"=External action,,,,"google" | Copy image address & Go to page, "http://www.google.com/searchbyimage?image_url=%c&hl=zh-CN&sourceid=opera&client=opera"
+[11 Menu UA]
+;1160版本之前
+;Item, 识别为 Opera=Edit site preferences,,,,"Opera Logo" & delay,1 & Cycle to previous page & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Go to start & delay,1 & ok
+;Item, 识别为 Firefox=Edit site preferences,,,,"Contact37" & delay,1 & Cycle to previous page & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Go to start & delay,1 & next item & delay,1 & ok
+;Item, 识别为 IE浏览器=Edit site preferences,,,,"Trust Information" & delay,1 & Cycle to previous page & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Go to start & delay,1 & next item & delay,1 & next item & delay,1 & ok
+Item, 伪装为 Firefox=Edit site preferences,,,,"firefox" & delay,1 & Cycle to previous page & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Go to end & delay,1 & Previous item & delay,1 & ok
+Item, 伪装为 IE浏览器=Edit site preferences,,,,"ie" & delay,1 & Cycle to previous page & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Focus previous widget & delay,1 & Go to end & delay,1 & ok
+
+[12 Menu UA]
+;1160版本之后
+
+div[class$="ad mt10"],div[class="nei"],div[style$="#d0dae4;"][class="wp"]{display:none !important}
+div[id^="smExtObj"],div[id^="ifengAe"],div[class="block_ad"],div[id^="tianyaBrandSpan"],div[id="tj_top_div"]{display:none !important}
+div[class="ego_column"]{display:none !important}
+div[class^="ku6_ad"],div[class^="tingx_"],ul[class="rz"],div[id="x1"],div[id="x2"]{display:none !important}
+div[id="nphLayoutGG"],div[id^="remove_ads"],div[id="turnAD"],div[id="tuanad"],div[id^="div_d0_js_"],div[class^="imh-"][id^="imh-"]{display:none !important}
+
+Item, "截取活动窗口"="Execute program,"optools\Csendkey.bat","ActiveWindow",,"FS_ActiveWindow""
+Item, "截取对象"="Execute program,"optools\Csendkey.bat","Object",,"FS_Object""
+Item, "截取矩形区域"="Execute program,"optools\Csendkey.bat","Rectangular",,"FS_Rectangular""
+Item, "截取手绘区域"="Execute program,"optools\Csendkey.bat","FreeHand",,"FS_Freehand""
+Item, "截取全屏"="Execute program,"optools\Csendkey.bat","Full",,"FS_full""
+Item, "滚屏截取"="Execute program,"optools\Csendkey.bat","ScrollingWindow",,"FS_Scroll""
+--------------------1
+Item, "屏幕放大镜"="Execute program,"Csendkey.bat","magnifier",,"FS_magnifier""
+Item, "屏幕取色器"="Execute program,"Csendkey.bat","eyedropper",,"FS_eyedropper""
+Item, "屏幕标尺"="Execute program,"Csendkey.bat","rule",,"FS_rule""
+
+当前网页右键 [Document Popup Menu]
+网页链接右键 [Link Popup Menu]
+文字被选中后的右键 [Hotclick Popup Menu]
+链接被选定后的右键 [Link Selection Popup Menu]
+图像右键 [Image Popup Menu]
+图像右键,对于网页logo[Image Link Popup Menu]
+网页回复框中的右键[Edit Widget Popup Menu]
+网页地址栏和搜索框中的右键 [Edit Go Widget Popup Menu]
+标签栏空白处 [Pagebar Popup Menu]
+当前标签的右键 [Pagebar Item Popup Menu]
+非当前标签的右键 [Pagebar Inactive Item Popup Menu]
+无页面启动时右键 [Browser Window Menu]
+快速拨号右键 [Speed Dial Thumbnail Popup Menu]
+工具栏按钮的右键 [Toolbar Item Popup Menu]
+右键点击托盘图标的弹出菜单 [Tray Popup Menu]
+菜单栏：
+菜单栏 [Browser Menu Bar]
+菜单栏_文件 [Browser File Menu]
+菜单栏_编辑 [Browser Edit Menu]
+菜单栏_查看 [Browser View Menu]
+菜单栏_书签 [Browser Bookmarks Menu]
+菜单栏_Widgets [Browser Widgets Menu]
+菜单栏_工具 [Browser Tools Menu]
+菜单栏_工具_高级 [Advanced Tools Menu]
+菜单栏_窗口 [Browser Window Menu]——默认没有开启，在工具菜单-首选项-高级-浏览中勾选“显示工具菜单”即可显示。
+菜单栏_帮助 [Browser Help Menu]
+新闻推送菜单 [Browser Feeds Menu]
+邮件菜单 [Browser Mail Menu]
+聊天菜单：[Browser Chat Menu]
+侧面板：
+书签面板右键 [Bookmark Item Popup Menu]
+笔记面板右键 [Note Item Popup Menu]
+历史面板右键 [History Item Popup Menu]
+下载管理器面板右键 [Transfers Item Popup Menu]
+面板中Widget的右键 [Widget Item Popup Menu]
+
+[Link Selection Popup Menu]
+拖选含链接文字的右键菜单
+[Image Link Popup Menu]
+带链接的图片右键菜单
+[Readonly Edit Widget Popup Menu]
+图片属性框右键菜单
+[Edit Go Widget Popup Menu]
+地址栏和搜索栏右键菜单
+[Speed Dial Thumbnail Popup Menu]
+快速拨号页面右键菜单
+[Quick Preferences Menu]
+按F12的菜单
+[Closed Pages Menu]
+点击回收站弹出的菜单
+[Bookmark Folder Menu]
+书签按钮子菜单
+Web面板 ：
+[View Hotlist Menu]
+web面板空白处右键
+下载面板（同下载管理窗口）
+[Transfers Item Popup Menu]
+下载主窗口右键菜单
+[Transfers Notify Popup Menu]
+单击“下载完成提示”菜单
+状态栏右键菜单
+[Transfers View Popup Menu]
+查看按钮菜单
+链接
+[Links Panel Download Menu]
+链接窗口上方保存按钮菜单
+[Links Panel Item Menu]
+链接窗口右键菜单
+书签（同书签管理窗口）
+[Bookmark Item Popup Menu]
+书签管理窗口右键菜单
+[New bookmark menu]
+上方添加按钮
+[Bookmarks Panel Open Menu]
+打开按钮
+[Bookmarks Panel View Menu]
+查看按钮
+[Bookmark Trash Popup Menu]
+回收站右键
+笔记
+[Note Item Popup Menu]
+目录窗口右键
+[New note menu]
+添加按钮
+[Note Trash Popup Menu]
+[Edit Widget Popup Menu]
+编辑窗口
+历史
+[History Item Popup Menu]
+历史主窗口右键
+[History Panel View Menu]
+饰件
+[Widget Item Popup Menu]
+饰件主窗口右键
+[New Widget Menu]
+饰件添加按钮
+[Widget Trash Popup Menu]
+[Widget Folder Popup Menu]
+文件夹链接右键
+窗口
+[Windows Item Popup Menu]
+窗口主界面右键
+邮件
+[Index Item Popup Menu]
+左侧窗口菜单
+[Mail Item Popup Menu]
+右侧窗口菜单
+联系人
+[Contact Item Popup Menu]
+联系人右键菜单
+[New contact menu]
+添加按钮菜单
+聊天
+[Chat Item Popup Menu]
+聊天面板右键
+[Chat Popup Menu]
+房间聊天窗口菜单
+[Chat User Menu]
+房间右侧菜单
+常用菜单：
+右键点击页面空白处的弹出菜单： [Document Popup Menu]
+右键点击图片的弹出菜单： [Image Popup Menu]
+右键点击链接的弹出菜单： [Link Popup Menu]
+右键点击已拖选文本的弹出菜单： [Hotclick Popup Menu]
+右键点击回复框以及记事本空白处的弹出菜单： [Edit Widget Popup Menu]
+右键点击托盘图标的弹出菜单： [Tray Popup Menu]
+右键点击标签栏空白处的弹出菜单： [Pagebar Popup Menu]
+右键点击当前激活标签栏的弹出菜单： [Pagebar Item Popup Menu]
+右键点击其他未激活标签栏的弹出菜单： [Pagebar Inactive Item Popup Menu]
+上方主菜单：
+文件菜单： [Browser File Menu]
+编辑菜单： [Browser Edit Menu]
+查看菜单： [Browser View Menu]
+书签菜单： [Browser Bookmarks Menu]
+饰件菜单： [Browser Widgets Menu]
+新闻推送菜单： [Browser Feeds Menu]
+邮件菜单： [Browser Mail Menu]
+聊天菜单： [Browser Chat Menu]
+工具菜单： [Browser Tools Menu]
+窗口菜单： [Browser Window Menu]默认没有开启，在工具菜单-首选项-高级-浏览中勾选  “显示工具菜单”即可显示。
+帮助菜单： [Browser Help Menu]
+
+Item, "Profile"="Execute program, "Profile",,,"Parent folder""
+Item, "Optools"="Execute program, "optools",,,"Target Folder""
+Item, "Plugin"="Execute program, "program\plugins",,,"Target Folder""
+Item, "UserStyles"="Execute program, "profile\styles\user",,,"Target Folder""
+Item, "UserScript"="Execute program, "profile\script",,,"Target Folder""
+
+;--------------------菜单跨版本兼容性修复补充
+
+[Any Menu PRX]
+;Any版本通用
+Item, "Port>[1234]" = Disable proxy servers,,,,wito & Set preference, "Proxy|HTTP server=127.0.0.1:1234" & Set preference, "Proxy|HTTPS server=127.0.0.1:1234" & Set preference, "Proxy|FTP server=127.0.0.1:1234" &Enable proxy servers
+Item, "Port>[1984]" = Disable proxy servers,,,,puff & Set preference, "Proxy|HTTP server=127.0.0.1:1984" & Set preference, "Proxy|HTTPS server=127.0.0.1:1984" & Set preference, "Proxy|FTP server=127.0.0.1:1984" &Enable proxy servers
+Item, "Port>[1998]" = Disable proxy servers,,,,wcproxy & Set preference, "Proxy|HTTP server=127.0.0.1:1998" & Set preference, "Proxy|HTTPS server=127.0.0.1:1998" & Set preference, "Proxy|FTP server=127.0.0.1:1998" &Enable proxy servers
+Item, "Port>[48100]" = Disable proxy servers,,,,hyk & Set preference, "Proxy|HTTP server=127.0.0.1:48100" & Set preference, "Proxy|HTTPS server=127.0.0.1:48100" & Set preference, "Proxy|FTP server=127.0.0.1:48100" &Enable proxy servers
+Item, "Port>[5865]" = Disable proxy servers,,,,wapp & Set preference, "Proxy|HTTP server=127.0.0.1:5865" & Set preference, "Proxy|HTTPS server=127.0.0.1:5865" & Set preference, "Proxy|FTP server=127.0.0.1:5865" &Enable proxy servers
+Item, "Port>[8000]" = Disable proxy servers,,,,gapp & Set preference, "Proxy|HTTP server=127.0.0.1:8000" & Set preference, "Proxy|HTTPS server=127.0.0.1:8000" & Set preference, "Proxy|FTP server=127.0.0.1:8000" &Enable proxy servers
+Item, "Port>[8080]" = Disable proxy servers,,,,proxo & Set preference, "Proxy|HTTP server=127.0.0.1:8080" & Set preference, "Proxy|HTTPS server=127.0.0.1:8080" & Set preference, "Proxy|FTP server=127.0.0.1:8080" &Enable proxy servers
+Item, "Port>[8081]" = Disable proxy servers,,,,gtu & Set preference, "Proxy|HTTP server=127.0.0.1:8081" & Set preference, "Proxy|HTTPS server=127.0.0.1:8081" & Set preference, "Proxy|FTP server=127.0.0.1:8081" &Enable proxy servers
+Item, "Port>[8082]" = Disable proxy servers,,,,gtu & Set preference, "Proxy|HTTP server=127.0.0.1:8082" & Set preference, "Proxy|HTTPS server=127.0.0.1:8082" & Set preference, "Proxy|FTP server=127.0.0.1:8082" &Enable proxy servers
+Item, "Port>[8086]" = Disable proxy servers,,,,wapp & Set preference, "Proxy|HTTP server=127.0.0.1:8086" & Set preference, "Proxy|HTTPS server=127.0.0.1:8086" & Set preference, "Proxy|FTP server=127.0.0.1:8086" &Enable proxy servers
+Item, "Port>[8118]" = Disable proxy servers,,,,p & Set preference, "Proxy|HTTP server=127.0.0.1:8118" & Set preference, "Proxy|HTTPS server=127.0.0.1:8118" & Set preference, "Proxy|FTP server=127.0.0.1:8118" &Enable proxy servers
+Item, "Port>[8580]" = Disable proxy servers,,,,fg & Set preference, "Proxy|HTTP server=127.0.0.1:8580" & Set preference, "Proxy|HTTPS server=127.0.0.1:8580" & Set preference, "Proxy|FTP server=127.0.0.1:8580" &Enable proxy servers
+Item, "Port>[9050]" = Disable proxy servers,,,,advor & Set preference, "Proxy|HTTP server=127.0.0.1:9050" & Set preference, "Proxy|HTTPS server=127.0.0.1:9050" & Set preference, "Proxy|FTP server=127.0.0.1:9050" &Enable proxy servers
+Item, "Port>[9051]" = Disable proxy servers,,,,tor & Set preference, "Proxy|HTTP server=127.0.0.1:9051" & Set preference, "Proxy|HTTPS server=127.0.0.1:9051" & Set preference, "Proxy|FTP server=127.0.0.1:9051" &Enable proxy servers
+Item, "Port>[9666]" = Disable proxy servers,,,,wj & Set preference, "Proxy|HTTP server=127.0.0.1:9666" & Set preference, "Proxy|HTTPS server=127.0.0.1:9666" & Set preference, "Proxy|FTP server=127.0.0.1:9666" &Enable proxy servers
+Item, "Port>[8087]" = Disable proxy servers,,,,goagent & Set preference, "Proxy|HTTP server=127.0.0.1:8087" & Set preference, "Proxy|HTTPS server=127.0.0.1:8087" & Set preference, "Proxy|FTP server=127.0.0.1:8087" &Enable proxy servers
+
+[AdBlock Menu old]
+Item, "阻止页面元素"=Go to page, "javascript:(function(){if(window.navigator.ujs_AdBlock){return}else{window.navigator.ujs_AdBlock=true};var ele='',outline='',title='',bgColor='',frameBorder='';var doc=((window.document.body instanceof HTMLFrameSetElement)?window.frames[0]:window).document;var createStyle=function(css){var s=doc.createElement('style');s.setAttribute('type','text/css');s.appendChild(doc.createTextNode(css));return doc.documentElement.appendChild(s)};var getAtt=function(ele){var r='';for(var i=0,a;a=ele.attributes[i];i++){var n=a.nodeName.toLowerCase();if(/^(id|class|height|width|color|bgcolor|align|href|src)$/.test(n))r+='['+n+'=\x22'+a.nodeValue+'\x22]'};return r};var getNth=function(ele){if(/^(html|body|iframe|img|a)$/i.test(ele.nodeName)||!window.postMessage)return'';var nth,n=0;var p=ele.parentNode;for(var i=0,c;c=p.childNodes[i];i++){if(c.nodeType==1){n++;if(c==ele)nth=n}};return(!nth||n<2)?'':':nth-child('+nth+')'};var block=function(ele){var css='';if(ele.hasAttribute('src')){css=ele.nodeName.toLowerCase()+'[src=\x22'+ele.getAttribute('src')+'\x22]'}else{var rez=[];while(ele){if(ele.nodeType==1)rez.unshift(ele.nodeName.toLowerCase()+getAtt(ele)+getNth(ele));ele=ele.parentNode};css=rez.join(' > ')};var tmp=createStyle(css+'{background-color: #FF5555 !important; outline: 1px solid #FF1111 !important; opacity: 0.7 !important;}');css=prompt('阻止这个元素?',css);if(css){createStyle(css+'{display: none !important;}');location.href='data:text/adblock;charset=UTF-8,'+encodeURIComponent(css)};tmp.parentNode.removeChild(tmp)};var remove=function(){doc.removeEventListener('mouseover',over,false);doc.removeEventListener('mouseout',out,false);doc.removeEventListener('click',click,false);doc.removeEventListener('keyup',press,false);delete window.navigator.ujs_AdBlock};var over=function(ev){ele=ev.target;outline=ele.style.outline;title=ele.title;bgColor=ele.style.backgroundColor;frameBorder=ele.frameBorder;if(frameBorder)ele.frameBorder=1;ele.style.outline='1px solid #306EFF';ele.style.backgroundColor='#C6DEFF';ele.title='Tag: '+ele.tagName+(ele.id?', ID: '+ele.id:'')+(ele.className?', Class: '+ele.className:'')};var out=function(){if(ele){ele.style.outline=outline;ele.title=title;ele.style.backgroundColor=bgColor;if(frameBorder)ele.frameBorder=frameBorder}};var click=function(ev){if(ele){ev.preventDefault();out();remove();block(ele)}};var press=function(ev){if(ev.keyCode==27){out();remove()}};doc.addEventListener('mouseover',over,false);doc.addEventListener('mouseout',out,false);doc.addEventListener('click',click,false);doc.addEventListener('keyup',press,false)})()", , , "Expand Disabled"
+Item, "撤销上次阻止"=Go to page, "javascript:(function(){var styles=document.getElementsByTagName('style');var s=styles[styles.length-1];if(s&&/{display: none !important;}$/.test(s.innerHTML))s.parentNode.removeChild(s);location.href='data:text/adblock;charset=UTF-8,/unblock='+location.hostname.replace(/^www\./,'')})()",,,"Label Mail Back"
+Item, "保存更改并重载"=Go to page, "javascript:location.href='data:text/adblock;charset=UTF-8,/clear'",,,"Expand Enabled" & Reload stylesheets
+
+Item, "---ISP-UA↑&&Custom-UA↓(*)---"=Show popup menu
+Include, Identify As Menu
+
+div[class*="topBanner"],<div class="topBanner"> http://c6.yunpan.360.cn/my
+div[class="a_pt"],http://girlbt.com/thread-61401-1-1.html 主帖内容
+;Item, "短网址解析"=execute program,"profile\vbs\AnalyzeShortURL.vbs","%l",,"Mail Compose Underline"
