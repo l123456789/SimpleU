@@ -3,10 +3,10 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 19:48 2013/3/23
-// @version 1.0.2.7
+// @lastmodified 21:03 2013/3/23
+// @version 1.0.2.8
 // @namespace  http://userscripts.org/users/vokins
-// @download  http://hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
+// @download  https://github.com/vokins/SimpleU/raw/master/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
 // @run-at    document-start
 // @include http*
@@ -923,12 +923,12 @@
 			}
 		},
 		{siteName:'泡书吧',
-			url:/^http:\/\/www\.paoshu8\.com\/Html\/Book\/\d+\/\d+\/\d+\.shtm/i,
-			siteExample:'http://www.paoshu8.com/Html/Book/14/14024/4547362.shtm',
+			url:/^http:\/\/www\.paoshu8\.(com|net)\/Html\/Book\/.+\.shtm/i,
+			siteExample:'http://www.paoshu8.net/Html/Book/0/44/13002.shtm',
 			nextLink:'//div[@id="LinkMenu"]/descendant::a[text()="翻下页"]',
 			autopager:{
 				useiframe:true,
-				pageElement:'//div[@id="Content"]/div[@id="TextTitle"]/h1 | //div[@id="Adsgg1"]/div[@id="BookText"]',
+				pageElement:'//div[@id="TextSelect"] | //div[@id="Content"]/div[@id="TextTitle"]/h1 | //div[@id="Adsgg1"]/div[@id="BookText"]',
 			}
 		},
 		{siteName:'无错小说网',
