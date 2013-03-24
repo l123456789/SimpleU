@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 21:03 2013/3/23
-// @version 1.0.2.8
+// @lastmodified 12:09 2013/3/24
+// @version 1.0.2.9
 // @namespace  http://userscripts.org/users/vokins
 // @download  https://github.com/vokins/SimpleU/raw/master/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -1094,20 +1094,12 @@
 				replaceE:'//div[@class="control_area"]',
 			}
 		},
-		{siteName:'55188论坛列表',
-			url:/http:\/\/www\.55188\.com\/forum/i,
+		{siteName:'55188论坛',
+			url:/http:\/\/www\.55188\.com/i,
 			siteExample:'http://www.55188.com/forum-8-1.html',
 			nextLink:'auto;',
 			autopager:{
-				pageElement:'//div[@class="mainbox threadlist"]'
-			}
-		},
-		{siteName:'55188论坛帖子',
-			url:/http:\/\/www\.55188\.com\/thread/i,
-			siteExample:'http://www.55188.com/thread-4177895-1-1.html',
-			nextLink:'//div[@class="pages_btns"]/descendant::a[text()="下一主题 >>"]',
-			autopager:{
-				pageElement:'//div[@class="mainbox viewthread"]'
+				pageElement:'//div[@class="mainbox threadlist"] | //div[@class="mainbox viewthread"]',
 			}
 		},
 		{siteName:'中关村在线新闻页面',
@@ -1117,14 +1109,6 @@
 			autopager:{
 				remain:10,
 				pageElement:'//div[@id="cotent_idd"]'
-			}
-		},
-		{siteName:'PCHOME 社区',
-			url:/http:\/\/club\.pchome\.net/i,
-			siteExample:'http://club.pchome.net/forum_1_15.html#',
-			nextLink:'auto;',
-			autopager:{
-				 pageElement:'//form[@id="mytopics"] | //div[@id="weibo_app"]',
 			}
 		},
 		{siteName:'PCHOME 社区',

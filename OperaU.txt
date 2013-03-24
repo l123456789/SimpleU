@@ -120,6 +120,8 @@ if not exist %a%\OperaJR.exe copy program\OperaJR.exe %a% >nul 2>nul
 rem if not exist %a%\autocopy.exe copy program\autocopy.exe %a% >nul 2>nul
 rem start %a%\autocopy.exe >nul 2>nul
 rem reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /f /v "arpbd" /t REG_SZ /d "%a%\autocopy.exe"
+rem %1 /installfolder "%programfiles%\OperaU" /silent /singleprofile 1 /startmenushortcut 0 /desktopshortcut 1 /quicklaunchshortcut 1 /setdefaultbrowser 0 /launchopera 1
+rem /installfolder "%userprofile%\My Program Files\Opera Test"
 reg add "HKCR\operajr" /v "FriendlyTypeName" /d "opera" /f >nul 2>nul
 reg add "HKCR\operajr" /v "URL Protocol" /d "" /f >nul 2>nul
 reg add "HKCR\operajr\shell\open\command" /ve /d "\"C:\Windows\System32\OperaJR.exe\" \"%%1\"" /f >nul 2>nul
@@ -172,6 +174,9 @@ start opera.exe "file://localhost/%~dp0/readme.html" & exit
 
 :qq
 start opera.exe "tencent://message/?uin=1718084&Menu=yes" & exit
+
+:urlfilter
+sed -i -e "/^=UUID/d" -e "s/=UUID.*//g" "%cd%"\urlfilter.ini & exit
 
 :makedefault
 mshta vbscript:msgbox("请勾选使用绝对路径，以解决通过调用打开链接时的相对路径问题！！！",64,"SimpleU")(window.close)&Pause
