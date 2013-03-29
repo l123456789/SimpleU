@@ -1,21 +1,25 @@
 @echo off
 pushd %~dp0
-del *.user.jsx doubaniask.user.js picViewer.jsx doubanimdb.user.js ush.js InputCtrl.jsx CrackUrlDN.js Search_engineJump.js http2https.js goglrd.js nolazyload.jsx Linkify.js TiebaFix.js 0AutoPagerize.SITEINFO.jsx DBankLinker.jsx FlashBlock.jsx SmoothScrollTopBottom.jsx YoukuSS.jsx
+del *.user.jsx PopupFlash.zip original_size_image.zip YoukuAntiADs.user.js CUWCL.js MusicBeauty.js doubaniask.user.js picViewer.jsx doubanimdb.user.js ush.js InputCtrl.jsx CrackUrlDN.js Search_engineJump.js http2https.js goglrd.js nolazyload.js Linkify.js TiebaFix.js 0AutoPagerize.SITEINFO.jsx DBankLinker.jsx FlashBlock.jsx SmoothScrollTopBottom.jsx YoukuSS.jsx
 wget http://userscripts.org/scripts/source/103552.user.js
+wget http://userscripts.org/scripts/source/153190.user.js
+wget http://userscripts.org/scripts/source/161719.user.js
 wget http://userscripts.org/scripts/source/105741.user.js
 wget http://userscripts.org/scripts/source/123244.user.js
 wget http://userscripts.org/scripts/source/154702.user.js
 wget http://userscripts.org/scripts/source/151249.user.js
 wget http://userscripts.org/scripts/source/152399.user.js
-wget http://userscripts.org/scripts/source/153190.user.js
 wget http://userscripts.org/scripts/source/154473.user.js
 wget http://userscripts.org/scripts/source/154476.user.js
 wget http://userscripts.org/scripts/source/153687.user.js
 wget http://userscripts.org/scripts/source/153275.user.js
+wget http://userscripts.org/scripts/source/163257.user.js
 rem https://raw.github.com/izml/ujs/master/InputCtrl.js
 rem wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 ren 103552.user.js doubanimdb.user.js
 ren 105741.user.js picViewer.jsx
+ren 161719.user.js MusicBeauty.js
+ren 163257.user.js YoukuAntiADs.user.js
 ren 123244.user.js doubaniask.user.js
 ren 154702.user.js goglrd.js
 ren 154476.user.js http2https.js
@@ -42,8 +46,6 @@ wget http://userscripts.org/scripts/source/30096.user.js
 ren 30096.user.js Anti-Disabler.user.jsx
 wget http://userscripts.org/scripts/source/105184.user.js
 ren 105184.user.js angerOfPresident.user.jsx
-wget http://userscripts.org/scripts/source/120679.user.js
-ren 120679.user.js CleanPlayer.user.jsx
 wget http://userscripts.org/scripts/source/25105.user.js
 ren 25105.user.js YtbDown.user.jsx
 wget http://userscripts.org/scripts/source/118033.user.js
@@ -57,3 +59,9 @@ ren 45836.user.js xiaonei_reformer.min.user.jsx
 wget http://userscripts.org/scripts/source/121956.user.js
 ren 121956.user.js LotusScent.user.jsx
 msg %username% /time:3 "【UserJs数据已更新！】"&exit
+
+wget http://opera.im/dl/userjs/original_size_image.zip
+wget http://opera.im/dl/userjs/PopupFlash.zip
+7z e -y PopupFlash.zip
+7z e -y original_size_image.zip
+del PopupFlash.zip original_size_image.zip
