@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.2.2
+set ver=1.0.2.3
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -20,7 +20,7 @@ echo do until oDOM.readyState = "complete" >>%temp%/chkver.vbs
 echo WScript.sleep 50 >>%temp%/chkver.vbs
 echo loop >>%temp%/chkver.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/chkver.vbs
-cscript //NoLogo /e:vbscript %temp%/chkver.vbs "http://hostsx.googlecode.com/svn/trunk/Opera/ver.txt">%temp%/ver.txt 2>nul
+cscript //NoLogo /e:vbscript %temp%/chkver.vbs "https://raw.github.com/vokins/SimpleU/master/ver.txt">%temp%/ver.txt 2>nul
 for /f %%i in (%temp%\ver.txt) do set verNew=%%i
 if %ver%==%verNew% (goto opupdate) else (echo Download the lastest version! & choice /t 2 /d y /n >nul & goto Updates)
 cls
@@ -30,27 +30,28 @@ goto:eof
 if not exist wget.exe goto echo 没有找到Wget.exe& choice /t 2 /d y /n >nul & goto exit
 Tasklist|Find /i "opera.exe">nul&mshta vbscript:msgbox("请先退出Opera！!",64,"SimpleU")(window.close)&Pause
 echo 正在下载数据，请稍候... ...
+set d=wget -c --no-check-certificate
 del files.sig files_old.sig operaprefs_default.ini client-zh-cn.zip readme.html defaults\bookmarks.adr defaults\license.txt defaults\search.ini defaults\standard_speeddial.ini 
-wget http://hostsx.googlecode.com/svn/trunk/Opera/readme.html
-wget http://hostsx.googlecode.com/svn/trunk/Opera/operaprefs_default.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/fastforward.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/feedreaders.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/webmailproviders.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/license.txt
-wget http://hostsx.googlecode.com/svn/trunk/Opera/bookmarks.adr
-wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_speeddial.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/override.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/search.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/urlfilter.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/BBS.css
-wget http://hostsx.googlecode.com/svn/trunk/Opera/Custom.css
-wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.css
-wget http://Hostsx.googlecode.com/svn/trunk/Opera/Super_preloader.db.js
-wget http://Hostsx.googlecode.com/svn/trunk/Opera/getujs.bat
-wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_keyboard.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_mouse.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_menu.ini
-wget http://hostsx.googlecode.com/svn/trunk/Opera/standard_toolbar.ini
+%d% https://raw.github.com/vokins/SimpleU/master/readme.html
+%d% https://raw.github.com/vokins/SimpleU/master/operaprefs_default.ini
+%d% https://raw.github.com/vokins/SimpleU/master/fastforward.ini
+%d% https://raw.github.com/vokins/SimpleU/master/feedreaders.ini
+%d% https://raw.github.com/vokins/SimpleU/master/webmailproviders.ini
+%d% https://raw.github.com/vokins/SimpleU/master/license.txt
+%d% https://raw.github.com/vokins/SimpleU/master/bookmarks.adr
+%d% https://raw.github.com/vokins/SimpleU/master/standard_speeddial.ini
+%d% https://raw.github.com/vokins/SimpleU/master/override.ini
+%d% https://raw.github.com/vokins/SimpleU/master/search.ini
+%d% https://raw.github.com/vokins/SimpleU/master/urlfilter.ini
+%d% https://raw.github.com/vokins/SimpleU/master/BBS.css
+%d% https://raw.github.com/vokins/SimpleU/master/Custom.css
+%d% https://raw.github.com/vokins/SimpleU/master/OperaU.css
+%d% https://raw.github.com/vokins/SimpleU/master/Super_preloader.db.js
+%d% https://raw.github.com/vokins/SimpleU/master/getujs.bat
+%d% https://raw.github.com/vokins/SimpleU/master/standard_keyboard.ini
+%d% https://raw.github.com/vokins/SimpleU/master/standard_mouse.ini
+%d% https://raw.github.com/vokins/SimpleU/master/standard_menu.ini
+%d% https://raw.github.com/vokins/SimpleU/master/standard_toolbar.ini
 wget http://userscripts.org/scripts/source/103552.user.js
 wget http://userscripts.org/scripts/source/123244.user.js
 wget http://userscripts.org/scripts/source/154702.user.js
@@ -222,9 +223,9 @@ echo do until oDOM.readyState = "complete" >>%temp%/Upnew.vbs
 echo WScript.sleep 200 >>%temp%/Upnew.vbs
 echo loop >>%temp%/Upnew.vbs
 echo WScript.echo oDOM.documentElement.outerText >>%temp%/Upnew.vbs
-cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.txt">%temp%\OperaU.bat
+cscript //NoLogo /e:vbscript %temp%/Upnew.vbs "https://raw.github.com/vokins/SimpleU/master/OperaU.txt">%temp%\OperaU.bat
 set size=7000
 for %%1 in (OperaU.bat)do set gsize=%%~z1
 cls
-if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget http://hostsx.googlecode.com/svn/trunk/Opera/OperaU.txt -o %temp% &ren OperaU.Src OperaU.bat&goto Updateit) else (goto Updateit)
+if %gsize% gtr %size% (echo 网络获取失败，正在努力获取&wget https://raw.github.com/vokins/SimpleU/master/OperaU.txt -o %temp% &ren OperaU.Src OperaU.bat&goto Updateit) else (goto Updateit)
 goto:eof
