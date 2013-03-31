@@ -1,6 +1,6 @@
 @echo off
 pushd %~dp0
-del *.user.jsx PopupFlash.zip original_size_image.zip YoukuAntiADs.user.js CUWCL.js MusicBeauty.js doubaniask.user.js picViewer.jsx doubanimdb.user.js ush.js InputCtrl.jsx CrackUrlDN.js Search_engineJump.js http2https.js goglrd.js nolazyload.js Linkify.js TiebaFix.js 0AutoPagerize.SITEINFO.jsx DBankLinker.jsx FlashBlock.jsx SmoothScrollTopBottom.jsx YoukuSS.jsx
+del *.user.jsx PopupFlash.zip XLKCname.user.js original_size_image.zip YoukuAntiADs.user.js CUWCL.js MusicBeauty.js doubaniask.user.js picViewer.jsx doubanimdb.user.js ush.js InputCtrl.jsx CrackUrlDN.js Search_engineJump.js http2https.js goglrd.js nolazyload.js Linkify.js TiebaFix.js 0AutoPagerize.SITEINFO.jsx DBankLinker.jsx FlashBlock.jsx SmoothScrollTopBottom.jsx YoukuSS.jsx
 wget http://userscripts.org/scripts/source/103552.user.js
 wget http://userscripts.org/scripts/source/153190.user.js
 wget http://userscripts.org/scripts/source/161719.user.js
@@ -14,6 +14,7 @@ wget http://userscripts.org/scripts/source/154476.user.js
 wget http://userscripts.org/scripts/source/153687.user.js
 wget http://userscripts.org/scripts/source/153275.user.js
 wget http://userscripts.org/scripts/source/163257.user.js
+wget http://userscripts.org/scripts/source/136840.user.js
 rem https://raw.github.com/izml/ujs/master/InputCtrl.js
 rem wget --no-check-certificate -N "https://raw.github.com/izml/ujs/master/ush.js"
 ren 103552.user.js doubanimdb.user.js
@@ -23,6 +24,7 @@ ren 163257.user.js YoukuAntiADs.user.js
 ren 123244.user.js doubaniask.user.js
 ren 154702.user.js goglrd.js
 ren 154476.user.js http2https.js
+ren 136840.user.js XLKCname.user.js
 ren 151249.user.js nolazyload.js
 ren 152399.user.js Search_engineJump.js
 ren 153190.user.js CrackUrlDN.js
