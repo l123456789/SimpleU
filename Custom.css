@@ -3,10 +3,10 @@
 
 /*
 Name: /广告过滤
-Version: 5.1.0.1
+Version: 5.1.0.2
 Author: KwokTree
 Url: https://raw.github.com/vokins/SimpleU/master/Custom.css
-Lastchage: 19:18 2013/3/30
+Lastchage: 10:37 2013/3/31
 Description: MayBe a better User CSS Help U.
 */
 
@@ -89,7 +89,7 @@ div[class^="ATopTxt"],div[class="imgad"],div[class^="img-ad"],div[class^="other_
 display: none !important;
 	}
 div[id$="_BOXAD"],div[id*="ContentAd"],div[id^="HeaderAd"],div[id*="_column_ad"],div[class="innerad"],div[class="innerAds"],
-div[id$="footer"],div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"],div[id^="duilain"]{
+div[id^="footer"],div[id="particular_ad"],div[id="push-down-ad"],div[id^="duilain"]{
 display: none !important;
 	}
 div[id^="BANNER_"],div[id="clickbg"],div[id="prombar"],div[id="splink"],div[id="link"],div[id^="insidead"],
