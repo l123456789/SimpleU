@@ -3,8 +3,8 @@
 // @author NLF & dingdong,jiayiming,青蛙傻傻,ttony,wangjieest,kwoktree
 // @description  Super_preloader的数据库文件,无法单独使用.
 // @create 2010-12-21
-// @lastmodified 12:09 2013/3/24
-// @version 1.0.2.9
+// @lastmodified 9:51 2013/4/3
+// @version 1.0.2.10
 // @namespace  http://userscripts.org/users/vokins
 // @download  https://github.com/vokins/SimpleU/raw/master/Super_preloader.db.js
 // @downloadURL https://userscripts.org/scripts/source/142198.user.js
@@ -276,7 +276,7 @@
 			}
 		},
 		{siteName:'起点文学',
-			url:/^http:\/\/www\.(qidian|qdmm|qdwenxue)\.com\/BookReader\/\d+,\d+/i,
+			url:/^http:\/\/(www|read)\.(qidian|qdmm|qdwenxue)\.com\/BookReader\/\d+,\d+/i,
 			siteExample:'http://www.qidian.com/BookReader/1545376,27301383.aspx',
 			useiframe:true,
 			nextLink:'//a[@id="NextLink"]',
