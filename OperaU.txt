@@ -1,5 +1,5 @@
 @echo off
-set ver=1.0.2.3
+set ver=1.0.2.6
 SetLocal EnableExtensions
 SetLocal EnableDelayedExpansion
 set k=taskkill /f /t /im
@@ -47,39 +47,10 @@ del files.sig files_old.sig operaprefs_default.ini client-zh-cn.zip readme.html 
 %d% https://raw.github.com/vokins/SimpleU/master/Custom.css
 %d% https://raw.github.com/vokins/SimpleU/master/OperaU.css
 %d% https://raw.github.com/vokins/SimpleU/master/Super_preloader.db.js
-%d% https://raw.github.com/vokins/SimpleU/master/getujs.bat
 %d% https://raw.github.com/vokins/SimpleU/master/standard_keyboard.ini
 %d% https://raw.github.com/vokins/SimpleU/master/standard_mouse.ini
 %d% https://raw.github.com/vokins/SimpleU/master/standard_menu.ini
 %d% https://raw.github.com/vokins/SimpleU/master/standard_toolbar.ini
-wget http://userscripts.org/scripts/source/103552.user.js
-wget http://userscripts.org/scripts/source/123244.user.js
-wget http://userscripts.org/scripts/source/154702.user.js
-wget http://userscripts.org/scripts/source/151249.user.js
-wget http://userscripts.org/scripts/source/152399.user.js
-wget http://userscripts.org/scripts/source/153190.user.js
-wget http://userscripts.org/scripts/source/154473.user.js
-wget http://userscripts.org/scripts/source/154476.user.js
-wget http://userscripts.org/scripts/source/153687.user.js
-ren 103552.user.js doubanimdb.user.js
-ren 123244.user.js doubaniask.user.js
-ren 154702.user.js goglrd.js
-ren 154476.user.js http2https.js
-ren 151249.user.js nolazyload.js
-ren 152399.user.js Search_engineJump.js
-ren 153190.user.js CrackUrlDN.js
-ren 154473.user.js Linkify.js
-ren 153687.user.js TiebaFix.js
-move /y CrackUrlDN.js profile\script
-move /y Search_engineJump.js profile\script
-move /y doubaniask.user.js profile\script
-move /y doubanimdb.user.js profile\script
-move /y getujs.bat profile\script
-move /y goglrd.js profile\script
-move /y Linkify.js profile\script
-move /y http2https.js profile\script
-move /y nolazyload.js profile\script
-move /y TiebaFix.js profile\script
 move /y license.txt locale\en
 move /y bookmarks.adr locale\zh-cn
 move /y standard_speeddial.ini locale\zh-cn
@@ -100,7 +71,99 @@ move /y OperaU.css profile\styles\user
 wget --no-check-certificate -N "https://dragonfly.opera.com/app/stp-1/zips/latest/client-zh-cn.zip"
 ren client-zh-cn.zip dragonfly.zip
 move /y dragonfly.zip profile
-cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul & exit
+cls & echo 配置文件已是最新状态！& choice /t 2 /d y /n >nul 
+cls
+rem pushd %~dp0
+wget http://userscripts.org/scripts/source/103552.user.js
+ren 103552.user.js doubanimdb.user.js
+move /y doubanimdb.user.js profile\script
+wget http://userscripts.org/scripts/source/153190.user.js
+ren 153190.user.js CrackUrlDN.js
+move /y CrackUrlDN.js profile\script
+wget http://userscripts.org/scripts/source/161719.user.js
+ren 161719.user.js MusicBeauty.js
+move /y MusicBeauty.js profile\script
+wget http://userscripts.org/scripts/source/105741.user.js
+ren 105741.user.js picViewer.jsx
+move /y picViewer.jsx profile\script
+wget http://userscripts.org/scripts/source/123244.user.js
+ren 123244.user.js doubaniask.user.js
+move /y doubaniask.user.js profile\script
+wget http://userscripts.org/scripts/source/154702.user.js
+ren 154702.user.js goglrd.js
+move /y goglrd.js profile\script
+wget http://userscripts.org/scripts/source/151249.user.js
+ren 151249.user.js nolazyload.js
+move /y nolazyload.js profile\script
+wget http://userscripts.org/scripts/source/152399.user.js
+ren 152399.user.js Search_engineJump.js
+move /y Search_engineJump.js profile\script
+wget http://userscripts.org/scripts/source/154473.user.js
+ren 154473.user.js Linkify.js
+move /y Linkify.js profile\script
+wget http://userscripts.org/scripts/source/154476.user.js
+ren 154476.user.js http2https.js
+move /y http2https.js profile\script
+wget http://userscripts.org/scripts/source/153687.user.js
+ren 153687.user.js TiebaFix.js
+move /y TiebaFix.js profile\script
+wget http://userscripts.org/scripts/source/153275.user.js
+ren 153275.user.js InputCtrl.jsx
+move /y InputCtrl.jsx profile\script
+wget http://userscripts.org/scripts/source/163257.user.js
+ren 163257.user.js YoukuAntiADs.user.js
+move /y YoukuAntiADs.user.js profile\script
+wget http://userscripts.org/scripts/source/136840.user.js
+ren 136840.user.js XLKCname.user.js
+move /y XLKCname.user.js profile\script
+wget http://userscripts.org/scripts/source/156472.user.js
+ren 156472.user.js chromexd.user.jsx
+move /y chromexd.user.jsx profile\script
+wget http://userscripts.org/scripts/source/116879.user.js
+ren 116879.user.js DBankLinker.jsx
+move /y DBankLinker.jsx profile\script
+wget http://userscripts.org/scripts/source/126489.user.js
+ren 126489.user.js FlashBlock.jsx
+move /y FlashBlock.jsx profile\script
+wget http://userscripts.org/scripts/source/154323.user.js
+ren 154323.user.js SmoothScrollTopBottom.jsx
+move /y SmoothScrollTopBottom.jsx profile\script
+wget http://userscripts.org/scripts/source/84972.user.js
+ren 84972.user.js YoukuSS.jsx
+move /y YoukuSS.jsx profile\script
+wget http://ss-o.net/userjs/0AutoPagerize.SITEINFO.js
+ren 0AutoPagerize.SITEINFO.js 0AutoPagerize.SITEINFO.jsx
+move /y 0AutoPagerize.SITEINFO.jsx profile\script
+wget http://userscripts.org/scripts/source/30096.user.js
+ren 30096.user.js Anti-Disabler.user.jsx
+move /y Anti-Disabler.user.jsx profile\script
+wget http://userscripts.org/scripts/source/105184.user.js
+ren 105184.user.js angerOfPresident.user.jsx
+move /y angerOfPresident.user.jsx profile\script
+wget http://userscripts.org/scripts/source/25105.user.js
+ren 25105.user.js YtbDown.user.jsx
+move /y YtbDown.user.jsx profile\script
+wget http://userscripts.org/scripts/source/118033.user.js
+ren 118033.user.js AdSkipper.user.jsx
+move /y AdSkipper.user.jsx profile\script
+wget http://userscripts.org/scripts/source/138814.user.js
+ren 138814.user.js Xunlei.Any.Player.user.jsx
+move /y Xunlei.Any.Player.user.jsx profile\script
+wget http://userscripts.org/scripts/source/105153.user.js
+ren 105153.user.js greasemonkey-emulation.user.jsx
+move /y greasemonkey-emulation.user.jsx profile\script
+wget http://userscripts.org/scripts/source/45836.user.js
+ren 45836.user.js xiaonei_reformer.min.user.jsx
+move /y xiaonei_reformer.min.user.jsx profile\script
+wget http://userscripts.org/scripts/source/121956.user.js
+ren 121956.user.js LotusScent.user.jsx
+move /y LotusScent.user.jsx profile\script
+wget --no-check-certificate -N https://raw.bitbucket.org/zbinlin/blockpopupwindow/get/tip.zip
+7z e -y tip.zip
+ren blockPopUpWindow.user.js blockPopUpWindow.user.jsx
+move /y blockPopUpWindow.user.jsx profile\script
+del tip.zip .hg_archival.txt blockPopUpWindow.meta.js
+msg %username% /time:3 "【UserJs数据已更新！】"& exit
 
 :opclean
 del /f /q autoupdate_response.xml download.dat global_history.dat search_field_history.dat tasks.xml vlink4.dat opuntrust.dat optrust.dat optrb.dat typed_history.xml upgrade.log

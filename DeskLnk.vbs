@@ -12,6 +12,6 @@ oShellLink.TargetPath = strPath & "\opera.exe" '创建一个快捷方式对象
 oShellLink.Windowstyle = 1 
 oShellLink.Hotkey = "" '设置快捷方式的快捷键 
 oShellLink.IconLocation = strPath & "\OperaU.ico" '设置快捷方式的图标路径 
-oShellLink.Description = "MayBe It's The Best OperaU" '设置快捷方式的描述 
+oShellLink.Description = "MayBe It's The Best Opera" '设置快捷方式的描述 
 oShellLink.WorkingDirectory = strPath
 oShellLink.Save 
